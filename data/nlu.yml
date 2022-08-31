@@ -1,0 +1,363 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - chào em
+    - hello em
+    - hi em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+    - xin chào
+    - hello
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - good bye
+    - tạm biệt em
+    - tạm biệt bot nhá
+    - tạm biệt
+    - Tạm biệt
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: ask_ability
+  examples: |
+    - em có thể làm những gì nhỉ
+    - em có chức năng gì?
+    - em giúp gì được anh không?
+    - em có thể giúp gì cho anh?
+    - em biết làm gì?
+    - em hỗ trợ anh như thế nào?
+    - cho anh xem các chức năng của em
+    - các chức năng
+    - chức năng của bot
+    - bạn biết làm gì
+    - bạn biết làm gì nhỉ
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_major_info
+  examples: |
+    - [kỹ thuật điện](major_name) là ngành như thế nào
+    - [kỹ thuật hóa học](major_name) là ngành như thế nào
+    - [kỹ thuật hàng không](major_name) là ngành như thế nào
+    - [công nghệ may](major_name) là ngành như thế nào
+    - [kỹ thuật cơ khí](major_name) là ngành như thế nào
+    - [công nghệ sinh học](major_name) là ngành như thế nào
+    - [logistics và quản lý chuỗi cung ứng](major_name) là ngành như thế nào
+    - [khoa học máy tính](major_name) là ngành như thế nào
+    - [kỹ thuật máy tính](major_name) là ngành như thế nào
+    - [công nghệ kỹ thuật ô tô](major_name) là ngành như thế nào
+    - [kỹ thuật điện tử viễn thông](major_name) là ngành như thế nào
+    - [kỹ thuật cơ điện tử](major_name) là ngành như thế nào
+    - [kỹ thuật điều khiển và tự động hóa](major_name) là ngành như thế nào
+    - [kỹ thuật điện](major_name)
+    - [kỹ thuật hóa học](major_name)
+    - [kỹ thuật môi trường](major_name)
+    - [kỹ thuật hàng không](major_name)
+    - [công nghệ may](major_name)
+    - [công nghệ sinh học](major_name)
+    - [logistics và quản lý chuỗi cung ứng](major_name)
+    - [khoa học máy tính](major_name)
+    - [kỹ thuật máy tính](major_name)
+    - [công nghệ kỹ thuật ô tô](major_name)
+    - [kỹ thuật điện tử viễn thông](major_name)
+    - [kỹ thuật điều khiển và tự động hóa](major_name)
+    - Cho em hỏi ngành [kỹ thuật điện](major_name)
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name)
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name)
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name)
+    - Cho em hỏi ngành [công nghệ may](major_name)
+    - Cho em hỏi ngành [công nghệ sinh học](major_name)
+    - Cho em hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Cho em hỏi về ngành [khoa học máy tính](major_name)
+    - Cho em hỏi về ngành [kỹ thuật máy tính](major_name)
+    - Cho em hỏi về ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Em muốn hỏi về ngành [kỹ thuật điện](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật hóa học](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật môi trường](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật hàng không](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ may](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ sinh học](major_name) ạ
+    - Em muốn hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
+    - Em muốn hỏi về ngành [khoa học máy tính](major_name) ạ
+    - Em muốn hỏi về ngành [kỹ thuật máy tính](major_name) ạ
+    - Em muốn hỏi về ngành [công nghệ kỹ thuật ô tô](major_name) ạ
+    - cho em hỏi ngành [khoa học máy tính](major_name)
+    - cho em hỏi về ngành [khoa học máy tính](major_name)
+    - Thông tin về ngành [kỹ thuật điện](major_name)
+    - Thông tin về ngành [kỹ thuật hóa học](major_name)
+    - Thông tin về ngành [kỹ thuật môi trường](major_name)
+    - Thông tin về ngành [kỹ thuật hàng không](major_name)
+    - Thông tin về ngành [công nghệ may](major_name)
+    - Thông tin về ngành [công nghệ sinh học](major_name)
+    - Thông tin về ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Thông tin về ngành [khoa học máy tính](major_name)
+    - Thông tin về ngành [kỹ thuật máy tính](major_name)
+    - Thông tin về ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Thông tin về ngành [kỹ thuật điện tử viễn thông](major_name)
+    - Thông tin về ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - Cho em hỏi về [kỹ thuật điện](major_name)
+- intent: ask_major_type_edu
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ may](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào ạ
+    - Cho em hỏi ngành [khoa học máy tính](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật máy tính](major_name) đào tạo những hệ nào ạ
+    - Ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào ạ
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
+    - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+- intent: ask_major_point
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [công nghệ may](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) - Năm nay lấy bao nhiêu điểm ạ
+    - Điểm sàn ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Điểm sàn ngành [khoa học máy tính](major_name)
+    - Điểm sàn ngành [kỹ thuật máy tính](major_name)
+    - Điểm sàn ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Năm nay ngành [kỹ thuật điện tử viễn thông](major_name) lấy bao nhiêu điểm ạ
+    - Năm nay ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - điểm sàn của ngành [khoa học máy tính](major_name)
+- intent: ask_major_career
+  examples: |
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật điện](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hóa học](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật môi trường](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hàng không](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ may](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [công nghệ sinh học](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Cho em hỏi cơ hội làm việc của ngành [khoa học máy tính](major_name)
+    - Học xong ngành [kỹ thuật máy tính](major_name) thì làm gì
+    - Học xong ngành [công nghệ kỹ thuật ô tô](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật điện tử viễn thông](major_name) thì làm gì
+    - Học xong ngành [kỹ thuật điều khiển và tự động hóa](major_name) thì làm gì
+    - cơ hội việc làm của ngành [khoa học máy tính](major_name)
+    - cơ hội làm việc của ngành [khoa học máy tính](major_name)
+- intent: ask_major_tuition
+  examples: |
+    - Học phí của ngành [kỹ thuật điện](major_name)
+    - Học phí của ngành [kỹ thuật hóa học](major_name)
+    - Học phí của ngành [kỹ thuật môi trường](major_name)
+    - Học phí của ngành [kỹ thuật hàng không](major_name)
+    - Học phí của ngành [công nghệ may](major_name)
+    - Học phí của ngành [công nghệ sinh học](major_name)
+    - Học phí của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Học phí của ngành [khoa học máy tính](major_name)
+    - Học phí của ngành [kỹ thuật máy tính](major_name)
+    - Học phí của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Học phí của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - Học phí của ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
+    - học phí của ngành [khoa học máy tính](major_name)
+    - học phí ngành [khoa học máy tính](major_name)
+- intent: ask_major_subject_group
+  examples: |
+    - Em muốn học ngành [kỹ thuật điện](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật hóa học](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật môi trường](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [kỹ thuật hàng không](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ may](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [công nghệ sinh học](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì theo khối gì ạ
+    - Em muốn học ngành [khoa học máy tính](major_name) thì theo khối gì ạ
+    - Ngành [kỹ thuật máy tính](major_name) thi khối gì
+    - Ngành [công nghệ kỹ thuật ô tô](major_name) thi khối gì
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) thi khối gì
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) thi khối gì
+    - ngành [khoa học máy tính](major_name) thi khối gì
+- intent: ask_major_criteria
+  examples: |
+    - Cho em hỏi ngành [kỹ thuật điện](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [công nghệ may](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Cho em hỏi ngành [công nghệ sinh học](major_name) năm nay lấy bao nhiêu chỉ tiêu
+    - Chỉ tiêu ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Chỉ tiêu ngành [khoa học máy tính](major_name)
+    - Chỉ tiêu ngành [kỹ thuật máy tính](major_name)
+    - Chỉ tiêu ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Ngành [kỹ thuật điện tử viễn thông](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) của trường mình nhận bao nhiêu sinh viên ạ
+    - ngành [khoa học máy tính](major_name) bao nhiêu sinh viên
+    - ngành [khoa học máy tính](major_name) tuyển sinh bao nhiêu sinh viên
+- intent: context_ask_major_type_edu
+  examples: |
+    - ngành này đào tạo những hệ nào ạ
+    - hệ đào tạo của ngành này
+    - ngành này đào tạo những hệ nào
+    - ngành này đào tạo hệ nào
+    - ngành đào tạo những hệ nào
+    - hệ đào tạo
+    - những hệ đào tạo về ngành
+    - ngành đào tạo về những hệ nào
+    - ngành đào tạo về hệ nào
+    - hệ đào tạo của ngành là gì
+    - những hệ đào tạo của ngành
+    - cho em hỏi hệ đào tạo của ngành
+    - cho tôi hỏi về hệ đào tạo
+    - hệ đào tạo thì sao nhỉ
+    - vậy còn hệ đào tạo của ngành
+    - ngành đào tạo những hệ nào nhỉ
+    - hệ đào tạo về ngành là những gì?
+    - hệ đào tạo là?
+- intent: context_ask_major_point
+  examples: |
+    - điểm sàn của ngành
+    - điểm đầu vào thì sao
+    - điểm đầu vào
+    - điểm đầu vào của ngành
+    - ngành này lấy điểm bao nhiêu
+    - điểm chuẩn để vào ngành
+    - cho em hỏi điểm chuẩn của ngành là bao nhiêu
+    - cho em hỏi điểm sàn của ngành là bao nhiêu
+    - điểm sàn ngành này lấy bao nhiêu
+    - cho tôi hỏi là điểm chuẩn của ngành
+    - còn điểm chuẩn của ngành
+    - ngành này lấy bao nhiêu điểm
+    - điểm sàn của ngành này
+    - điểm sàn
+    - có điểm chuẩn chưa ạ
+    - điểm chuẩn
+    - điểm sàn của ngành thì sao?
+- intent: context_ask_major_career
+  examples: |
+    - học xong ra làm gì
+    - cơ hội làm việc
+    - việc làm
+    - việc làm của ngành
+    - khi ra trường thì làm nghề gì
+    - khi ra trường tôi sẽ có thể làm được những nghề gì
+    - vậy còn cơ hội việc làm
+    - nghề nghiệp của ngành
+    - ngành này ra trường làm được gì
+    - ngành ra trường làm gì
+    - ra trường làm gì
+    - khi ra trường thì làm gì ạ
+    - cơ hội việc làm
+- intent: context_ask_major_tuition
+  examples: |
+    - học phí là bao nhiêu
+    - một tín chỉ bao nhiêu tiền
+    - học phí của ngành này
+    - học phí
+    - nộp bao nhiêu tiền một tín chỉ
+    - nộp học phí bao nhiêu
+    - học phí của ngành
+    - học phí thì sao
+    - một tín chỉ là bao tiền
+    - bao tiền một tín chỉ
+    - học phí là bao nhiêu nhỉ
+    - học phí của ngành thì sao?
+- intent: context_ask_major_subject_group
+  examples: |
+    - em muốn học ngành này thì thi khối gì ạ
+    - em muốn học ngành này thì theo khối gì ạ
+    - ngành này thi khối gì
+    - ngành này cần thi khối gì
+    - em muốn học ngành này thì theo những khối nào
+    - cần những khối nào để học ngành này
+    - ngành này cần theo khối gì
+    - khối học mà em cần học khi theo ngành này
+    - ngành này sẽ cần học những khối nào
+- intent: context_ask_major_criteria
+  examples: |
+    - chỉ tiêu
+    - chỉ tiêu là bao nhiêu ạ
+    - ngành này tuyển sinh bao nhiêu sinh viên ạ
+    - tuyển sinh
+    - chỉ tiêu của ngành này
+    - chỉ tiêu của ngành này là bao nhiêu nhỉ
+    - chỉ tiêu ngành
+    - ngành có chỉ tiêu bao nhiêu sinh viên
+    - chỉ tiêu ngành này lấy bao nhiêu sinh viên
+    - chỉ tiêu của ngành
+
+- intent: turn_major_name
+  examples: |
+    - Vậy còn [kỹ thuật điện](major_name) thì sao
+    - Vậy còn [kỹ thuật hóa học](major_name) thì sao
+    - Vậy còn [kỹ thuật hàng không](major_name) thì sao
+    - Vậy còn [công nghệ may](major_name) thì sao
+    - Vậy còn [công nghệ sinh học](major_name) thì sao
+    - Vậy còn [logistics và quản lý chuỗi cung ứng](major_name) thì sao
+    - Vậy còn [khoa học máy tính](major_name) thì sao
+    - Vậy còn [kỹ thuật máy tính](major_name) thì sao
+    - Vậy còn [công nghệ kỹ thuật ô tô](major_name) thì sao
+    - Vậy còn [kỹ thuật điện tử viễn thông](major_name) thì sao
+    - Vậy còn [kỹ thuật điều khiển và tự động hóa](major_name) thì sao
+
+- synonym: khoa học máy tính
+  examples: |
+    - khoa học máy tinh
+    - khmt
+    - kh máy tính

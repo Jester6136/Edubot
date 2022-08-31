@@ -1,0 +1,70 @@
+version: '3.1'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- affirm
+- ask_ability
+- ask_major_career
+- ask_major_criteria
+- ask_major_info
+- ask_major_point
+- ask_major_subject_group
+- ask_major_tuition
+- ask_major_type_edu
+- bot_challenge
+- context_ask_major_career
+- context_ask_major_criteria
+- context_ask_major_info
+- context_ask_major_point
+- context_ask_major_subject_group
+- context_ask_major_tuition
+- context_ask_major_type_edu
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- turn_major_name
+entities:
+- major_name
+slots:
+  major_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: major_name
+responses:
+  utter_not_understanding:
+  - text: Tôi chưa hiểu câu hỏi của bạn.
+  - text: Xin lỗi, tôi chưa hiểu câu hỏi của bạn.
+  utter_greet:
+  - text: Chào bạn tôi là Edu_bot -một cô trợ lý ảo
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Tạm biệt
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_out_of_story:
+  - text: Thôi cô xin cháu đấy!! hỏi cho hẳn hoi.
+  utter_ability:
+  - text: Tôi có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về\n-học phí\n-cơ hội việc làm\n-điểm sàn\n-chỉ tiêu tuyển sinh\n-hệ đào tạo và khối ngành đào tạo!
+actions:
+- action_hello_world
+- action_response_major_career
+- action_response_major_criteria
+- action_response_major_info
+- action_response_major_point
+- action_response_major_subject_group
+- action_response_major_tuition
+- action_response_major_type_edu
+- utter_ability
+- utter_goodbye
+- utter_greet
