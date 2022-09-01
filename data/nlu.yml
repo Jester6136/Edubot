@@ -97,6 +97,30 @@ nlu:
     - am I talking to a human?
 - intent: ask_major_info
   examples: |
+    - cho hỏi ngành [kỹ thuật điện](major_name)
+    - cho hỏi ngành [kỹ thuật hóa học](major_name)
+    - cho hỏi ngành [kỹ thuật hàng không](major_name)
+    - cho hỏi ngành [công nghệ may](major_name)
+    - cho hỏi ngành [công nghệ sinh học](major_name)
+    - cho hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - cho hỏi ngành [khoa học máy tính](major_name)
+    - cho hỏi ngành [kỹ thuật máy tính](major_name)
+    - cho hỏi ngành [công nghệ kỹ thuật ô tô](major_name)
+    - cho hỏi ngành [kỹ thuật điện tử viễn thông](major_name)
+    - cho hỏi ngành [kỹ thuật cơ điện tử](major_name)
+    - cho hỏi ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - cho hỏi [kỹ thuật điện](major_name)
+    - cho hỏi [kỹ thuật hóa học](major_name)
+    - cho hỏi [kỹ thuật hàng không](major_name)
+    - cho hỏi [công nghệ may](major_name)
+    - cho hỏi [công nghệ sinh học](major_name)
+    - cho hỏi [logistics và quản lý chuỗi cung ứng](major_name)
+    - cho hỏi [khoa học máy tính](major_name)
+    - cho hỏi [kỹ thuật máy tính](major_name)
+    - cho hỏi [công nghệ kỹ thuật ô tô](major_name)
+    - cho hỏi [kỹ thuật điện tử viễn thông](major_name)
+    - cho hỏi [kỹ thuật cơ điện tử](major_name)
+    - cho hỏi [kỹ thuật điều khiển và tự động hóa](major_name)
     - [kỹ thuật điện](major_name) là ngành như thế nào
     - [kỹ thuật hóa học](major_name) là ngành như thế nào
     - [kỹ thuật hàng không](major_name) là ngành như thế nào
@@ -132,16 +156,16 @@ nlu:
     - Cho em hỏi về ngành [khoa học máy tính](major_name)
     - Cho em hỏi về ngành [kỹ thuật máy tính](major_name)
     - Cho em hỏi về ngành [công nghệ kỹ thuật ô tô](major_name)
-    - Em muốn hỏi về ngành [kỹ thuật điện](major_name) ạ
-    - Em muốn hỏi về ngành [kỹ thuật hóa học](major_name) ạ
-    - Em muốn hỏi về ngành [kỹ thuật môi trường](major_name) ạ
-    - Em muốn hỏi về ngành [kỹ thuật hàng không](major_name) ạ
-    - Em muốn hỏi về ngành [công nghệ may](major_name) ạ
-    - Em muốn hỏi về ngành [công nghệ sinh học](major_name) ạ
-    - Em muốn hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
-    - Em muốn hỏi về ngành [khoa học máy tính](major_name) ạ
-    - Em muốn hỏi về ngành [kỹ thuật máy tính](major_name) ạ
-    - Em muốn hỏi về ngành [công nghệ kỹ thuật ô tô](major_name) ạ
+    - Em muốn hỏi về [kỹ thuật điện](major_name) ạ
+    - Em muốn hỏi về [kỹ thuật hóa học](major_name) ạ
+    - Em muốn hỏi về [kỹ thuật môi trường](major_name) ạ
+    - Em muốn hỏi về [kỹ thuật hàng không](major_name) ạ
+    - Em muốn hỏi về [công nghệ may](major_name) ạ
+    - Em muốn hỏi về [công nghệ sinh học](major_name) ạ
+    - Em muốn hỏi về [logistics và quản lý chuỗi cung ứng](major_name) ạ
+    - Em muốn hỏi về [khoa học máy tính](major_name) ạ
+    - Em muốn hỏi về [kỹ thuật máy tính](major_name) ạ
+    - Em muốn hỏi về [công nghệ kỹ thuật ô tô](major_name) ạ
     - cho em hỏi ngành [khoa học máy tính](major_name)
     - cho em hỏi về ngành [khoa học máy tính](major_name)
     - Thông tin về ngành [kỹ thuật điện](major_name)
@@ -298,11 +322,6 @@ nlu:
     - khi ra trường thì làm nghề gì
     - khi ra trường tôi sẽ có thể làm được những nghề gì
     - vậy còn cơ hội việc làm
-    - nghề nghiệp của ngành
-    - ngành này ra trường làm được gì
-    - ngành ra trường làm gì
-    - ra trường làm gì
-    - khi ra trường thì làm gì ạ
     - cơ hội việc làm
 - intent: context_ask_major_tuition
   examples: |

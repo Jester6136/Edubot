@@ -16,6 +16,7 @@
 
 from typing import Any, Text, Dict, List
 
+from rasa_sdk.events import AllSlotsReset
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -79,9 +80,11 @@ class ActionResponseMajorInfo(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
+            AllSlotsReset()
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             info = major_info[major_name]
             dispatcher.utter_message(text=str(info))
@@ -105,9 +108,10 @@ class ActionResponseMajorTypeEdu(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result = get_type_edu(major_name)
             dispatcher.utter_message(
@@ -132,9 +136,10 @@ class ActionResponseMajorPoint(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result = get_major_point(major_name)
             dispatcher.utter_message(
@@ -159,9 +164,10 @@ class ActionResponseMajorCareer(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result = get_career(major_name)
             dispatcher.utter_message(
@@ -187,9 +193,10 @@ class ActionResponseMajorTuition(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result = get_major_tuition(major_name)
             dispatcher.utter_message(
@@ -214,9 +221,10 @@ class ActionResponseSubjectGroup(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result = get_subject_group(major_name)
             dispatcher.utter_message(
@@ -241,9 +249,10 @@ class ActionResponseMajorCriteria(Action):
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu!")
+            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            return [SlotSet("major_name", None)]
         else:
             result=get_major_criteria(major_name)
             dispatcher.utter_message(
