@@ -47,6 +47,26 @@ def get_list_major_name_KEY():
     df = connect_database()
     return list(df.major_name)
 
+def look_up(major_name):
+    look_up_dict = {"khoa học máy tính": ['khmt', 'KHMT', 'khoa hoc may tinh', 'Khoa hoc may tinh'],
+                    "kỹ thuật điện": ['ktđ', 'ktd', 'ky thuat dien', 'KTĐ', 'KTD'],
+                    "kỹ thuật hóa học": ['kthh', 'KTHH', 'ky thuat hoa hoc', 'Ky thuat hoa hoc'],
+                    "kỹ thuật hàng không": ['kthk', 'KTHK', 'ky thuat hang khong', 'Ky thuat hang khong'],
+                    "công nghệ may": ['cnm', 'CNM', 'Cong nghe may', 'cong nghe may'],
+                    "công nghệ sinh học": ['cnsh', 'CNSH', 'Cong nghe sinh hoc', 'cong nghe sinh hoc'],
+                    "logistics và quản lý chuỗi cung ứng": ['logistics', 'logistic', 'Logistics', 'Logistic'],
+                    "kỹ thuật máy tính": ['ktmt', 'KTMT', 'ky thuat may tinh', 'Ky thuat may tinh'],
+                    "công nghệ kỹ thuật ô tô": ['ô tô', 'kỹ thuật ô tô', 'o to', 'ky thuat o to', 'Ô TÔ', 'Kỹ thuật ô tô'],
+                    "kỹ thuật điện tử viễn thông": ['điện tử viễn thông', 'ĐTVT', 'đtvt', 'ky thuat dien tu vien thong', 'DTVT', 'dtvt'],
+                    "kỹ thuật cơ điện tử": [' ky thuat co dien tu', 'co dien tu', 'cơ điện tử', 'cđt', 'cdt', 'CĐT', 'CDT'],
+                    "kỹ thuật điều khiển và tự động hóa": ['ky thuat dieu khien va tu dong hoa', 'điều khiển tự động hóa', 'đktđh', 'ĐKTĐH', 'dktdh',
+                                                           'DKTDH', 'tự động hóa', 'tu dong hoa']
+                    }
+    # count = 0
+    for key in look_up_dict.keys():
+        if major_name in look_up_dict[key]:
+            return key
+
 def LOWERCASE(entity):
     if not entity:
         return entity
@@ -79,7 +99,6 @@ class ActionDefaultFallback(Action):
         return []
 
 class ActionResponseMajorInfo(Action):
-
     def name(self) -> Text:
         return "action_response_major_info"
 
@@ -91,12 +110,12 @@ class ActionResponseMajorInfo(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             AllSlotsReset()
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
-            info = major_info[major_name]
+            info = major_info[look_up(major_name)]
             dispatcher.utter_message(text=str(info))
         return []
 
@@ -119,13 +138,13 @@ class ActionResponseMajorTypeEdu(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result = get_type_edu(major_name)
             dispatcher.utter_message(
-                text=f"Ngành {major_name} đào tạo những hệ "+ result)
+                text=f"Ngành {look_up(major_name)} đào tạo những hệ "+ result)
         return []
 
 def get_major_point(major_name):
@@ -147,13 +166,13 @@ class ActionResponseMajorPoint(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result = get_major_point(major_name)
             dispatcher.utter_message(
-                text=f"Hiện tại điểm sàn của ngành {major_name} là "+result)
+                text=f"Hiện tại điểm sàn của ngành {look_up(major_name)} là "+result)
         return []
 
 def get_career(major_name):
@@ -175,13 +194,13 @@ class ActionResponseMajorCareer(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result = get_career(major_name)
             dispatcher.utter_message(
-                text=f"Cơ hội việc làm của ngành {major_name} là "+result)
+                text=f"Cơ hội việc làm của ngành {look_up(major_name)} là "+result)
         return []
 
 
@@ -204,13 +223,13 @@ class ActionResponseMajorTuition(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result = get_major_tuition(major_name)
             dispatcher.utter_message(
-                text=f"Học phí của ngành {major_name} là "+result)
+                text=f"Học phí của ngành {look_up(major_name)} là "+result)
         return []
 
 
@@ -232,13 +251,13 @@ class ActionResponseSubjectGroup(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result = get_subject_group(major_name)
             dispatcher.utter_message(
-                text=f"Ngành {major_name} tuyển sinh các khối "+result)
+                text=f"Ngành {look_up(major_name)} tuyển sinh các khối "+result)
         return []
 
 
@@ -260,11 +279,11 @@ class ActionResponseMajorCriteria(Action):
         major_name = LOWERCASE(major_name)
         if not major_name:
             dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(major_name not in list_major_name):
+        elif(look_up(major_name) not in list_major_name):
             dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
             return [SlotSet("major_name", None)]
         else:
             result=get_major_criteria(major_name)
             dispatcher.utter_message(
-                text=f"Năm 2022 ngành {major_name} dự kiến tuyển sinh khoảng "+result+" sinh viên")
+                text=f"Năm 2022 ngành {look_up(major_name)} dự kiến tuyển sinh khoảng "+result+" sinh viên")
         return []

@@ -32,7 +32,7 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: true
-  - name: EntitySynonymMapper
+  # - name: EntitySynonymMapper
   # ensure that these low confidence messages are handled gracefully
   - name: FallbackClassifier
     threshold: 0.7 #0.3
