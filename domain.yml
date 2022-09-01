@@ -36,9 +36,6 @@ slots:
     - type: from_entity
       entity: major_name
 responses:
-  utter_not_understanding:
-  - text: Tôi chưa hiểu câu hỏi của bạn.
-  - text: Xin lỗi, tôi chưa hiểu câu hỏi của bạn.
   utter_greet:
   - text: Chào bạn tôi là Edu_bot -một cô trợ lý ảo
   utter_cheer_up:
@@ -68,3 +65,4 @@ actions:
 - utter_ability
 - utter_goodbye
 - utter_greet
+- action_default_fallback

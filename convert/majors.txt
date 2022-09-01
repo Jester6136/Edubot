@@ -1,0 +1,199 @@
+Khoa học giáo dục và đào tạo giáo viên
+Khoa học giáo dục
+Giáo dục học
+Quản lý giáo dục
+Giáo dục Công dân
+Giáo dục Chính trị
+Giáo dục Thể chất
+Huấn luyện thể thao
+Giáo dục Quốc phòng – An ninh
+Sư phạm Toán học
+Sư phạm Tiếng Anh
+Sư phạm Tiếng Nga
+Sư phạm Tiếng Pháp
+Sư phạm Tiếng Trung Quốc
+Sư phạm khoa học tự nhiên
+Giáo dục pháp luật
+Sư phạm Lịch sử – Địa lý
+Công nghệ giáo dục
+Lý luận, lịch sử và phê bình mỹ thuật
+Hội hoạ
+Đồ hoạ
+Điêu khắc
+Gốm
+Mỹ thuật đô thị
+Nghệ thuật trình diễn
+Âm nhạc học
+Sáng tác âm nhạc
+Chỉ huy âm nhạc
+Thanh nhạc
+Biểu diễn nhạc cụ phương tây
+Piano
+Nhạc Jazz
+Biểu diễn nhạc cụ truyền thống
+Lý luận, lịch sử và phê bình sân khấu
+Biên kịch sân khấu
+Diễn viên sân khấu kịch hát
+Đạo diễn sân khấu
+Lý luận, lịch sử và phê bình điện ảnh, truyền hình
+Biên kịch điện ảnh, truyền hình
+Diễn viên kịch, điện ảnh – truyền hình
+Đạo diễn điện ảnh, truyền hình
+Quay phim
+Lý luận, lịch sử và phê bình múa
+Diễn viên múa
+Biên đạo múa
+Huấn luyện múa
+Nhiếp ảnh
+Công nghệ điện ảnh, truyền hình
+Thiết kế âm thanh, ánh sáng
+Thiết kế công nghiệp
+Thiết kế đồ họa
+Thiết kế thời trang
+Thiết kế mỹ thuật sân khấu, điện ảnh
+Nghệ thuật số
+Hán Nôm
+Sáng tác văn học
+Ngôn ngữ Anh
+Ngôn ngữ Nga
+Ngôn ngữ Pháp
+Ngôn ngữ Trung Quốc
+Ngôn ngữ Italia
+Ngôn ngữ Nhật
+Ngôn ngữ Hàn Quốc
+Ngôn ngữ Ả rập
+Triết học
+Chủ nghĩa xã hội khoa học
+Tôn giáo học
+Lịch sử
+Ngôn ngữ học
+Văn học
+Văn hoá học
+Quản lý văn hoá
+Gia đình học
+Kinh tế
+Kinh tế chính trị
+Kinh tế đầu tư
+Thống kê kinh tế
+Toán kinh tế
+Quản lý kinh tế
+Chính trị học
+Xây dựng Đảng và chính quyền nhà nước
+Quản lý nhà nước
+Quan hệ quốc tế
+Xã hội học
+Nhân học
+Giới và phát triển
+Tâm lý học
+Tâm lý học giáo dục
+Địa lý học
+Quốc tế học
+Truyền thông đa phương tiện
+Truyền thông đại chúng
+Công nghệ truyền thông
+Truyền thông quốc tế
+Quan hệ công chúng
+Truyền thông doanh nghiệp
+Quảng cáo
+Thông tin – thư viện
+Quản lý thông tin
+Lưu trữ học
+Bảo tàng học
+Xuất bản
+Kinh doanh xuất bản phẩm
+Công nghệ đa phương tiện
+Quản trị kinh doanh
+Marketing
+Bất động sản
+Kinh doanh quốc tế
+Kinh doanh thương mại
+Thương mại điện tử
+Kinh doanh thời trang và dệt may
+Tài chính – Ngân hàng
+Bảo hiểm
+Kế toán
+Kiểm toán
+Khoa học quản lý
+Quản lý công
+Quản trị nhân lực
+Hệ thống thông tin quản lý
+Quản trị văn phòng
+Quan hệ lao động
+Quản lý dự án
+Luật kinh tế
+Luật quốc tế
+Sinh học
+Công nghệ sinh học
+Kỹ thuật sinh học
+Sinh học ứng dụng
+Công nghệ sinh học Y dược
+Thiên văn học
+Vật lý học
+Vật lý nguyên tử và hạt nhân
+Cơ học
+Hóa học
+Khoa học vật liệu
+Khoa học trái đất
+Địa chất học
+Toán tin
+Khoa học máy tính
+Mạng máy tính và truyền thông dữ liệu
+Kỹ thuật phần mềm
+Hệ thống thông tin
+Kỹ thuật máy tính
+Công nghệ kỹ thuật máy tính
+Khoa học dữ liệu và Trí tuệ nhân tạo
+Công nghệ thông tin
+Công nghệ thông tin
+An toàn thông tin
+Khoa học và Kỹ thuật máy tính
+Địa tin học
+Trí tuệ nhân tạo
+Công nghệ kỹ thuật kiến trúc
+Công nghệ kỹ thuật công trình xây dựng
+Robot và trí tuệ nhân tạo
+Bảo dưỡng công nghiệp
+Kỹ thuật công nghiệp
+Kỹ thuật hệ thống công nghiệp
+Kỹ thuật mỏ
+Kỹ thuật thăm dò và khảo sát
+Công nghệ dệt, may
+Công nghệ da giày
+Công nghệ chế biến lâm sản
+Kỹ thuật xây dựng công trình thuỷ
+Khoa học đất
+Chăn nuôi
+Nông học
+Khoa học cây trồng
+Bảo vệ thực vật
+Công nghệ rau hoa quả và cảnh quan
+Kinh doanh nông nghiệp
+Kinh tế nông nghiệp
+Phát triển nông thôn
+Lâm học
+Lâm nghiệp đô thị
+Lâm sinh
+Quản lý tài nguyên rừng
+Nuôi trồng thủy sản
+Bệnh học thủy sản
+Điều dưỡng
+Hộ sinh
+Du lịch
+Quản trị dịch vụ du lịch và lữ hành
+Quản trị khách sạn
+Quản trị nhà hàng và dịch vụ ăn uống
+Quản lý thể dục thể thao
+Kinh tế gia đình
+Khai thác vận tải
+Trinh sát an ninh
+Trinh sát cảnh sát
+Điều tra hình sự
+Kỹ thuật hình sự
+Quản lý nhà nước về an ninh trật tự
+Quản lý trật tự an toàn giao thông
+Thi hành án hình sự và hỗ trợ tư pháp
+Tham mưu, chỉ huy công an nhân dân
+Chỉ huy tham mưu Phòng không
+Chỉ huy tham mưu Pháo binh
+Chỉ huy tham mưu Tăng – thiết giáp
+Chỉ huy kỹ thuật Tăng – thiết giáp

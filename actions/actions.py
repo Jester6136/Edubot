@@ -55,6 +55,7 @@ def LOWERCASE(entity):
 
 list_major_name = get_list_major_name_KEY()
 
+
 class ActionHelloWorld(Action):
     def name(self) -> Text:
         return "action_hello_world"
@@ -67,6 +68,15 @@ class ActionHelloWorld(Action):
 
         return []
 
+class ActionDefaultFallback(Action):
+    def name(self) -> Text:
+        return "action_default_fallback"
+    def run(self, dispatcher, tracker: Tracker, domain):
+        # output a message saying that the conversation will now be
+        # continued by a human.
+        message = "Xin lỗi, tôi chưa hiểu câu hỏi của bạn."
+        dispatcher.utter_message(text=message)
+        return []
 
 class ActionResponseMajorInfo(Action):
 

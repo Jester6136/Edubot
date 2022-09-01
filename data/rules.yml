@@ -12,7 +12,8 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+# simple fallback:
+- rule: Implementation of the simple-Fallback
   steps:
   - intent: nlu_fallback
-  - action: utter_not_understanding
+  - action: action_default_fallback
