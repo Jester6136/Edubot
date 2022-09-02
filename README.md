@@ -19,7 +19,7 @@ if you want to train it faster, try the training command with
 
 Then, to run, first set up your action server in one terminal window:
 ```bash
-rasa run actions --actions actions.actions
+rasa run actions
 ```
 Second:
 ```bash
