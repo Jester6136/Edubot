@@ -21,7 +21,10 @@ Then, to run, first set up your action server in one terminal window:
 ```bash
 rasa run actions --actions actions.actions
 ```
-
+Second:
+```bash
+rasa shell
+```
 ## 👩‍💻 Overview of the files
 
 `data/stories/` - contains stories 
