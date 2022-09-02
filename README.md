@@ -36,6 +36,6 @@ rasa run actions --actions actions.actions
 
 `config.yml` - training configurations for the NLU pipeline and policy ensemble
 
-## :references: References: 
+## References: 
  - Nguyen Thi Mai Trang and Maxim Shcherbakov "Enhancing Rasa NLU model for Vietnamese chatbot" in International Journal of Open Information Technologies ISSN, 2021
  - https://github.com/RasaHQ/rasa
