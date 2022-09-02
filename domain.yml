@@ -26,6 +26,7 @@ intents:
 - mood_great
 - mood_unhappy
 - turn_major_name
+- out_of_story
 entities:
 - major_name
 slots:
@@ -37,7 +38,7 @@ slots:
       entity: major_name
 responses:
   utter_greet:
-  - text: Chào bạn tôi là Edu_bot -một cô trợ lý ảo
+  - text: Chào bạn yêu dấu, mình là Edu_bot, trợ lý ảo sẽ giúp bạn giải đáp tất cả những thắc mắc về tuyển sinh trường AIA University nha
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -52,7 +53,7 @@ responses:
   utter_out_of_story:
   - text: Thôi cô xin cháu đấy!! hỏi cho hẳn hoi.
   utter_ability:
-  - text: Tôi có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về\n-học phí\n-cơ hội việc làm\n-điểm sàn\n-chỉ tiêu tuyển sinh\n-hệ đào tạo và khối ngành đào tạo!
+  - text: Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về\n-Học phí\n-Cơ hội việc làm\n- Điểm sàn\n- Chỉ tiêu tuyển sinh\n- Hệ đào tạo và khối ngành đào tạo nữa ạ\n Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!
 actions:
 - action_hello_world
 - action_response_major_career

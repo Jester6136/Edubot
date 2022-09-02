@@ -1,4 +1,4 @@
-# Edubot - Admission consultant chatbot for Ho Chi Minh City University of Technology
+# Edubot - Admission consultant chatbot for AIA University
 
 ## :surfer: Introduction
  Edubot is a demo assistant which helps parents and students know more about majors in HCMUT and improve the possibility of students applying to the school

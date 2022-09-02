@@ -63,9 +63,12 @@ def look_up(major_name):
                                                            'DKTDH', 'tự động hóa', 'tu dong hoa']
                     }
     # count = 0
-    for key in look_up_dict.keys():
-        if major_name in look_up_dict[key]:
-            return key
+    if (major_name):
+        for key in look_up_dict.keys():
+            if major_name in look_up_dict[key]:
+                return key
+    else:
+        return major_name
 
 def LOWERCASE(entity):
     if not entity:
@@ -94,7 +97,7 @@ class ActionDefaultFallback(Action):
     def run(self, dispatcher, tracker: Tracker, domain):
         # output a message saying that the conversation will now be
         # continued by a human.
-        message = "Xin lỗi, tôi chưa hiểu câu hỏi của bạn."
+        message = "Úi, rất tiếc câu hỏi của bạn nằm ngoài tri thức của mình, bạn vui lòng hỏi câu khác nha!"
         dispatcher.utter_message(text=message)
         return []
 
@@ -108,15 +111,20 @@ class ActionResponseMajorInfo(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(look_up(major_name) not in list_major_name):
             AllSlotsReset()
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            info = major_info[look_up(major_name)]
-            dispatcher.utter_message(text=str(info))
+            try:
+                mess = major_info[look_up(major_name)]
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+            dispatcher.utter_message(
+                text=mess)
         return []
 
 def get_type_edu(major_name):
@@ -136,15 +144,20 @@ class ActionResponseMajorTypeEdu(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result = get_type_edu(major_name)
+            try:
+                result = get_type_edu(major_name)
+                mess = f"Ngành {major_name} đào tạo những hệ "+ result
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Ngành {look_up(major_name)} đào tạo những hệ "+ result)
+                text=mess)
         return []
 
 def get_major_point(major_name):
@@ -164,15 +177,20 @@ class ActionResponseMajorPoint(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result = get_major_point(major_name)
+            try:
+                result = get_major_point(major_name)
+                mess = f"Hiện tại điểm sàn của ngành {major_name} là "+result + ", thông tin đến bạn ạ"
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Hiện tại điểm sàn của ngành {look_up(major_name)} là "+result)
+                text=mess)
         return []
 
 def get_career(major_name):
@@ -192,15 +210,20 @@ class ActionResponseMajorCareer(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result = get_career(major_name)
+            try:
+                result = get_career(major_name)
+                mess = f"Cơ hội việc làm của ngành {major_name} là "+result+"\n Bạn tham khảo nhé!"
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Cơ hội việc làm của ngành {look_up(major_name)} là "+result)
+                text=mess)
         return []
 
 
@@ -221,15 +244,20 @@ class ActionResponseMajorTuition(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result = get_major_tuition(major_name)
+            try:
+                result = get_major_tuition(major_name)
+                mess = f"Học phí của ngành {major_name} là "+result+" trên một tín chỉ ạ."
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Học phí của ngành {look_up(major_name)} là "+result)
+                text=mess)
         return []
 
 
@@ -249,15 +277,20 @@ class ActionResponseSubjectGroup(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result = get_subject_group(major_name)
+            try:
+                result = get_subject_group(major_name)
+                mess = f"Ngành {major_name} tuyển sinh các khối "+result+" thông tin đến bạn."
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Ngành {look_up(major_name)} tuyển sinh các khối "+result)
+                text=mess)
         return []
 
 
@@ -277,13 +310,18 @@ class ActionResponseMajorCriteria(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
+        major_name = look_up(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Tôi không hiểu, hãy cho tôi một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
-            dispatcher.utter_message(text="Trường không đào tạo ngành này!\nBạn hãy nhập ngành khác <3")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
-            result=get_major_criteria(major_name)
+            try:
+                result = get_major_criteria(major_name)
+                mess = f"Năm 2022 ngành {major_name} dự kiến tuyển sinh khoảng "+result+" sinh viên ạ"
+            except:
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
-                text=f"Năm 2022 ngành {look_up(major_name)} dự kiến tuyển sinh khoảng "+result+" sinh viên")
+                text=mess)
         return []

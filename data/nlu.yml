@@ -1252,3 +1252,10 @@ nlu:
     - Vậy còn [công nghệ kỹ thuật ô tô](major_name) thì sao
     - Vậy còn [kỹ thuật điện tử viễn thông](major_name) thì sao
     - Vậy còn [kỹ thuật điều khiển và tự động hóa](major_name) thì sao
+
+- intent: out_of_story
+  examples: |
+    - học viện âm nhạc
+    - ly
+    - cốc 
+    - bát đũa
