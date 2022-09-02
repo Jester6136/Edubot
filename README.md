@@ -1,6 +1,6 @@
 # Edubot - Admission consultant chatbot for Ho Chi Minh City University of Technology
 
-## surfer Introduction
+## :surfer: Introduction
  Edubot is a demo assistant which helps parents and students know more about majors in HCMUT and improve the possibility of students applying to the school
 
 ## 👷‍ Installation
@@ -36,6 +36,6 @@ rasa run actions --actions actions.actions
 
 `config.yml` - training configurations for the NLU pipeline and policy ensemble
 
-## References: 
+## :references: References: 
  - Nguyen Thi Mai Trang and Maxim Shcherbakov "Enhancing Rasa NLU model for Vietnamese chatbot" in International Journal of Open Information Technologies ISSN, 2021
  - https://github.com/RasaHQ/rasa
