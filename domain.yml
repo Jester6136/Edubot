@@ -12,6 +12,8 @@ intents:
 - ask_major_subject_group
 - ask_major_tuition
 - ask_major_type_edu
+- ask_point
+- ask_subject_group
 - bot_challenge
 - context_ask_major_career
 - context_ask_major_criteria
@@ -20,15 +22,20 @@ intents:
 - context_ask_major_subject_group
 - context_ask_major_tuition
 - context_ask_major_type_edu
+- context_ask_pass_point
+- context_ask_pass_subject_group
 - deny
 - goodbye
 - greet
 - mood_great
 - mood_unhappy
-- turn_major_name
 - out_of_story
+- turn_major_name
+- ask_major_names
 entities:
 - major_name
+- point
+- subject_group
 slots:
   major_name:
     type: text
@@ -36,6 +43,18 @@ slots:
     mappings:
     - type: from_entity
       entity: major_name
+  point:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: point
+  subject_group:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: subject_group
 responses:
   utter_greet:
   - text: Chào bạn yêu dấu, mình là Edu_bot, trợ lý ảo sẽ giúp bạn giải đáp tất cả những thắc mắc về tuyển sinh trường AIA University nha
@@ -55,15 +74,20 @@ responses:
   utter_ability:
   - text: Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về\n-Học phí\n-Cơ hội việc làm\n- Điểm sàn\n- Chỉ tiêu tuyển sinh\n- Hệ đào tạo và khối ngành đào tạo nữa ạ\n Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!
 actions:
+- action_default_fallback
 - action_hello_world
 - action_response_major_career
 - action_response_major_criteria
 - action_response_major_info
+- action_response_major_name_by_point
+- action_response_major_name_by_subject_group
 - action_response_major_point
 - action_response_major_subject_group
 - action_response_major_tuition
 - action_response_major_type_edu
+- action_response_major_names
+- action_response_pass_point
+- action_response_pass_subject_group
 - utter_ability
 - utter_goodbye
 - utter_greet
-- action_default_fallback

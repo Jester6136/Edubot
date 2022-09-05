@@ -10,6 +10,7 @@ nlu:
     - cho mình hỏi chút
     - xin chào
     - hello
+    - chúc mừng
 - intent: goodbye
   examples: |
     - cu
@@ -227,11 +228,6 @@ nlu:
     - cho em hỏi về ngành [kĩ thuật hàng không](major_name)
     - mình cần tư vấn về ngành [kĩ thuật hàng không](major_name)
     - cho mình xin info về ngành [kĩ thuật hàng không](major_name)
-    - [kỹ thuật hàng không](major_name) là ngành như thê nào ạ
-    - thông tin về ngành [kỹ thuật hàng không](major_name)
-    - cho em hỏi về ngành [kỹ thuật hàng không](major_name)
-    - mình cần tư vấn về ngành [kỹ thuật hàng không](major_name)
-    - cho mình xin info về ngành [kỹ thuật hàng không](major_name)
     - [công nghệ may](major_name) là ngành như thê nào ạ
     - thông tin về ngành [công nghệ may](major_name)
     - cho em hỏi về ngành [công nghệ may](major_name)
@@ -382,11 +378,6 @@ nlu:
     - cho em hỏi về ngành [ki thuat o to](major_name)
     - mình cần tư vấn về ngành [ki thuat o to](major_name)
     - cho mình xin info về ngành [ki thuat o to](major_name)
-    - [kỹ thuật ô tô](major_name) là ngành như thê nào ạ
-    - thông tin về ngành [kỹ thuật ô tô](major_name)
-    - cho em hỏi về ngành [kỹ thuật ô tô](major_name)
-    - mình cần tư vấn về ngành [kỹ thuật ô tô](major_name)
-    - cho mình xin info về ngành [kỹ thuật ô tô](major_name)
     - [kỹ thuật điện tử viễn thông](major_name) là ngành như thê nào ạ
     - thông tin về ngành [kỹ thuật điện tử viễn thông](major_name)
     - cho em hỏi về ngành [kỹ thuật điện tử viễn thông](major_name)
@@ -437,11 +428,6 @@ nlu:
     - cho em hỏi về ngành [kĩ thuật điện tử viễn thông](major_name)
     - mình cần tư vấn về ngành [kĩ thuật điện tử viễn thông](major_name)
     - cho mình xin info về ngành [kĩ thuật điện tử viễn thông](major_name)
-    - [Ki thuat dien tu vien thong](major_name) là ngành như thê nào ạ
-    - thông tin về ngành [Ki thuat dien tu vien thong](major_name)
-    - cho em hỏi về ngành [Ki thuat dien tu vien thong](major_name)
-    - mình cần tư vấn về ngành [Ki thuat dien tu vien thong](major_name)
-    - cho mình xin info về ngành [Ki thuat dien tu vien thong](major_name)
     - [Ki thuat dien tu vien thong](major_name) là ngành như thê nào ạ
     - thông tin về ngành [Ki thuat dien tu vien thong](major_name)
     - cho em hỏi về ngành [Ki thuat dien tu vien thong](major_name)
@@ -723,7 +709,6 @@ nlu:
     - ngành [công nghệ kỹ thuật máy tính](major_name)
     - ngành [khoa học dữ liệu và trí tuệ nhân tạo](major_name)
     - ngành [công nghệ thông tin](major_name)
-    - ngành [công nghệ thông tin](major_name)
     - ngành [an toàn thông tin](major_name)
     - ngành [khoa học và kỹ thuật máy tính](major_name)
     - ngành [địa tin học](major_name)
@@ -774,8 +759,8 @@ nlu:
     - ngành [tham mưu, chỉ huy công an nhân dân](major_name)
     - ngành [chỉ huy tham mưu phòng không](major_name)
     - ngành [chỉ huy tham mưu pháo binh](major_name)
-    - ngành [chỉ huy tham mưu tăng – thiết giáp](major_name)
-    - ngành [chỉ huy kỹ thuật tăng – thiết giáp](major_name)
+    - ngành [chỉ huy tham mưu tăng - thiết giáp](major_name)
+    - ngành [chỉ huy kỹ thuật tăng - thiết giáp](major_name)
     - cho hỏi về ngành [khoa học giáo dục và đào tạo giáo viên](major_name)
     - cho hỏi về ngành [khoa học giáo dục](major_name)
     - cho hỏi về ngành [giáo dục học](major_name)
@@ -784,7 +769,7 @@ nlu:
     - cho hỏi về ngành [giáo dục chính trị](major_name)
     - cho hỏi về ngành [giáo dục thể chất](major_name)
     - cho hỏi về ngành [huấn luyện thể thao](major_name)
-    - cho hỏi về ngành [giáo dục quốc phòng – an ninh](major_name)
+    - cho hỏi về ngành [giáo dục quốc phòng - an ninh](major_name)
     - cho hỏi về ngành [sư phạm toán học](major_name)
     - cho hỏi về ngành [sư phạm tiếng anh](major_name)
     - cho hỏi về ngành [sư phạm tiếng nga](major_name)
@@ -792,7 +777,7 @@ nlu:
     - cho hỏi về ngành [sư phạm tiếng trung quốc](major_name)
     - cho hỏi về ngành [sư phạm khoa học tự nhiên](major_name)
     - cho hỏi về ngành [giáo dục pháp luật](major_name)
-    - cho hỏi về ngành [sư phạm lịch sử – địa lý](major_name)
+    - cho hỏi về ngành [sư phạm lịch sử - địa lý](major_name)
     - cho hỏi về ngành [công nghệ giáo dục](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình mỹ thuật](major_name)
     - cho hỏi về ngành [hội hoạ](major_name)
@@ -815,7 +800,7 @@ nlu:
     - cho hỏi về ngành [đạo diễn sân khấu](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình điện ảnh, truyền hình](major_name)
     - cho hỏi về ngành [biên kịch điện ảnh, truyền hình](major_name)
-    - cho hỏi về ngành [diễn viên kịch, điện ảnh – truyền hình](major_name)
+    - cho hỏi về ngành [diễn viên kịch, điện ảnh - truyền hình](major_name)
     - cho hỏi về ngành [đạo diễn điện ảnh, truyền hình](major_name)
     - cho hỏi về ngành [quay phim](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình múa](major_name)
@@ -873,7 +858,7 @@ nlu:
     - cho hỏi về ngành [quan hệ công chúng](major_name)
     - cho hỏi về ngành [truyền thông doanh nghiệp](major_name)
     - cho hỏi về ngành [quảng cáo](major_name)
-    - cho hỏi về ngành [thông tin – thư viện](major_name)
+    - cho hỏi về ngành [thông tin - thư viện](major_name)
     - cho hỏi về ngành [quản lý thông tin](major_name)
     - cho hỏi về ngành [lưu trữ học](major_name)
     - cho hỏi về ngành [bảo tàng học](major_name)
@@ -887,7 +872,7 @@ nlu:
     - cho hỏi về ngành [kinh doanh thương mại](major_name)
     - cho hỏi về ngành [thương mại điện tử](major_name)
     - cho hỏi về ngành [kinh doanh thời trang và dệt may](major_name)
-    - cho hỏi về ngành [tài chính – ngân hàng](major_name)
+    - cho hỏi về ngành [tài chính - ngân hàng](major_name)
     - cho hỏi về ngành [bảo hiểm](major_name)
     - cho hỏi về ngành [kế toán](major_name)
     - cho hỏi về ngành [kiểm toán](major_name)
@@ -921,7 +906,6 @@ nlu:
     - cho hỏi về ngành [kỹ thuật máy tính](major_name)
     - cho hỏi về ngành [công nghệ kỹ thuật máy tính](major_name)
     - cho hỏi về ngành [khoa học dữ liệu và trí tuệ nhân tạo](major_name)
-    - cho hỏi về ngành [công nghệ thông tin](major_name)
     - cho hỏi về ngành [công nghệ thông tin](major_name)
     - cho hỏi về ngành [an toàn thông tin](major_name)
     - cho hỏi về ngành [khoa học và kỹ thuật máy tính](major_name)
@@ -973,8 +957,8 @@ nlu:
     - cho hỏi về ngành [tham mưu, chỉ huy công an nhân dân](major_name)
     - cho hỏi về ngành [chỉ huy tham mưu phòng không](major_name)
     - cho hỏi về ngành [chỉ huy tham mưu pháo binh](major_name)
-    - cho hỏi về ngành [chỉ huy tham mưu tăng – thiết giáp](major_name)
-    - cho hỏi về ngành [chỉ huy kỹ thuật tăng – thiết giáp](major_name)
+    - cho hỏi về ngành [chỉ huy tham mưu tăng - thiết giáp](major_name)
+    - cho hỏi về ngành [chỉ huy kỹ thuật tăng - thiết giáp](major_name)
     - cho hỏi ngành [kỹ thuật điện](major_name)
     - cho hỏi ngành [kỹ thuật hóa học](major_name)
     - cho hỏi ngành [kỹ thuật hàng không](major_name)
@@ -1045,7 +1029,6 @@ nlu:
     - Em muốn hỏi về [kỹ thuật máy tính](major_name) ạ
     - Em muốn hỏi về [công nghệ kỹ thuật ô tô](major_name) ạ
     - cho em hỏi ngành [khoa học máy tính](major_name)
-    - cho em hỏi về ngành [khoa học máy tính](major_name)
     - Thông tin về ngành [kỹ thuật điện](major_name)
     - Thông tin về ngành [kỹ thuật hóa học](major_name)
     - Thông tin về ngành [kỹ thuật môi trường](major_name)
@@ -1059,99 +1042,2103 @@ nlu:
     - Thông tin về ngành [kỹ thuật điện tử viễn thông](major_name)
     - Thông tin về ngành [kỹ thuật điều khiển và tự động hóa](major_name)
     - Cho em hỏi về [kỹ thuật điện](major_name)
+    - Cho hỏi về ngành [kỹ thuật cơ điện tử](major_name)
+    - Cho hỏi [kỹ thuật mưa](major_name)
+    - cho hỏi ngành [khoa học máy tính](major_name)
 - intent: ask_major_type_edu
   examples: |
-    - Cho em hỏi ngành [kỹ thuật điện](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [công nghệ may](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [công nghệ sinh học](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào ạ
-    - Cho em hỏi ngành [khoa học máy tính](major_name) đào tạo những hệ nào ạ
-    - Ngành [kỹ thuật máy tính](major_name) đào tạo những hệ nào ạ
-    - Ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào ạ
-    - Ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào ạ
-    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
-    - ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+    - ngành [khoa học máy tính](major_name) đào tạo những hệ gì
+    - cho mình hỏi [khoa học máy tính](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [khoa học máy tính](major_name) với ạ
+    - Ad cho mình hỏi ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [khoa học máy tính](major_name)
+    - ngành [khmt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [khmt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [khmt](major_name) với ạ
+    - Ad cho mình hỏi ngành [khmt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [khmt](major_name)
+    - ngành [KHMT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KHMT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KHMT](major_name) với ạ
+    - Ad cho mình hỏi ngành [KHMT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KHMT](major_name)
+    - ngành [khoa hoc may tinh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [khoa hoc may tinh](major_name)
+    - ngành [Khoa hoc may tinh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [Khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Khoa hoc may tinh](major_name)
+    - ngành [kỹ thuật điện](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật điện](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật điện](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điện](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật điện](major_name)
+    - ngành [ktđ](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ktđ](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ktđ](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktđ](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ktđ](major_name)
+    - ngành [ktd](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ktd](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ktd](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktd](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ktd](major_name)
+    - ngành [ky thuat dien](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat dien](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat dien](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat dien](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat dien](major_name)
+    - ngành [KTĐ](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KTĐ](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KTĐ](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTĐ](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KTĐ](major_name)
+    - ngành [KTD](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KTD](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KTD](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTD](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KTD](major_name)
+    - ngành [kỹ thuật hóa học](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật hóa học](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật hóa học](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật hóa học](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật hóa học](major_name)
+    - ngành [kthh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kthh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kthh](major_name) với ạ
+    - Ad cho mình hỏi ngành [kthh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kthh](major_name)
+    - ngành [KTHH](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KTHH](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KTHH](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTHH](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KTHH](major_name)
+    - ngành [ky thuat hoa hoc](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat hoa hoc](major_name)
+    - ngành [Ky thuat hoa hoc](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Ky thuat hoa hoc](major_name)
+    - ngành [kỹ thuật hàng không](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật hàng không](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật hàng không](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật hàng không](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật hàng không](major_name)
+    - ngành [kthk](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kthk](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kthk](major_name) với ạ
+    - Ad cho mình hỏi ngành [kthk](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kthk](major_name)
+    - ngành [KTHK](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KTHK](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KTHK](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTHK](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KTHK](major_name)
+    - ngành [ky thuat hang khong](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat hang khong](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat hang khong](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat hang khong](major_name)
+    - ngành [Ky thuat hang khong](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Ky thuat hang khong](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat hang khong](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Ky thuat hang khong](major_name)
+    - ngành [công nghệ may](major_name) đào tạo những hệ gì
+    - cho mình hỏi [công nghệ may](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [công nghệ may](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ may](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [công nghệ may](major_name)
+    - ngành [cnm](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cnm](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cnm](major_name) với ạ
+    - Ad cho mình hỏi ngành [cnm](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cnm](major_name)
+    - ngành [CNM](major_name) đào tạo những hệ gì
+    - cho mình hỏi [CNM](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [CNM](major_name) với ạ
+    - Ad cho mình hỏi ngành [CNM](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [CNM](major_name)
+    - ngành [Cong nghe may](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Cong nghe may](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi ngành [Cong nghe may](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Cong nghe may](major_name)
+    - ngành [cong nghe may](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cong nghe may](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi ngành [cong nghe may](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cong nghe may](major_name)
+    - ngành [công nghệ sinh học](major_name) đào tạo những hệ gì
+    - cho mình hỏi [công nghệ sinh học](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [công nghệ sinh học](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ sinh học](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [công nghệ sinh học](major_name)
+    - ngành [cnsh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cnsh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cnsh](major_name) với ạ
+    - Ad cho mình hỏi ngành [cnsh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cnsh](major_name)
+    - ngành [CNSH](major_name) đào tạo những hệ gì
+    - cho mình hỏi [CNSH](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [CNSH](major_name) với ạ
+    - Ad cho mình hỏi ngành [CNSH](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [CNSH](major_name)
+    - ngành [Cong nghe sinh hoc](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [Cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Cong nghe sinh hoc](major_name)
+    - ngành [cong nghe sinh hoc](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cong nghe sinh hoc](major_name)
+    - ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ gì
+    - cho mình hỏi [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - ngành [logistics](major_name) đào tạo những hệ gì
+    - cho mình hỏi [logistics](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [logistics](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistics](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [logistics](major_name)
+    - ngành [logistic](major_name) đào tạo những hệ gì
+    - cho mình hỏi [logistic](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [logistic](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistic](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [logistic](major_name)
+    - ngành [Logistics](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Logistics](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Logistics](major_name) với ạ
+    - Ad cho mình hỏi ngành [Logistics](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Logistics](major_name)
+    - ngành [Logistic](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Logistic](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Logistic](major_name) với ạ
+    - Ad cho mình hỏi ngành [Logistic](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Logistic](major_name)
+    - ngành [kỹ thuật máy tính](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật máy tính](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật máy tính](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật máy tính](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật máy tính](major_name)
+    - ngành [ktmt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ktmt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ktmt](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktmt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ktmt](major_name)
+    - ngành [KTMT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [KTMT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [KTMT](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTMT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [KTMT](major_name)
+    - ngành [ky thuat may tinh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat may tinh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat may tinh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat may tinh](major_name)
+    - ngành [Ky thuat may tinh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Ky thuat may tinh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat may tinh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Ky thuat may tinh](major_name)
+    - ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ gì
+    - cho mình hỏi [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - ngành [ô tô](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ô tô](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [ô tô](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ô tô](major_name)
+    - ngành [kỹ thuật ô tô](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật ô tô](major_name)
+    - ngành [o to](major_name) đào tạo những hệ gì
+    - cho mình hỏi [o to](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [o to](major_name) với ạ
+    - Ad cho mình hỏi ngành [o to](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [o to](major_name)
+    - ngành [ky thuat o to](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat o to](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat o to](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat o to](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat o to](major_name)
+    - ngành [Ô TÔ](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Ô TÔ](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Ô TÔ](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ô TÔ](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Ô TÔ](major_name)
+    - ngành [Kỹ thuật ô tô](major_name) đào tạo những hệ gì
+    - cho mình hỏi [Kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [Kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [Kỹ thuật ô tô](major_name)
+    - ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - ngành [điện tử viễn thông](major_name) đào tạo những hệ gì
+    - cho mình hỏi [điện tử viễn thông](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi ngành [điện tử viễn thông](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [điện tử viễn thông](major_name)
+    - ngành [ĐTVT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ĐTVT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ĐTVT](major_name) với ạ
+    - Ad cho mình hỏi ngành [ĐTVT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ĐTVT](major_name)
+    - ngành [đtvt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [đtvt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [đtvt](major_name) với ạ
+    - Ad cho mình hỏi ngành [đtvt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [đtvt](major_name)
+    - ngành [ky thuat dien tu vien thong](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat dien tu vien thong](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat dien tu vien thong](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat dien tu vien thong](major_name)
+    - ngành [DTVT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [DTVT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [DTVT](major_name) với ạ
+    - Ad cho mình hỏi ngành [DTVT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [DTVT](major_name)
+    - ngành [dtvt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [dtvt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [dtvt](major_name) với ạ
+    - Ad cho mình hỏi ngành [dtvt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [dtvt](major_name)
+    - ngành [kỹ thuật cơ điện tử](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật cơ điện tử](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật cơ điện tử](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật cơ điện tử](major_name)
+    - ngành [ky thuat co dien tu](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat co dien tu](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat co dien tu](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat co dien tu](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ky thuat co dien tu](major_name)
+    - ngành [co dien tu](major_name) đào tạo những hệ gì
+    - cho mình hỏi [co dien tu](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [co dien tu](major_name) với ạ
+    - Ad cho mình hỏi ngành [co dien tu](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [co dien tu](major_name)
+    - ngành [cơ điện tử](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cơ điện tử](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cơ điện tử](major_name) với ạ
+    - Ad cho mình hỏi ngành [cơ điện tử](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cơ điện tử](major_name)
+    - ngành [cđt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cđt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cđt](major_name) với ạ
+    - Ad cho mình hỏi ngành [cđt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cđt](major_name)
+    - ngành [cdt](major_name) đào tạo những hệ gì
+    - cho mình hỏi [cdt](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [cdt](major_name) với ạ
+    - Ad cho mình hỏi ngành [cdt](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [cdt](major_name)
+    - ngành [CĐT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [CĐT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [CĐT](major_name) với ạ
+    - Ad cho mình hỏi ngành [CĐT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [CĐT](major_name)
+    - ngành [CDT](major_name) đào tạo những hệ gì
+    - cho mình hỏi [CDT](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [CDT](major_name) với ạ
+    - Ad cho mình hỏi ngành [CDT](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [CDT](major_name)
+    - ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ gì
+    - cho mình hỏi [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - tư vấn cho mình hệ đào tạo của ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - thông tin hệ đào tạo của ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - ngành [điều khiển tự động hóa](major_name) đào tạo những hệ gì
+    - cho mình hỏi [điều khiển tự động hóa](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [điều khiển tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [điều khiển tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [điều khiển tự động hóa](major_name)
+    - ngành [đktđh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [đktđh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [đktđh](major_name) với ạ
+    - Ad cho mình hỏi ngành [đktđh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [đktđh](major_name)
+    - ngành [ĐKTĐH](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ĐKTĐH](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [ĐKTĐH](major_name) với ạ
+    - Ad cho mình hỏi ngành [ĐKTĐH](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [ĐKTĐH](major_name)
+    - ngành [dktdh](major_name) đào tạo những hệ gì
+    - cho mình hỏi [dktdh](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [dktdh](major_name) với ạ
+    - Ad cho mình hỏi ngành [dktdh](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [dktdh](major_name)
+    - ngành [DKTDH](major_name) đào tạo những hệ gì
+    - cho mình hỏi [DKTDH](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [DKTDH](major_name) với ạ
+    - Ad cho mình hỏi ngành [DKTDH](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [DKTDH](major_name)
+    - ngành [tự động hóa](major_name) đào tạo những hệ gì
+    - cho mình hỏi [tự động hóa](major_name) đào tạo những hệ nào
+    - tư vấn cho mình hệ đào tạo của ngành [tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [tự động hóa](major_name)
+    - tư vấn cho mình hệ đào tạo của ngành [tu dong hoa](major_name) với ạ
+    - Ad cho mình hỏi ngành [tu dong hoa](major_name) đào tạo những hệ nào
+    - thông tin hệ đào tạo của ngành [tu dong hoa](major_name)
 - intent: ask_major_point
   examples: |
-    - Cho em hỏi ngành [kỹ thuật điện](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Cho em hỏi ngành [công nghệ may](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Cho em hỏi ngành [công nghệ sinh học](major_name) - Năm nay lấy bao nhiêu điểm ạ
-    - Điểm sàn ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - Điểm sàn ngành [khoa học máy tính](major_name)
-    - Điểm sàn ngành [kỹ thuật máy tính](major_name)
-    - Điểm sàn ngành [công nghệ kỹ thuật ô tô](major_name)
-    - Năm nay ngành [kỹ thuật điện tử viễn thông](major_name) lấy bao nhiêu điểm ạ
-    - Năm nay ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - ngành [khoa học máy tính](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [khoa học máy tính](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [khoa học máy tính](major_name) với ạ
+    - Ad cho em xin điểm của ngành [khoa học máy tính](major_name) ạ
     - điểm sàn của ngành [khoa học máy tính](major_name)
+    - ngành [khmt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [khmt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [khmt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [khmt](major_name) ạ
+    - điểm sàn của ngành [khmt](major_name)
+    - ngành [KHMT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KHMT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KHMT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KHMT](major_name) ạ
+    - điểm sàn của ngành [KHMT](major_name)
+    - ngành [khoa hoc may tinh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [khoa hoc may tinh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [khoa hoc may tinh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [khoa hoc may tinh](major_name) ạ
+    - điểm sàn của ngành [khoa hoc may tinh](major_name)
+    - ngành [Khoa hoc may tinh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Khoa hoc may tinh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Khoa hoc may tinh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Khoa hoc may tinh](major_name) ạ
+    - điểm sàn của ngành [Khoa hoc may tinh](major_name)
+    - ngành [kỹ thuật điện](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật điện](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật điện](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật điện](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật điện](major_name)
+    - ngành [ktđ](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ktđ](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ktđ](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ktđ](major_name) ạ
+    - điểm sàn của ngành [ktđ](major_name)
+    - ngành [ktd](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ktd](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ktd](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ktd](major_name) ạ
+    - điểm sàn của ngành [ktd](major_name)
+    - ngành [ky thuat dien](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat dien](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat dien](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat dien](major_name) ạ
+    - điểm sàn của ngành [ky thuat dien](major_name)
+    - ngành [KTĐ](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KTĐ](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KTĐ](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KTĐ](major_name) ạ
+    - điểm sàn của ngành [KTĐ](major_name)
+    - ngành [KTD](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KTD](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KTD](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KTD](major_name) ạ
+    - điểm sàn của ngành [KTD](major_name)
+    - ngành [kỹ thuật hóa học](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật hóa học](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật hóa học](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật hóa học](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật hóa học](major_name)
+    - ngành [kthh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kthh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kthh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kthh](major_name) ạ
+    - điểm sàn của ngành [kthh](major_name)
+    - ngành [KTHH](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KTHH](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KTHH](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KTHH](major_name) ạ
+    - điểm sàn của ngành [KTHH](major_name)
+    - ngành [ky thuat hoa hoc](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat hoa hoc](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat hoa hoc](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat hoa hoc](major_name) ạ
+    - điểm sàn của ngành [ky thuat hoa hoc](major_name)
+    - ngành [Ky thuat hoa hoc](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Ky thuat hoa hoc](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Ky thuat hoa hoc](major_name) ạ
+    - điểm sàn của ngành [Ky thuat hoa hoc](major_name)
+    - ngành [kỹ thuật hàng không](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật hàng không](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật hàng không](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật hàng không](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật hàng không](major_name)
+    - ngành [kthk](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kthk](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kthk](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kthk](major_name) ạ
+    - điểm sàn của ngành [kthk](major_name)
+    - ngành [KTHK](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KTHK](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KTHK](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KTHK](major_name) ạ
+    - điểm sàn của ngành [KTHK](major_name)
+    - ngành [ky thuat hang khong](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat hang khong](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat hang khong](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat hang khong](major_name) ạ
+    - điểm sàn của ngành [ky thuat hang khong](major_name)
+    - ngành [Ky thuat hang khong](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Ky thuat hang khong](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Ky thuat hang khong](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Ky thuat hang khong](major_name) ạ
+    - điểm sàn của ngành [Ky thuat hang khong](major_name)
+    - ngành [công nghệ may](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [công nghệ may](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [công nghệ may](major_name) với ạ
+    - Ad cho em xin điểm của ngành [công nghệ may](major_name) ạ
+    - điểm sàn của ngành [công nghệ may](major_name)
+    - ngành [cnm](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cnm](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cnm](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cnm](major_name) ạ
+    - điểm sàn của ngành [cnm](major_name)
+    - ngành [CNM](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [CNM](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [CNM](major_name) với ạ
+    - Ad cho em xin điểm của ngành [CNM](major_name) ạ
+    - điểm sàn của ngành [CNM](major_name)
+    - ngành [Cong nghe may](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Cong nghe may](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Cong nghe may](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Cong nghe may](major_name) ạ
+    - điểm sàn của ngành [Cong nghe may](major_name)
+    - ngành [cong nghe may](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cong nghe may](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cong nghe may](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cong nghe may](major_name) ạ
+    - điểm sàn của ngành [cong nghe may](major_name)
+    - ngành [công nghệ sinh học](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [công nghệ sinh học](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [công nghệ sinh học](major_name) với ạ
+    - Ad cho em xin điểm của ngành [công nghệ sinh học](major_name) ạ
+    - điểm sàn của ngành [công nghệ sinh học](major_name)
+    - ngành [cnsh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cnsh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cnsh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cnsh](major_name) ạ
+    - điểm sàn của ngành [cnsh](major_name)
+    - ngành [CNSH](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [CNSH](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [CNSH](major_name) với ạ
+    - Ad cho em xin điểm của ngành [CNSH](major_name) ạ
+    - điểm sàn của ngành [CNSH](major_name)
+    - ngành [Cong nghe sinh hoc](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Cong nghe sinh hoc](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Cong nghe sinh hoc](major_name) ạ
+    - điểm sàn của ngành [Cong nghe sinh hoc](major_name)
+    - ngành [cong nghe sinh hoc](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cong nghe sinh hoc](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cong nghe sinh hoc](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cong nghe sinh hoc](major_name) ạ
+    - điểm sàn của ngành [cong nghe sinh hoc](major_name)
+    - ngành [logistics và quản lý chuỗi cung ứng](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - Ad cho em xin điểm của ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
+    - điểm sàn của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - ngành [logistics](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [logistics](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [logistics](major_name) với ạ
+    - Ad cho em xin điểm của ngành [logistics](major_name) ạ
+    - điểm sàn của ngành [logistics](major_name)
+    - ngành [logistic](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [logistic](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [logistic](major_name) với ạ
+    - Ad cho em xin điểm của ngành [logistic](major_name) ạ
+    - điểm sàn của ngành [logistic](major_name)
+    - ngành [Logistics](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Logistics](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Logistics](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Logistics](major_name) ạ
+    - điểm sàn của ngành [Logistics](major_name)
+    - ngành [Logistic](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Logistic](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Logistic](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Logistic](major_name) ạ
+    - điểm sàn của ngành [Logistic](major_name)
+    - ngành [kỹ thuật máy tính](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật máy tính](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật máy tính](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật máy tính](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật máy tính](major_name)
+    - ngành [ktmt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ktmt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ktmt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ktmt](major_name) ạ
+    - điểm sàn của ngành [ktmt](major_name)
+    - ngành [KTMT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [KTMT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [KTMT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [KTMT](major_name) ạ
+    - điểm sàn của ngành [KTMT](major_name)
+    - ngành [ky thuat may tinh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat may tinh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat may tinh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat may tinh](major_name) ạ
+    - điểm sàn của ngành [ky thuat may tinh](major_name)
+    - ngành [Ky thuat may tinh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Ky thuat may tinh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Ky thuat may tinh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Ky thuat may tinh](major_name) ạ
+    - điểm sàn của ngành [Ky thuat may tinh](major_name)
+    - ngành [công nghệ kỹ thuật ô tô](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - Ad cho em xin điểm của ngành [công nghệ kỹ thuật ô tô](major_name) ạ
+    - điểm sàn của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - ngành [ô tô](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ô tô](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ô tô](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ô tô](major_name) ạ
+    - điểm sàn của ngành [ô tô](major_name)
+    - ngành [kỹ thuật ô tô](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật ô tô](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật ô tô](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật ô tô](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật ô tô](major_name)
+    - ngành [o to](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [o to](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [o to](major_name) với ạ
+    - Ad cho em xin điểm của ngành [o to](major_name) ạ
+    - điểm sàn của ngành [o to](major_name)
+    - ngành [ky thuat o to](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat o to](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat o to](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat o to](major_name) ạ
+    - điểm sàn của ngành [ky thuat o to](major_name)
+    - ngành [Ô TÔ](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Ô TÔ](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Ô TÔ](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Ô TÔ](major_name) ạ
+    - điểm sàn của ngành [Ô TÔ](major_name)
+    - ngành [Kỹ thuật ô tô](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [Kỹ thuật ô tô](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - Ad cho em xin điểm của ngành [Kỹ thuật ô tô](major_name) ạ
+    - điểm sàn của ngành [Kỹ thuật ô tô](major_name)
+    - ngành [kỹ thuật điện tử viễn thông](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật điện tử viễn thông](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - ngành [điện tử viễn thông](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [điện tử viễn thông](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [điện tử viễn thông](major_name) với ạ
+    - Ad cho em xin điểm của ngành [điện tử viễn thông](major_name) ạ
+    - điểm sàn của ngành [điện tử viễn thông](major_name)
+    - ngành [ĐTVT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ĐTVT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ĐTVT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ĐTVT](major_name) ạ
+    - điểm sàn của ngành [ĐTVT](major_name)
+    - ngành [đtvt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [đtvt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [đtvt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [đtvt](major_name) ạ
+    - điểm sàn của ngành [đtvt](major_name)
+    - ngành [ky thuat dien tu vien thong](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat dien tu vien thong](major_name) ạ
+    - điểm sàn của ngành [ky thuat dien tu vien thong](major_name)
+    - ngành [DTVT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [DTVT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [DTVT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [DTVT](major_name) ạ
+    - điểm sàn của ngành [DTVT](major_name)
+    - ngành [dtvt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [dtvt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [dtvt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [dtvt](major_name) ạ
+    - điểm sàn của ngành [dtvt](major_name)
+    - ngành [kỹ thuật cơ điện tử](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật cơ điện tử](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật cơ điện tử](major_name)
+    - ngành [ky thuat co dien tu](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat co dien tu](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat co dien tu](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat co dien tu](major_name) ạ
+    - điểm sàn của ngành [ky thuat co dien tu](major_name)
+    - ngành [co dien tu](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [co dien tu](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [co dien tu](major_name) với ạ
+    - Ad cho em xin điểm của ngành [co dien tu](major_name) ạ
+    - điểm sàn của ngành [co dien tu](major_name)
+    - ngành [cơ điện tử](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cơ điện tử](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cơ điện tử](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cơ điện tử](major_name) ạ
+    - điểm sàn của ngành [cơ điện tử](major_name)
+    - ngành [cđt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cđt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cđt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cđt](major_name) ạ
+    - điểm sàn của ngành [cđt](major_name)
+    - ngành [cdt](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [cdt](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [cdt](major_name) với ạ
+    - Ad cho em xin điểm của ngành [cdt](major_name) ạ
+    - điểm sàn của ngành [cdt](major_name)
+    - ngành [CĐT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [CĐT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [CĐT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [CĐT](major_name) ạ
+    - điểm sàn của ngành [CĐT](major_name)
+    - ngành [CDT](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [CDT](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [CDT](major_name) với ạ
+    - Ad cho em xin điểm của ngành [CDT](major_name) ạ
+    - điểm sàn của ngành [CDT](major_name)
+    - ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - Ad cho em xin điểm của ngành [kỹ thuật điều khiển và tự động hóa](major_name) ạ
+    - điểm sàn của ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - ngành [ky thuat dieu khien va tu dong hoa](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ky thuat dieu khien va tu dong hoa](major_name) ạ
+    - điểm sàn của ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - ngành [điều khiển tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [điều khiển tự động hóa](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [điều khiển tự động hóa](major_name) với ạ
+    - Ad cho em xin điểm của ngành [điều khiển tự động hóa](major_name) ạ
+    - điểm sàn của ngành [điều khiển tự động hóa](major_name)
+    - ngành [đktđh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [đktđh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [đktđh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [đktđh](major_name) ạ
+    - điểm sàn của ngành [đktđh](major_name)
+    - ngành [ĐKTĐH](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [ĐKTĐH](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [ĐKTĐH](major_name) với ạ
+    - Ad cho em xin điểm của ngành [ĐKTĐH](major_name) ạ
+    - điểm sàn của ngành [ĐKTĐH](major_name)
+    - ngành [dktdh](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [dktdh](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [dktdh](major_name) với ạ
+    - Ad cho em xin điểm của ngành [dktdh](major_name) ạ
+    - điểm sàn của ngành [dktdh](major_name)
+    - ngành [DKTDH](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [DKTDH](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [DKTDH](major_name) với ạ
+    - Ad cho em xin điểm của ngành [DKTDH](major_name) ạ
+    - điểm sàn của ngành [DKTDH](major_name)
+    - ngành [tự động hóa](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [tự động hóa](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [tự động hóa](major_name) với ạ
+    - Ad cho em xin điểm của ngành [tự động hóa](major_name) ạ
+    - điểm sàn của ngành [tự động hóa](major_name)
+    - ngành [tu dong hoa](major_name) lấy bao nhiêu điểm ạ
+    - cho mình xin điểm ngành [tu dong hoa](major_name) với ạ
+    - tư vấn cho mình điểm của ngành [tu dong hoa](major_name) với ạ
+    - Ad cho em xin điểm của ngành [tu dong hoa](major_name) ạ
+    - điểm sàn của ngành [tu dong hoa](major_name)
 - intent: ask_major_career
   examples: |
-    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật điện](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hóa học](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật môi trường](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [kỹ thuật hàng không](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [công nghệ may](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [công nghệ sinh học](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - Cho em hỏi cơ hội làm việc của ngành [khoa học máy tính](major_name)
-    - Học xong ngành [kỹ thuật máy tính](major_name) thì làm gì
-    - Học xong ngành [công nghệ kỹ thuật ô tô](major_name) thì làm gì
-    - Học xong ngành [kỹ thuật điện tử viễn thông](major_name) thì làm gì
-    - Học xong ngành [kỹ thuật điều khiển và tự động hóa](major_name) thì làm gì
+    - học xong ngành [khoa học máy tính](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [khoa học máy tính](major_name)
+    - tư vấn cho mình việc làm của ngành [khoa học máy tính](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [khoa học máy tính](major_name) có thể làm gì ạ
     - cơ hội việc làm của ngành [khoa học máy tính](major_name)
-    - cơ hội làm việc của ngành [khoa học máy tính](major_name)
+    - học xong ngành [khmt](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [khmt](major_name)
+    - tư vấn cho mình việc làm của ngành [khmt](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [khmt](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [khmt](major_name)
+    - học xong ngành [KHMT](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KHMT](major_name)
+    - tư vấn cho mình việc làm của ngành [KHMT](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KHMT](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KHMT](major_name)
+    - học xong ngành [khoa hoc may tinh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [khoa hoc may tinh](major_name)
+    - tư vấn cho mình việc làm của ngành [khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [khoa hoc may tinh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [khoa hoc may tinh](major_name)
+    - học xong ngành [Khoa hoc may tinh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Khoa hoc may tinh](major_name)
+    - tư vấn cho mình việc làm của ngành [Khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Khoa hoc may tinh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Khoa hoc may tinh](major_name)
+    - học xong ngành [kỹ thuật điện](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật điện](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật điện](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật điện](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật điện](major_name)
+    - học xong ngành [ktđ](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ktđ](major_name)
+    - tư vấn cho mình việc làm của ngành [ktđ](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ktđ](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ktđ](major_name)
+    - học xong ngành [ktd](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ktd](major_name)
+    - tư vấn cho mình việc làm của ngành [ktd](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ktd](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ktd](major_name)
+    - học xong ngành [ky thuat dien](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat dien](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat dien](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat dien](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat dien](major_name)
+    - học xong ngành [KTĐ](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KTĐ](major_name)
+    - tư vấn cho mình việc làm của ngành [KTĐ](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KTĐ](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KTĐ](major_name)
+    - học xong ngành [KTD](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KTD](major_name)
+    - tư vấn cho mình việc làm của ngành [KTD](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KTD](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KTD](major_name)
+    - học xong ngành [kỹ thuật hóa học](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật hóa học](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật hóa học](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật hóa học](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật hóa học](major_name)
+    - học xong ngành [kthh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kthh](major_name)
+    - tư vấn cho mình việc làm của ngành [kthh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kthh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kthh](major_name)
+    - học xong ngành [KTHH](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KTHH](major_name)
+    - tư vấn cho mình việc làm của ngành [KTHH](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KTHH](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KTHH](major_name)
+    - học xong ngành [ky thuat hoa hoc](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat hoa hoc](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat hoa hoc](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat hoa hoc](major_name)
+    - học xong ngành [Ky thuat hoa hoc](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Ky thuat hoa hoc](major_name)
+    - tư vấn cho mình việc làm của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Ky thuat hoa hoc](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Ky thuat hoa hoc](major_name)
+    - học xong ngành [kỹ thuật hàng không](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật hàng không](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật hàng không](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật hàng không](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật hàng không](major_name)
+    - học xong ngành [kthk](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kthk](major_name)
+    - tư vấn cho mình việc làm của ngành [kthk](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kthk](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kthk](major_name)
+    - học xong ngành [KTHK](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KTHK](major_name)
+    - tư vấn cho mình việc làm của ngành [KTHK](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KTHK](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KTHK](major_name)
+    - học xong ngành [ky thuat hang khong](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat hang khong](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat hang khong](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat hang khong](major_name)
+    - học xong ngành [Ky thuat hang khong](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Ky thuat hang khong](major_name)
+    - tư vấn cho mình việc làm của ngành [Ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Ky thuat hang khong](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Ky thuat hang khong](major_name)
+    - học xong ngành [công nghệ may](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [công nghệ may](major_name)
+    - tư vấn cho mình việc làm của ngành [công nghệ may](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [công nghệ may](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [công nghệ may](major_name)
+    - học xong ngành [cnm](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [cnm](major_name)
+    - tư vấn cho mình việc làm của ngành [cnm](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [cnm](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [cnm](major_name)
+    - học xong ngành [CNM](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [CNM](major_name)
+    - tư vấn cho mình việc làm của ngành [CNM](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [CNM](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [CNM](major_name)
+    - học xong ngành [Cong nghe may](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Cong nghe may](major_name)
+    - tư vấn cho mình việc làm của ngành [Cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Cong nghe may](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Cong nghe may](major_name)
+    - học xong ngành [cong nghe may](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [cong nghe may](major_name)
+    - tư vấn cho mình việc làm của ngành [cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [cong nghe may](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [cong nghe may](major_name)
+    - học xong ngành [công nghệ sinh học](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [công nghệ sinh học](major_name)
+    - tư vấn cho mình việc làm của ngành [công nghệ sinh học](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [công nghệ sinh học](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [công nghệ sinh học](major_name)
+    - học xong ngành [cnsh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [cnsh](major_name)
+    - tư vấn cho mình việc làm của ngành [cnsh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [cnsh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [cnsh](major_name)
+    - học xong ngành [CNSH](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [CNSH](major_name)
+    - tư vấn cho mình việc làm của ngành [CNSH](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [CNSH](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [CNSH](major_name)
+    - học xong ngành [Cong nghe sinh hoc](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Cong nghe sinh hoc](major_name)
+    - tư vấn cho mình việc làm của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Cong nghe sinh hoc](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Cong nghe sinh hoc](major_name)
+    - học xong ngành [cong nghe sinh hoc](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [cong nghe sinh hoc](major_name)
+    - tư vấn cho mình việc làm của ngành [cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [cong nghe sinh hoc](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [cong nghe sinh hoc](major_name)
+    - học xong ngành [logistics và quản lý chuỗi cung ứng](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - tư vấn cho mình việc làm của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [logistics và quản lý chuỗi cung ứng](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - học xong ngành [logistics](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [logistics](major_name)
+    - tư vấn cho mình việc làm của ngành [logistics](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [logistics](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [logistics](major_name)
+    - học xong ngành [logistic](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [logistic](major_name)
+    - tư vấn cho mình việc làm của ngành [logistic](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [logistic](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [logistic](major_name)
+    - học xong ngành [Logistics](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Logistics](major_name)
+    - tư vấn cho mình việc làm của ngành [Logistics](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Logistics](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Logistics](major_name)
+    - học xong ngành [Logistic](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Logistic](major_name)
+    - tư vấn cho mình việc làm của ngành [Logistic](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Logistic](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Logistic](major_name)
+    - học xong ngành [kỹ thuật máy tính](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật máy tính](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật máy tính](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật máy tính](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật máy tính](major_name)
+    - học xong ngành [ktmt](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ktmt](major_name)
+    - tư vấn cho mình việc làm của ngành [ktmt](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ktmt](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ktmt](major_name)
+    - học xong ngành [KTMT](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [KTMT](major_name)
+    - tư vấn cho mình việc làm của ngành [KTMT](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [KTMT](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [KTMT](major_name)
+    - học xong ngành [ky thuat may tinh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat may tinh](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat may tinh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat may tinh](major_name)
+    - học xong ngành [Ky thuat may tinh](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Ky thuat may tinh](major_name)
+    - tư vấn cho mình việc làm của ngành [Ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Ky thuat may tinh](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Ky thuat may tinh](major_name)
+    - học xong ngành [công nghệ kỹ thuật ô tô](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - tư vấn cho mình việc làm của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [công nghệ kỹ thuật ô tô](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - học xong ngành [ô tô](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ô tô](major_name)
+    - tư vấn cho mình việc làm của ngành [ô tô](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ô tô](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ô tô](major_name)
+    - học xong ngành [kỹ thuật ô tô](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật ô tô](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật ô tô](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật ô tô](major_name)
+    - học xong ngành [o to](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [o to](major_name)
+    - tư vấn cho mình việc làm của ngành [o to](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [o to](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [o to](major_name)
+    - học xong ngành [ky thuat o to](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat o to](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat o to](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat o to](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat o to](major_name)
+    - học xong ngành [Ô TÔ](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Ô TÔ](major_name)
+    - tư vấn cho mình việc làm của ngành [Ô TÔ](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Ô TÔ](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Ô TÔ](major_name)
+    - học xong ngành [Kỹ thuật ô tô](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [Kỹ thuật ô tô](major_name)
+    - tư vấn cho mình việc làm của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [Kỹ thuật ô tô](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [Kỹ thuật ô tô](major_name)
+    - học xong ngành [kỹ thuật điện tử viễn thông](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật điện tử viễn thông](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - học xong ngành [điện tử viễn thông](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [điện tử viễn thông](major_name)
+    - tư vấn cho mình việc làm của ngành [điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [điện tử viễn thông](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [điện tử viễn thông](major_name)
+    - học xong ngành [ĐTVT](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ĐTVT](major_name)
+    - tư vấn cho mình việc làm của ngành [ĐTVT](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ĐTVT](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ĐTVT](major_name)
+    - học xong ngành [đtvt](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [đtvt](major_name)
+    - tư vấn cho mình việc làm của ngành [đtvt](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [đtvt](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [đtvt](major_name)
+    - học xong ngành [ky thuat dien tu vien thong](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat dien tu vien thong](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat dien tu vien thong](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat dien tu vien thong](major_name)
+    - học xong ngành [DTVT](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [DTVT](major_name)
+    - tư vấn cho mình việc làm của ngành [DTVT](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [DTVT](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [DTVT](major_name)
+    - học xong ngành [dtvt](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [dtvt](major_name)
+    - tư vấn cho mình việc làm của ngành [dtvt](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [dtvt](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [dtvt](major_name)
+    - học xong ngành [kỹ thuật cơ điện tử](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [kỹ thuật cơ điện tử](major_name)
+    - tư vấn cho mình việc làm của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [kỹ thuật cơ điện tử](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [kỹ thuật cơ điện tử](major_name)
+    - học xong ngành [ky thuat co dien tu](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [ky thuat co dien tu](major_name)
+    - tư vấn cho mình việc làm của ngành [ky thuat co dien tu](major_name) với ạ
+    - Ad cho mình hỏi học xong ngành [ky thuat co dien tu](major_name) có thể làm gì ạ
+    - cơ hội việc làm của ngành [ky thuat co dien tu](major_name)
+    - học xong ngành [co dien tu](major_name) có thể làm những việc gì
+    - cho mình hỏi cơ hội làm việc của ngành [co dien tu](major_name)
 - intent: ask_major_tuition
   examples: |
-    - Học phí của ngành [kỹ thuật điện](major_name)
-    - Học phí của ngành [kỹ thuật hóa học](major_name)
-    - Học phí của ngành [kỹ thuật môi trường](major_name)
-    - Học phí của ngành [kỹ thuật hàng không](major_name)
-    - Học phí của ngành [công nghệ may](major_name)
-    - Học phí của ngành [công nghệ sinh học](major_name)
-    - Học phí của ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - Học phí của ngành [khoa học máy tính](major_name)
-    - Học phí của ngành [kỹ thuật máy tính](major_name)
-    - Học phí của ngành [công nghệ kỹ thuật ô tô](major_name)
-    - Học phí của ngành [kỹ thuật điện tử viễn thông](major_name)
-    - Học phí của ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào ạ
-    - học phí của ngành [khoa học máy tính](major_name)
+    - học phí ngành [khoa học máy tính](major_name) có cao không ạ
     - học phí ngành [khoa học máy tính](major_name)
+    - tư vấn cho mình học phí của ngành [khoa học máy tính](major_name) với ạ
+    - Ad cho mình xin học phí ngành [khoa học máy tính](major_name) với ạ
+    - học phí ngành [khmt](major_name) có cao không ạ
+    - học phí ngành [khmt](major_name)
+    - tư vấn cho mình học phí của ngành [khmt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [khmt](major_name) với ạ
+    - học phí ngành [KHMT](major_name) có cao không ạ
+    - học phí ngành [KHMT](major_name)
+    - tư vấn cho mình học phí của ngành [KHMT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KHMT](major_name) với ạ
+    - học phí ngành [khoa hoc may tinh](major_name) có cao không ạ
+    - học phí ngành [khoa hoc may tinh](major_name)
+    - tư vấn cho mình học phí của ngành [khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [khoa hoc may tinh](major_name) với ạ
+    - học phí ngành [Khoa hoc may tinh](major_name) có cao không ạ
+    - học phí ngành [Khoa hoc may tinh](major_name)
+    - tư vấn cho mình học phí của ngành [Khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Khoa hoc may tinh](major_name) với ạ
+    - học phí ngành [kỹ thuật điện](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật điện](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật điện](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật điện](major_name) với ạ
+    - học phí ngành [ktđ](major_name) có cao không ạ
+    - học phí ngành [ktđ](major_name)
+    - tư vấn cho mình học phí của ngành [ktđ](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ktđ](major_name) với ạ
+    - học phí ngành [ktd](major_name) có cao không ạ
+    - học phí ngành [ktd](major_name)
+    - tư vấn cho mình học phí của ngành [ktd](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ktd](major_name) với ạ
+    - học phí ngành [ky thuat dien](major_name) có cao không ạ
+    - học phí ngành [ky thuat dien](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat dien](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat dien](major_name) với ạ
+    - học phí ngành [KTĐ](major_name) có cao không ạ
+    - học phí ngành [KTĐ](major_name)
+    - tư vấn cho mình học phí của ngành [KTĐ](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KTĐ](major_name) với ạ
+    - học phí ngành [KTD](major_name) có cao không ạ
+    - học phí ngành [KTD](major_name)
+    - tư vấn cho mình học phí của ngành [KTD](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KTD](major_name) với ạ
+    - học phí ngành [kỹ thuật hóa học](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật hóa học](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật hóa học](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật hóa học](major_name) với ạ
+    - học phí ngành [kthh](major_name) có cao không ạ
+    - học phí ngành [kthh](major_name)
+    - tư vấn cho mình học phí của ngành [kthh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kthh](major_name) với ạ
+    - học phí ngành [KTHH](major_name) có cao không ạ
+    - học phí ngành [KTHH](major_name)
+    - tư vấn cho mình học phí của ngành [KTHH](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KTHH](major_name) với ạ
+    - học phí ngành [ky thuat hoa hoc](major_name) có cao không ạ
+    - học phí ngành [ky thuat hoa hoc](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat hoa hoc](major_name) với ạ
+    - học phí ngành [Ky thuat hoa hoc](major_name) có cao không ạ
+    - học phí ngành [Ky thuat hoa hoc](major_name)
+    - tư vấn cho mình học phí của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Ky thuat hoa hoc](major_name) với ạ
+    - học phí ngành [kỹ thuật hàng không](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật hàng không](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật hàng không](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật hàng không](major_name) với ạ
+    - học phí ngành [kthk](major_name) có cao không ạ
+    - học phí ngành [kthk](major_name)
+    - tư vấn cho mình học phí của ngành [kthk](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kthk](major_name) với ạ
+    - học phí ngành [KTHK](major_name) có cao không ạ
+    - học phí ngành [KTHK](major_name)
+    - tư vấn cho mình học phí của ngành [KTHK](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KTHK](major_name) với ạ
+    - học phí ngành [ky thuat hang khong](major_name) có cao không ạ
+    - học phí ngành [ky thuat hang khong](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat hang khong](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat hang khong](major_name) với ạ
+    - học phí ngành [Ky thuat hang khong](major_name) có cao không ạ
+    - học phí ngành [Ky thuat hang khong](major_name)
+    - tư vấn cho mình học phí của ngành [Ky thuat hang khong](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Ky thuat hang khong](major_name) với ạ
+    - học phí ngành [công nghệ may](major_name) có cao không ạ
+    - học phí ngành [công nghệ may](major_name)
+    - tư vấn cho mình học phí của ngành [công nghệ may](major_name) với ạ
+    - Ad cho mình xin học phí ngành [công nghệ may](major_name) với ạ
+    - học phí ngành [cnm](major_name) có cao không ạ
+    - học phí ngành [cnm](major_name)
+    - tư vấn cho mình học phí của ngành [cnm](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cnm](major_name) với ạ
+    - học phí ngành [CNM](major_name) có cao không ạ
+    - học phí ngành [CNM](major_name)
+    - tư vấn cho mình học phí của ngành [CNM](major_name) với ạ
+    - Ad cho mình xin học phí ngành [CNM](major_name) với ạ
+    - học phí ngành [Cong nghe may](major_name) có cao không ạ
+    - học phí ngành [Cong nghe may](major_name)
+    - tư vấn cho mình học phí của ngành [Cong nghe may](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Cong nghe may](major_name) với ạ
+    - học phí ngành [cong nghe may](major_name) có cao không ạ
+    - học phí ngành [cong nghe may](major_name)
+    - tư vấn cho mình học phí của ngành [cong nghe may](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cong nghe may](major_name) với ạ
+    - học phí ngành [công nghệ sinh học](major_name) có cao không ạ
+    - học phí ngành [công nghệ sinh học](major_name)
+    - tư vấn cho mình học phí của ngành [công nghệ sinh học](major_name) với ạ
+    - Ad cho mình xin học phí ngành [công nghệ sinh học](major_name) với ạ
+    - học phí ngành [cnsh](major_name) có cao không ạ
+    - học phí ngành [cnsh](major_name)
+    - tư vấn cho mình học phí của ngành [cnsh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cnsh](major_name) với ạ
+    - học phí ngành [CNSH](major_name) có cao không ạ
+    - học phí ngành [CNSH](major_name)
+    - tư vấn cho mình học phí của ngành [CNSH](major_name) với ạ
+    - Ad cho mình xin học phí ngành [CNSH](major_name) với ạ
+    - học phí ngành [Cong nghe sinh hoc](major_name) có cao không ạ
+    - học phí ngành [Cong nghe sinh hoc](major_name)
+    - tư vấn cho mình học phí của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Cong nghe sinh hoc](major_name) với ạ
+    - học phí ngành [cong nghe sinh hoc](major_name) có cao không ạ
+    - học phí ngành [cong nghe sinh hoc](major_name)
+    - tư vấn cho mình học phí của ngành [cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cong nghe sinh hoc](major_name) với ạ
+    - học phí ngành [logistics và quản lý chuỗi cung ứng](major_name) có cao không ạ
+    - học phí ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - tư vấn cho mình học phí của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - Ad cho mình xin học phí ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - học phí ngành [logistics](major_name) có cao không ạ
+    - học phí ngành [logistics](major_name)
+    - tư vấn cho mình học phí của ngành [logistics](major_name) với ạ
+    - Ad cho mình xin học phí ngành [logistics](major_name) với ạ
+    - học phí ngành [logistic](major_name) có cao không ạ
+    - học phí ngành [logistic](major_name)
+    - tư vấn cho mình học phí của ngành [logistic](major_name) với ạ
+    - Ad cho mình xin học phí ngành [logistic](major_name) với ạ
+    - học phí ngành [Logistics](major_name) có cao không ạ
+    - học phí ngành [Logistics](major_name)
+    - tư vấn cho mình học phí của ngành [Logistics](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Logistics](major_name) với ạ
+    - học phí ngành [Logistic](major_name) có cao không ạ
+    - học phí ngành [Logistic](major_name)
+    - tư vấn cho mình học phí của ngành [Logistic](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Logistic](major_name) với ạ
+    - học phí ngành [kỹ thuật máy tính](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật máy tính](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật máy tính](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật máy tính](major_name) với ạ
+    - học phí ngành [ktmt](major_name) có cao không ạ
+    - học phí ngành [ktmt](major_name)
+    - tư vấn cho mình học phí của ngành [ktmt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ktmt](major_name) với ạ
+    - học phí ngành [KTMT](major_name) có cao không ạ
+    - học phí ngành [KTMT](major_name)
+    - tư vấn cho mình học phí của ngành [KTMT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [KTMT](major_name) với ạ
+    - học phí ngành [ky thuat may tinh](major_name) có cao không ạ
+    - học phí ngành [ky thuat may tinh](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat may tinh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat may tinh](major_name) với ạ
+    - học phí ngành [Ky thuat may tinh](major_name) có cao không ạ
+    - học phí ngành [Ky thuat may tinh](major_name)
+    - tư vấn cho mình học phí của ngành [Ky thuat may tinh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Ky thuat may tinh](major_name) với ạ
+    - học phí ngành [công nghệ kỹ thuật ô tô](major_name) có cao không ạ
+    - học phí ngành [công nghệ kỹ thuật ô tô](major_name)
+    - tư vấn cho mình học phí của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình xin học phí ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - học phí ngành [ô tô](major_name) có cao không ạ
+    - học phí ngành [ô tô](major_name)
+    - tư vấn cho mình học phí của ngành [ô tô](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ô tô](major_name) với ạ
+    - học phí ngành [kỹ thuật ô tô](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật ô tô](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật ô tô](major_name) với ạ
+    - học phí ngành [o to](major_name) có cao không ạ
+    - học phí ngành [o to](major_name)
+    - tư vấn cho mình học phí của ngành [o to](major_name) với ạ
+    - Ad cho mình xin học phí ngành [o to](major_name) với ạ
+    - học phí ngành [ky thuat o to](major_name) có cao không ạ
+    - học phí ngành [ky thuat o to](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat o to](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat o to](major_name) với ạ
+    - học phí ngành [Ô TÔ](major_name) có cao không ạ
+    - học phí ngành [Ô TÔ](major_name)
+    - tư vấn cho mình học phí của ngành [Ô TÔ](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Ô TÔ](major_name) với ạ
+    - học phí ngành [Kỹ thuật ô tô](major_name) có cao không ạ
+    - học phí ngành [Kỹ thuật ô tô](major_name)
+    - tư vấn cho mình học phí của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình xin học phí ngành [Kỹ thuật ô tô](major_name) với ạ
+    - học phí ngành [kỹ thuật điện tử viễn thông](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật điện tử viễn thông](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - học phí ngành [điện tử viễn thông](major_name) có cao không ạ
+    - học phí ngành [điện tử viễn thông](major_name)
+    - tư vấn cho mình học phí của ngành [điện tử viễn thông](major_name) với ạ
+    - Ad cho mình xin học phí ngành [điện tử viễn thông](major_name) với ạ
+    - học phí ngành [ĐTVT](major_name) có cao không ạ
+    - học phí ngành [ĐTVT](major_name)
+    - tư vấn cho mình học phí của ngành [ĐTVT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ĐTVT](major_name) với ạ
+    - học phí ngành [đtvt](major_name) có cao không ạ
+    - học phí ngành [đtvt](major_name)
+    - tư vấn cho mình học phí của ngành [đtvt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [đtvt](major_name) với ạ
+    - học phí ngành [ky thuat dien tu vien thong](major_name) có cao không ạ
+    - học phí ngành [ky thuat dien tu vien thong](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - học phí ngành [DTVT](major_name) có cao không ạ
+    - học phí ngành [DTVT](major_name)
+    - tư vấn cho mình học phí của ngành [DTVT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [DTVT](major_name) với ạ
+    - học phí ngành [dtvt](major_name) có cao không ạ
+    - học phí ngành [dtvt](major_name)
+    - tư vấn cho mình học phí của ngành [dtvt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [dtvt](major_name) với ạ
+    - học phí ngành [kỹ thuật cơ điện tử](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật cơ điện tử](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - học phí ngành [ky thuat co dien tu](major_name) có cao không ạ
+    - học phí ngành [ky thuat co dien tu](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat co dien tu](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat co dien tu](major_name) với ạ
+    - học phí ngành [co dien tu](major_name) có cao không ạ
+    - học phí ngành [co dien tu](major_name)
+    - tư vấn cho mình học phí của ngành [co dien tu](major_name) với ạ
+    - Ad cho mình xin học phí ngành [co dien tu](major_name) với ạ
+    - học phí ngành [cơ điện tử](major_name) có cao không ạ
+    - học phí ngành [cơ điện tử](major_name)
+    - tư vấn cho mình học phí của ngành [cơ điện tử](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cơ điện tử](major_name) với ạ
+    - học phí ngành [cđt](major_name) có cao không ạ
+    - học phí ngành [cđt](major_name)
+    - tư vấn cho mình học phí của ngành [cđt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cđt](major_name) với ạ
+    - học phí ngành [cdt](major_name) có cao không ạ
+    - học phí ngành [cdt](major_name)
+    - tư vấn cho mình học phí của ngành [cdt](major_name) với ạ
+    - Ad cho mình xin học phí ngành [cdt](major_name) với ạ
+    - học phí ngành [CĐT](major_name) có cao không ạ
+    - học phí ngành [CĐT](major_name)
+    - tư vấn cho mình học phí của ngành [CĐT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [CĐT](major_name) với ạ
+    - học phí ngành [CDT](major_name) có cao không ạ
+    - học phí ngành [CDT](major_name)
+    - tư vấn cho mình học phí của ngành [CDT](major_name) với ạ
+    - Ad cho mình xin học phí ngành [CDT](major_name) với ạ
+    - học phí ngành [kỹ thuật điều khiển và tự động hóa](major_name) có cao không ạ
+    - học phí ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - tư vấn cho mình học phí của ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - Ad cho mình xin học phí ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - học phí ngành [ky thuat dieu khien va tu dong hoa](major_name) có cao không ạ
+    - học phí ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - tư vấn cho mình học phí của ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - học phí ngành [điều khiển tự động hóa](major_name) có cao không ạ
+    - học phí ngành [điều khiển tự động hóa](major_name)
+    - tư vấn cho mình học phí của ngành [điều khiển tự động hóa](major_name) với ạ
+    - Ad cho mình xin học phí ngành [điều khiển tự động hóa](major_name) với ạ
+    - học phí ngành [đktđh](major_name) có cao không ạ
+    - học phí ngành [đktđh](major_name)
+    - tư vấn cho mình học phí của ngành [đktđh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [đktđh](major_name) với ạ
+    - học phí ngành [ĐKTĐH](major_name) có cao không ạ
+    - học phí ngành [ĐKTĐH](major_name)
+    - tư vấn cho mình học phí của ngành [ĐKTĐH](major_name) với ạ
+    - Ad cho mình xin học phí ngành [ĐKTĐH](major_name) với ạ
+    - học phí ngành [dktdh](major_name) có cao không ạ
+    - học phí ngành [dktdh](major_name)
+    - tư vấn cho mình học phí của ngành [dktdh](major_name) với ạ
+    - Ad cho mình xin học phí ngành [dktdh](major_name) với ạ
+    - học phí ngành [DKTDH](major_name) có cao không ạ
+    - học phí ngành [DKTDH](major_name)
+    - tư vấn cho mình học phí của ngành [DKTDH](major_name) với ạ
+    - Ad cho mình xin học phí ngành [DKTDH](major_name) với ạ
+    - học phí ngành [tự động hóa](major_name) có cao không ạ
+    - học phí ngành [tự động hóa](major_name)
+    - tư vấn cho mình học phí của ngành [tự động hóa](major_name) với ạ
+    - Ad cho mình xin học phí ngành [tự động hóa](major_name) với ạ
+    - học phí ngành [tu dong hoa](major_name) có cao không ạ
+    - học phí ngành [tu dong hoa](major_name)
+    - tư vấn cho mình học phí của ngành [tu dong hoa](major_name) với ạ
+    - Ad cho mình xin học phí ngành [tu dong hoa](major_name) với ạ
 - intent: ask_major_subject_group
   examples: |
-    - Em muốn học ngành [kỹ thuật điện](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [kỹ thuật hóa học](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [kỹ thuật môi trường](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [kỹ thuật hàng không](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [công nghệ may](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [công nghệ sinh học](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì theo khối gì ạ
-    - Em muốn học ngành [khoa học máy tính](major_name) thì theo khối gì ạ
-    - Ngành [kỹ thuật máy tính](major_name) thi khối gì
-    - Ngành [công nghệ kỹ thuật ô tô](major_name) thi khối gì
-    - Ngành [kỹ thuật điện tử viễn thông](major_name) thi khối gì
-    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) thi khối gì
-    - ngành [khoa học máy tính](major_name) thi khối gì
+    - tư vấn cho mình khối xét tuyển ngành [khoa học máy tính](major_name) với ạ
+    - em muốn học ngành [khoa học máy tính](major_name) thì thi khối nào ạ
+    - khối thi của ngành [khoa học máy tính](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [khoa học máy tính](major_name) với ạ
+    - khối xét tuyển ngành [khoa học máy tính](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [khmt](major_name) với ạ
+    - em muốn học ngành [khmt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [khmt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [khmt](major_name) với ạ
+    - khối xét tuyển ngành [khmt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KHMT](major_name) với ạ
+    - em muốn học ngành [KHMT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KHMT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KHMT](major_name) với ạ
+    - khối xét tuyển ngành [KHMT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [khoa hoc may tinh](major_name) với ạ
+    - em muốn học ngành [khoa hoc may tinh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [khoa hoc may tinh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [khoa hoc may tinh](major_name) với ạ
+    - khối xét tuyển ngành [khoa hoc may tinh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Khoa hoc may tinh](major_name) với ạ
+    - em muốn học ngành [Khoa hoc may tinh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Khoa hoc may tinh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Khoa hoc may tinh](major_name) với ạ
+    - khối xét tuyển ngành [Khoa hoc may tinh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật điện](major_name) với ạ
+    - em muốn học ngành [kỹ thuật điện](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật điện](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật điện](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật điện](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ktđ](major_name) với ạ
+    - em muốn học ngành [ktđ](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ktđ](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ktđ](major_name) với ạ
+    - khối xét tuyển ngành [ktđ](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ktd](major_name) với ạ
+    - em muốn học ngành [ktd](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ktd](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ktd](major_name) với ạ
+    - khối xét tuyển ngành [ktd](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat dien](major_name) với ạ
+    - em muốn học ngành [ky thuat dien](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat dien](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat dien](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat dien](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KTĐ](major_name) với ạ
+    - em muốn học ngành [KTĐ](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KTĐ](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KTĐ](major_name) với ạ
+    - khối xét tuyển ngành [KTĐ](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KTD](major_name) với ạ
+    - em muốn học ngành [KTD](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KTD](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KTD](major_name) với ạ
+    - khối xét tuyển ngành [KTD](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật hóa học](major_name) với ạ
+    - em muốn học ngành [kỹ thuật hóa học](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật hóa học](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật hóa học](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật hóa học](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kthh](major_name) với ạ
+    - em muốn học ngành [kthh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kthh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kthh](major_name) với ạ
+    - khối xét tuyển ngành [kthh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KTHH](major_name) với ạ
+    - em muốn học ngành [KTHH](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KTHH](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KTHH](major_name) với ạ
+    - khối xét tuyển ngành [KTHH](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat hoa hoc](major_name) với ạ
+    - em muốn học ngành [ky thuat hoa hoc](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat hoa hoc](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat hoa hoc](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat hoa hoc](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Ky thuat hoa hoc](major_name) với ạ
+    - em muốn học ngành [Ky thuat hoa hoc](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Ky thuat hoa hoc](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - khối xét tuyển ngành [Ky thuat hoa hoc](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật hàng không](major_name) với ạ
+    - em muốn học ngành [kỹ thuật hàng không](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật hàng không](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật hàng không](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật hàng không](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kthk](major_name) với ạ
+    - em muốn học ngành [kthk](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kthk](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kthk](major_name) với ạ
+    - khối xét tuyển ngành [kthk](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KTHK](major_name) với ạ
+    - em muốn học ngành [KTHK](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KTHK](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KTHK](major_name) với ạ
+    - khối xét tuyển ngành [KTHK](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat hang khong](major_name) với ạ
+    - em muốn học ngành [ky thuat hang khong](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat hang khong](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat hang khong](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat hang khong](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Ky thuat hang khong](major_name) với ạ
+    - em muốn học ngành [Ky thuat hang khong](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Ky thuat hang khong](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Ky thuat hang khong](major_name) với ạ
+    - khối xét tuyển ngành [Ky thuat hang khong](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [công nghệ may](major_name) với ạ
+    - em muốn học ngành [công nghệ may](major_name) thì thi khối nào ạ
+    - khối thi của ngành [công nghệ may](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [công nghệ may](major_name) với ạ
+    - khối xét tuyển ngành [công nghệ may](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cnm](major_name) với ạ
+    - em muốn học ngành [cnm](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cnm](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cnm](major_name) với ạ
+    - khối xét tuyển ngành [cnm](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [CNM](major_name) với ạ
+    - em muốn học ngành [CNM](major_name) thì thi khối nào ạ
+    - khối thi của ngành [CNM](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [CNM](major_name) với ạ
+    - khối xét tuyển ngành [CNM](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Cong nghe may](major_name) với ạ
+    - em muốn học ngành [Cong nghe may](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Cong nghe may](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Cong nghe may](major_name) với ạ
+    - khối xét tuyển ngành [Cong nghe may](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cong nghe may](major_name) với ạ
+    - em muốn học ngành [cong nghe may](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cong nghe may](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cong nghe may](major_name) với ạ
+    - khối xét tuyển ngành [cong nghe may](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [công nghệ sinh học](major_name) với ạ
+    - em muốn học ngành [công nghệ sinh học](major_name) thì thi khối nào ạ
+    - khối thi của ngành [công nghệ sinh học](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [công nghệ sinh học](major_name) với ạ
+    - khối xét tuyển ngành [công nghệ sinh học](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cnsh](major_name) với ạ
+    - em muốn học ngành [cnsh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cnsh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cnsh](major_name) với ạ
+    - khối xét tuyển ngành [cnsh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [CNSH](major_name) với ạ
+    - em muốn học ngành [CNSH](major_name) thì thi khối nào ạ
+    - khối thi của ngành [CNSH](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [CNSH](major_name) với ạ
+    - khối xét tuyển ngành [CNSH](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Cong nghe sinh hoc](major_name) với ạ
+    - em muốn học ngành [Cong nghe sinh hoc](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Cong nghe sinh hoc](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - khối xét tuyển ngành [Cong nghe sinh hoc](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cong nghe sinh hoc](major_name) với ạ
+    - em muốn học ngành [cong nghe sinh hoc](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cong nghe sinh hoc](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cong nghe sinh hoc](major_name) với ạ
+    - khối xét tuyển ngành [cong nghe sinh hoc](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì thi khối nào ạ
+    - khối thi của ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - khối xét tuyển ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [logistics](major_name) với ạ
+    - em muốn học ngành [logistics](major_name) thì thi khối nào ạ
+    - khối thi của ngành [logistics](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [logistics](major_name) với ạ
+    - khối xét tuyển ngành [logistics](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [logistic](major_name) với ạ
+    - em muốn học ngành [logistic](major_name) thì thi khối nào ạ
+    - khối thi của ngành [logistic](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [logistic](major_name) với ạ
+    - khối xét tuyển ngành [logistic](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Logistics](major_name) với ạ
+    - em muốn học ngành [Logistics](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Logistics](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Logistics](major_name) với ạ
+    - khối xét tuyển ngành [Logistics](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Logistic](major_name) với ạ
+    - em muốn học ngành [Logistic](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Logistic](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Logistic](major_name) với ạ
+    - khối xét tuyển ngành [Logistic](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật máy tính](major_name) với ạ
+    - em muốn học ngành [kỹ thuật máy tính](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật máy tính](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật máy tính](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật máy tính](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ktmt](major_name) với ạ
+    - em muốn học ngành [ktmt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ktmt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ktmt](major_name) với ạ
+    - khối xét tuyển ngành [ktmt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [KTMT](major_name) với ạ
+    - em muốn học ngành [KTMT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [KTMT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [KTMT](major_name) với ạ
+    - khối xét tuyển ngành [KTMT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat may tinh](major_name) với ạ
+    - em muốn học ngành [ky thuat may tinh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat may tinh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat may tinh](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat may tinh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Ky thuat may tinh](major_name) với ạ
+    - em muốn học ngành [Ky thuat may tinh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Ky thuat may tinh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Ky thuat may tinh](major_name) với ạ
+    - khối xét tuyển ngành [Ky thuat may tinh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - em muốn học ngành [công nghệ kỹ thuật ô tô](major_name) thì thi khối nào ạ
+    - khối thi của ngành [công nghệ kỹ thuật ô tô](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - khối xét tuyển ngành [công nghệ kỹ thuật ô tô](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ô tô](major_name) với ạ
+    - em muốn học ngành [ô tô](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ô tô](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ô tô](major_name) với ạ
+    - khối xét tuyển ngành [ô tô](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật ô tô](major_name) với ạ
+    - em muốn học ngành [kỹ thuật ô tô](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật ô tô](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật ô tô](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật ô tô](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [o to](major_name) với ạ
+    - em muốn học ngành [o to](major_name) thì thi khối nào ạ
+    - khối thi của ngành [o to](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [o to](major_name) với ạ
+    - khối xét tuyển ngành [o to](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat o to](major_name) với ạ
+    - em muốn học ngành [ky thuat o to](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat o to](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat o to](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat o to](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Ô TÔ](major_name) với ạ
+    - em muốn học ngành [Ô TÔ](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Ô TÔ](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Ô TÔ](major_name) với ạ
+    - khối xét tuyển ngành [Ô TÔ](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [Kỹ thuật ô tô](major_name) với ạ
+    - em muốn học ngành [Kỹ thuật ô tô](major_name) thì thi khối nào ạ
+    - khối thi của ngành [Kỹ thuật ô tô](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - khối xét tuyển ngành [Kỹ thuật ô tô](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - em muốn học ngành [kỹ thuật điện tử viễn thông](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật điện tử viễn thông](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật điện tử viễn thông](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [điện tử viễn thông](major_name) với ạ
+    - em muốn học ngành [điện tử viễn thông](major_name) thì thi khối nào ạ
+    - khối thi của ngành [điện tử viễn thông](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [điện tử viễn thông](major_name) với ạ
+    - khối xét tuyển ngành [điện tử viễn thông](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ĐTVT](major_name) với ạ
+    - em muốn học ngành [ĐTVT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ĐTVT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ĐTVT](major_name) với ạ
+    - khối xét tuyển ngành [ĐTVT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [đtvt](major_name) với ạ
+    - em muốn học ngành [đtvt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [đtvt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [đtvt](major_name) với ạ
+    - khối xét tuyển ngành [đtvt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - em muốn học ngành [ky thuat dien tu vien thong](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat dien tu vien thong](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat dien tu vien thong](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [DTVT](major_name) với ạ
+    - em muốn học ngành [DTVT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [DTVT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [DTVT](major_name) với ạ
+    - khối xét tuyển ngành [DTVT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [dtvt](major_name) với ạ
+    - em muốn học ngành [dtvt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [dtvt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [dtvt](major_name) với ạ
+    - khối xét tuyển ngành [dtvt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - em muốn học ngành [kỹ thuật cơ điện tử](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật cơ điện tử](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật cơ điện tử](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat co dien tu](major_name) với ạ
+    - em muốn học ngành [ky thuat co dien tu](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat co dien tu](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat co dien tu](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat co dien tu](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [co dien tu](major_name) với ạ
+    - em muốn học ngành [co dien tu](major_name) thì thi khối nào ạ
+    - khối thi của ngành [co dien tu](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [co dien tu](major_name) với ạ
+    - khối xét tuyển ngành [co dien tu](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cơ điện tử](major_name) với ạ
+    - em muốn học ngành [cơ điện tử](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cơ điện tử](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cơ điện tử](major_name) với ạ
+    - khối xét tuyển ngành [cơ điện tử](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cđt](major_name) với ạ
+    - em muốn học ngành [cđt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cđt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cđt](major_name) với ạ
+    - khối xét tuyển ngành [cđt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [cdt](major_name) với ạ
+    - em muốn học ngành [cdt](major_name) thì thi khối nào ạ
+    - khối thi của ngành [cdt](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [cdt](major_name) với ạ
+    - khối xét tuyển ngành [cdt](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [CĐT](major_name) với ạ
+    - em muốn học ngành [CĐT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [CĐT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [CĐT](major_name) với ạ
+    - khối xét tuyển ngành [CĐT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [CDT](major_name) với ạ
+    - em muốn học ngành [CDT](major_name) thì thi khối nào ạ
+    - khối thi của ngành [CDT](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [CDT](major_name) với ạ
+    - khối xét tuyển ngành [CDT](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - em muốn học ngành [kỹ thuật điều khiển và tự động hóa](major_name) thì thi khối nào ạ
+    - khối thi của ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - khối xét tuyển ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - em muốn học ngành [ky thuat dieu khien va tu dong hoa](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - khối xét tuyển ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [điều khiển tự động hóa](major_name) với ạ
+    - em muốn học ngành [điều khiển tự động hóa](major_name) thì thi khối nào ạ
+    - khối thi của ngành [điều khiển tự động hóa](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [điều khiển tự động hóa](major_name) với ạ
+    - khối xét tuyển ngành [điều khiển tự động hóa](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [đktđh](major_name) với ạ
+    - em muốn học ngành [đktđh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [đktđh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [đktđh](major_name) với ạ
+    - khối xét tuyển ngành [đktđh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [ĐKTĐH](major_name) với ạ
+    - em muốn học ngành [ĐKTĐH](major_name) thì thi khối nào ạ
+    - khối thi của ngành [ĐKTĐH](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [ĐKTĐH](major_name) với ạ
+    - khối xét tuyển ngành [ĐKTĐH](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [dktdh](major_name) với ạ
+    - em muốn học ngành [dktdh](major_name) thì thi khối nào ạ
+    - khối thi của ngành [dktdh](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [dktdh](major_name) với ạ
+    - khối xét tuyển ngành [dktdh](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [DKTDH](major_name) với ạ
+    - em muốn học ngành [DKTDH](major_name) thì thi khối nào ạ
+    - khối thi của ngành [DKTDH](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [DKTDH](major_name) với ạ
+    - khối xét tuyển ngành [DKTDH](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [tự động hóa](major_name) với ạ
+    - em muốn học ngành [tự động hóa](major_name) thì thi khối nào ạ
+    - khối thi của ngành [tự động hóa](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [tự động hóa](major_name) với ạ
+    - khối xét tuyển ngành [tự động hóa](major_name)
+    - tư vấn cho mình khối xét tuyển ngành [tu dong hoa](major_name) với ạ
+    - em muốn học ngành [tu dong hoa](major_name) thì thi khối nào ạ
+    - khối thi của ngành [tu dong hoa](major_name)
+    - Ad cho mình xin khối xét tuyển của ngành [tu dong hoa](major_name) với ạ
+    - khối xét tuyển ngành [tu dong hoa](major_name)
 - intent: ask_major_criteria
   examples: |
-    - Cho em hỏi ngành [kỹ thuật điện](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Cho em hỏi ngành [kỹ thuật hóa học](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Cho em hỏi ngành [kỹ thuật môi trường](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Cho em hỏi ngành [kỹ thuật hàng không](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Cho em hỏi ngành [công nghệ may](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Cho em hỏi ngành [công nghệ sinh học](major_name) năm nay lấy bao nhiêu chỉ tiêu
-    - Chỉ tiêu ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - Chỉ tiêu ngành [khoa học máy tính](major_name)
-    - Chỉ tiêu ngành [kỹ thuật máy tính](major_name)
-    - Chỉ tiêu ngành [công nghệ kỹ thuật ô tô](major_name)
-    - Ngành [kỹ thuật điện tử viễn thông](major_name) của trường mình nhận bao nhiêu sinh viên ạ
-    - Ngành [kỹ thuật điều khiển và tự động hóa](major_name) của trường mình nhận bao nhiêu sinh viên ạ
-    - ngành [khoa học máy tính](major_name) bao nhiêu sinh viên
-    - ngành [khoa học máy tính](major_name) tuyển sinh bao nhiêu sinh viên
+    - chỉ tiêu ngành [khoa học máy tính](major_name)
+    - cho mình hỏi ngành [khoa học máy tính](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [khoa học máy tính](major_name) với ạ
+    - Ad cho mình hỏi ngành [khoa học máy tính](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [khoa học máy tính](major_name) ra sao ạ
+    - năm nay ngành [khoa học máy tính](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [khmt](major_name)
+    - cho mình hỏi ngành [khmt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [khmt](major_name) với ạ
+    - Ad cho mình hỏi ngành [khmt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [khmt](major_name) ra sao ạ
+    - năm nay ngành [khmt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KHMT](major_name)
+    - cho mình hỏi ngành [KHMT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KHMT](major_name) với ạ
+    - Ad cho mình hỏi ngành [KHMT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KHMT](major_name) ra sao ạ
+    - năm nay ngành [KHMT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [khoa hoc may tinh](major_name)
+    - cho mình hỏi ngành [khoa hoc may tinh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [khoa hoc may tinh](major_name) ra sao ạ
+    - năm nay ngành [khoa hoc may tinh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Khoa hoc may tinh](major_name)
+    - cho mình hỏi ngành [Khoa hoc may tinh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Khoa hoc may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [Khoa hoc may tinh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Khoa hoc may tinh](major_name) ra sao ạ
+    - năm nay ngành [Khoa hoc may tinh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật điện](major_name)
+    - cho mình hỏi ngành [kỹ thuật điện](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật điện](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điện](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật điện](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật điện](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ktđ](major_name)
+    - cho mình hỏi ngành [ktđ](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ktđ](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktđ](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ktđ](major_name) ra sao ạ
+    - năm nay ngành [ktđ](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ktd](major_name)
+    - cho mình hỏi ngành [ktd](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ktd](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktd](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ktd](major_name) ra sao ạ
+    - năm nay ngành [ktd](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat dien](major_name)
+    - cho mình hỏi ngành [ky thuat dien](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat dien](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat dien](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat dien](major_name) ra sao ạ
+    - năm nay ngành [ky thuat dien](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KTĐ](major_name)
+    - cho mình hỏi ngành [KTĐ](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KTĐ](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTĐ](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KTĐ](major_name) ra sao ạ
+    - năm nay ngành [KTĐ](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KTD](major_name)
+    - cho mình hỏi ngành [KTD](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KTD](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTD](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KTD](major_name) ra sao ạ
+    - năm nay ngành [KTD](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật hóa học](major_name)
+    - cho mình hỏi ngành [kỹ thuật hóa học](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật hóa học](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật hóa học](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật hóa học](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật hóa học](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kthh](major_name)
+    - cho mình hỏi ngành [kthh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kthh](major_name) với ạ
+    - Ad cho mình hỏi ngành [kthh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kthh](major_name) ra sao ạ
+    - năm nay ngành [kthh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KTHH](major_name)
+    - cho mình hỏi ngành [KTHH](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KTHH](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTHH](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KTHH](major_name) ra sao ạ
+    - năm nay ngành [KTHH](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat hoa hoc](major_name)
+    - cho mình hỏi ngành [ky thuat hoa hoc](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat hoa hoc](major_name) ra sao ạ
+    - năm nay ngành [ky thuat hoa hoc](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Ky thuat hoa hoc](major_name)
+    - cho mình hỏi ngành [Ky thuat hoa hoc](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Ky thuat hoa hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat hoa hoc](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Ky thuat hoa hoc](major_name) ra sao ạ
+    - năm nay ngành [Ky thuat hoa hoc](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật hàng không](major_name)
+    - cho mình hỏi ngành [kỹ thuật hàng không](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật hàng không](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật hàng không](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật hàng không](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật hàng không](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kthk](major_name)
+    - cho mình hỏi ngành [kthk](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kthk](major_name) với ạ
+    - Ad cho mình hỏi ngành [kthk](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kthk](major_name) ra sao ạ
+    - năm nay ngành [kthk](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KTHK](major_name)
+    - cho mình hỏi ngành [KTHK](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KTHK](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTHK](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KTHK](major_name) ra sao ạ
+    - năm nay ngành [KTHK](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat hang khong](major_name)
+    - cho mình hỏi ngành [ky thuat hang khong](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat hang khong](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat hang khong](major_name) ra sao ạ
+    - năm nay ngành [ky thuat hang khong](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Ky thuat hang khong](major_name)
+    - cho mình hỏi ngành [Ky thuat hang khong](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Ky thuat hang khong](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat hang khong](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Ky thuat hang khong](major_name) ra sao ạ
+    - năm nay ngành [Ky thuat hang khong](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [công nghệ may](major_name)
+    - cho mình hỏi ngành [công nghệ may](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [công nghệ may](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ may](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [công nghệ may](major_name) ra sao ạ
+    - năm nay ngành [công nghệ may](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cnm](major_name)
+    - cho mình hỏi ngành [cnm](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cnm](major_name) với ạ
+    - Ad cho mình hỏi ngành [cnm](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cnm](major_name) ra sao ạ
+    - năm nay ngành [cnm](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [CNM](major_name)
+    - cho mình hỏi ngành [CNM](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [CNM](major_name) với ạ
+    - Ad cho mình hỏi ngành [CNM](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [CNM](major_name) ra sao ạ
+    - năm nay ngành [CNM](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Cong nghe may](major_name)
+    - cho mình hỏi ngành [Cong nghe may](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi ngành [Cong nghe may](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Cong nghe may](major_name) ra sao ạ
+    - năm nay ngành [Cong nghe may](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cong nghe may](major_name)
+    - cho mình hỏi ngành [cong nghe may](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cong nghe may](major_name) với ạ
+    - Ad cho mình hỏi ngành [cong nghe may](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cong nghe may](major_name) ra sao ạ
+    - năm nay ngành [cong nghe may](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [công nghệ sinh học](major_name)
+    - cho mình hỏi ngành [công nghệ sinh học](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [công nghệ sinh học](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ sinh học](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [công nghệ sinh học](major_name) ra sao ạ
+    - năm nay ngành [công nghệ sinh học](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cnsh](major_name)
+    - cho mình hỏi ngành [cnsh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cnsh](major_name) với ạ
+    - Ad cho mình hỏi ngành [cnsh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cnsh](major_name) ra sao ạ
+    - năm nay ngành [cnsh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [CNSH](major_name)
+    - cho mình hỏi ngành [CNSH](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [CNSH](major_name) với ạ
+    - Ad cho mình hỏi ngành [CNSH](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [CNSH](major_name) ra sao ạ
+    - năm nay ngành [CNSH](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Cong nghe sinh hoc](major_name)
+    - cho mình hỏi ngành [Cong nghe sinh hoc](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [Cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Cong nghe sinh hoc](major_name) ra sao ạ
+    - năm nay ngành [Cong nghe sinh hoc](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cong nghe sinh hoc](major_name)
+    - cho mình hỏi ngành [cong nghe sinh hoc](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cong nghe sinh hoc](major_name) với ạ
+    - Ad cho mình hỏi ngành [cong nghe sinh hoc](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cong nghe sinh hoc](major_name) ra sao ạ
+    - năm nay ngành [cong nghe sinh hoc](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [logistics và quản lý chuỗi cung ứng](major_name)
+    - cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [logistics và quản lý chuỗi cung ứng](major_name) ra sao ạ
+    - năm nay ngành [logistics và quản lý chuỗi cung ứng](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [logistics](major_name)
+    - cho mình hỏi ngành [logistics](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [logistics](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistics](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [logistics](major_name) ra sao ạ
+    - năm nay ngành [logistics](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [logistic](major_name)
+    - cho mình hỏi ngành [logistic](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [logistic](major_name) với ạ
+    - Ad cho mình hỏi ngành [logistic](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [logistic](major_name) ra sao ạ
+    - năm nay ngành [logistic](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Logistics](major_name)
+    - cho mình hỏi ngành [Logistics](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Logistics](major_name) với ạ
+    - Ad cho mình hỏi ngành [Logistics](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Logistics](major_name) ra sao ạ
+    - năm nay ngành [Logistics](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Logistic](major_name)
+    - cho mình hỏi ngành [Logistic](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Logistic](major_name) với ạ
+    - Ad cho mình hỏi ngành [Logistic](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Logistic](major_name) ra sao ạ
+    - năm nay ngành [Logistic](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật máy tính](major_name)
+    - cho mình hỏi ngành [kỹ thuật máy tính](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật máy tính](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật máy tính](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật máy tính](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật máy tính](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ktmt](major_name)
+    - cho mình hỏi ngành [ktmt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ktmt](major_name) với ạ
+    - Ad cho mình hỏi ngành [ktmt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ktmt](major_name) ra sao ạ
+    - năm nay ngành [ktmt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [KTMT](major_name)
+    - cho mình hỏi ngành [KTMT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [KTMT](major_name) với ạ
+    - Ad cho mình hỏi ngành [KTMT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [KTMT](major_name) ra sao ạ
+    - năm nay ngành [KTMT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat may tinh](major_name)
+    - cho mình hỏi ngành [ky thuat may tinh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat may tinh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat may tinh](major_name) ra sao ạ
+    - năm nay ngành [ky thuat may tinh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Ky thuat may tinh](major_name)
+    - cho mình hỏi ngành [Ky thuat may tinh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Ky thuat may tinh](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ky thuat may tinh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Ky thuat may tinh](major_name) ra sao ạ
+    - năm nay ngành [Ky thuat may tinh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [công nghệ kỹ thuật ô tô](major_name)
+    - cho mình hỏi ngành [công nghệ kỹ thuật ô tô](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [công nghệ kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [công nghệ kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [công nghệ kỹ thuật ô tô](major_name) ra sao ạ
+    - năm nay ngành [công nghệ kỹ thuật ô tô](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ô tô](major_name)
+    - cho mình hỏi ngành [ô tô](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [ô tô](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ô tô](major_name) ra sao ạ
+    - năm nay ngành [ô tô](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật ô tô](major_name)
+    - cho mình hỏi ngành [kỹ thuật ô tô](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật ô tô](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật ô tô](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [o to](major_name)
+    - cho mình hỏi ngành [o to](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [o to](major_name) với ạ
+    - Ad cho mình hỏi ngành [o to](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [o to](major_name) ra sao ạ
+    - năm nay ngành [o to](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat o to](major_name)
+    - cho mình hỏi ngành [ky thuat o to](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat o to](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat o to](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat o to](major_name) ra sao ạ
+    - năm nay ngành [ky thuat o to](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Ô TÔ](major_name)
+    - cho mình hỏi ngành [Ô TÔ](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Ô TÔ](major_name) với ạ
+    - Ad cho mình hỏi ngành [Ô TÔ](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Ô TÔ](major_name) ra sao ạ
+    - năm nay ngành [Ô TÔ](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [Kỹ thuật ô tô](major_name)
+    - cho mình hỏi ngành [Kỹ thuật ô tô](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [Kỹ thuật ô tô](major_name) với ạ
+    - Ad cho mình hỏi ngành [Kỹ thuật ô tô](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [Kỹ thuật ô tô](major_name) ra sao ạ
+    - năm nay ngành [Kỹ thuật ô tô](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật điện tử viễn thông](major_name)
+    - cho mình hỏi ngành [kỹ thuật điện tử viễn thông](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điện tử viễn thông](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật điện tử viễn thông](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật điện tử viễn thông](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [điện tử viễn thông](major_name)
+    - cho mình hỏi ngành [điện tử viễn thông](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [điện tử viễn thông](major_name) với ạ
+    - Ad cho mình hỏi ngành [điện tử viễn thông](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [điện tử viễn thông](major_name) ra sao ạ
+    - năm nay ngành [điện tử viễn thông](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ĐTVT](major_name)
+    - cho mình hỏi ngành [ĐTVT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ĐTVT](major_name) với ạ
+    - Ad cho mình hỏi ngành [ĐTVT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ĐTVT](major_name) ra sao ạ
+    - năm nay ngành [ĐTVT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [đtvt](major_name)
+    - cho mình hỏi ngành [đtvt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [đtvt](major_name) với ạ
+    - Ad cho mình hỏi ngành [đtvt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [đtvt](major_name) ra sao ạ
+    - năm nay ngành [đtvt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat dien tu vien thong](major_name)
+    - cho mình hỏi ngành [ky thuat dien tu vien thong](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat dien tu vien thong](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat dien tu vien thong](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat dien tu vien thong](major_name) ra sao ạ
+    - năm nay ngành [ky thuat dien tu vien thong](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [DTVT](major_name)
+    - cho mình hỏi ngành [DTVT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [DTVT](major_name) với ạ
+    - Ad cho mình hỏi ngành [DTVT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [DTVT](major_name) ra sao ạ
+    - năm nay ngành [DTVT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [dtvt](major_name)
+    - cho mình hỏi ngành [dtvt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [dtvt](major_name) với ạ
+    - Ad cho mình hỏi ngành [dtvt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [dtvt](major_name) ra sao ạ
+    - năm nay ngành [dtvt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật cơ điện tử](major_name)
+    - cho mình hỏi ngành [kỹ thuật cơ điện tử](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật cơ điện tử](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật cơ điện tử](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật cơ điện tử](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật cơ điện tử](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat co dien tu](major_name)
+    - cho mình hỏi ngành [ky thuat co dien tu](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat co dien tu](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat co dien tu](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat co dien tu](major_name) ra sao ạ
+    - năm nay ngành [ky thuat co dien tu](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [co dien tu](major_name)
+    - cho mình hỏi ngành [co dien tu](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [co dien tu](major_name) với ạ
+    - Ad cho mình hỏi ngành [co dien tu](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [co dien tu](major_name) ra sao ạ
+    - năm nay ngành [co dien tu](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cơ điện tử](major_name)
+    - cho mình hỏi ngành [cơ điện tử](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cơ điện tử](major_name) với ạ
+    - Ad cho mình hỏi ngành [cơ điện tử](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cơ điện tử](major_name) ra sao ạ
+    - năm nay ngành [cơ điện tử](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cđt](major_name)
+    - cho mình hỏi ngành [cđt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cđt](major_name) với ạ
+    - Ad cho mình hỏi ngành [cđt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cđt](major_name) ra sao ạ
+    - năm nay ngành [cđt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [cdt](major_name)
+    - cho mình hỏi ngành [cdt](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [cdt](major_name) với ạ
+    - Ad cho mình hỏi ngành [cdt](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [cdt](major_name) ra sao ạ
+    - năm nay ngành [cdt](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [CĐT](major_name)
+    - cho mình hỏi ngành [CĐT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [CĐT](major_name) với ạ
+    - Ad cho mình hỏi ngành [CĐT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [CĐT](major_name) ra sao ạ
+    - năm nay ngành [CĐT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [CDT](major_name)
+    - cho mình hỏi ngành [CDT](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [CDT](major_name) với ạ
+    - Ad cho mình hỏi ngành [CDT](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [CDT](major_name) ra sao ạ
+    - năm nay ngành [CDT](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [kỹ thuật điều khiển và tự động hóa](major_name)
+    - cho mình hỏi ngành [kỹ thuật điều khiển và tự động hóa](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [kỹ thuật điều khiển và tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [kỹ thuật điều khiển và tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [kỹ thuật điều khiển và tự động hóa](major_name) ra sao ạ
+    - năm nay ngành [kỹ thuật điều khiển và tự động hóa](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ky thuat dieu khien va tu dong hoa](major_name)
+    - cho mình hỏi ngành [ky thuat dieu khien va tu dong hoa](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ky thuat dieu khien va tu dong hoa](major_name) với ạ
+    - Ad cho mình hỏi ngành [ky thuat dieu khien va tu dong hoa](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ky thuat dieu khien va tu dong hoa](major_name) ra sao ạ
+    - năm nay ngành [ky thuat dieu khien va tu dong hoa](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [điều khiển tự động hóa](major_name)
+    - cho mình hỏi ngành [điều khiển tự động hóa](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [điều khiển tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [điều khiển tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [điều khiển tự động hóa](major_name) ra sao ạ
+    - năm nay ngành [điều khiển tự động hóa](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [đktđh](major_name)
+    - cho mình hỏi ngành [đktđh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [đktđh](major_name) với ạ
+    - Ad cho mình hỏi ngành [đktđh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [đktđh](major_name) ra sao ạ
+    - năm nay ngành [đktđh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [ĐKTĐH](major_name)
+    - cho mình hỏi ngành [ĐKTĐH](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [ĐKTĐH](major_name) với ạ
+    - Ad cho mình hỏi ngành [ĐKTĐH](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [ĐKTĐH](major_name) ra sao ạ
+    - năm nay ngành [ĐKTĐH](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [dktdh](major_name)
+    - cho mình hỏi ngành [dktdh](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [dktdh](major_name) với ạ
+    - Ad cho mình hỏi ngành [dktdh](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [dktdh](major_name) ra sao ạ
+    - năm nay ngành [dktdh](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [DKTDH](major_name)
+    - cho mình hỏi ngành [DKTDH](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [DKTDH](major_name) với ạ
+    - Ad cho mình hỏi ngành [DKTDH](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [DKTDH](major_name) ra sao ạ
+    - năm nay ngành [DKTDH](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [tự động hóa](major_name)
+    - cho mình hỏi ngành [tự động hóa](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [tự động hóa](major_name) với ạ
+    - Ad cho mình hỏi ngành [tự động hóa](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [tự động hóa](major_name) ra sao ạ
+    - năm nay ngành [tự động hóa](major_name) tuyển sinh bao nhiêu sinh viên ạ
+    - chỉ tiêu ngành [tu dong hoa](major_name)
+    - cho mình hỏi ngành [tu dong hoa](major_name) lấy bao nhiêu sinh viên ạ
+    - tư vấn cho mình chỉ tiêu của ngành [tu dong hoa](major_name) với ạ
+    - Ad cho mình hỏi ngành [tu dong hoa](major_name) đào tạo những hệ nào
+    - thông tin chỉ tiêu của ngành [tu dong hoa](major_name) ra sao ạ
+    - năm nay ngành [tu dong hoa](major_name) tuyển sinh bao nhiêu sinh viên ạ
 - intent: context_ask_major_type_edu
   examples: |
     - ngành này đào tạo những hệ nào ạ
@@ -1172,6 +3159,9 @@ nlu:
     - ngành đào tạo những hệ nào nhỉ
     - hệ đào tạo về ngành là những gì?
     - hệ đào tạo là?
+    - tư vấn mình các hệ đào tạo ngành này với
+    - Ad cho hỏi ngành này có những hệ đào tạo nào ?
+    - tư vấn giùm các hệ đào tạo
 - intent: context_ask_major_point
   examples: |
     - điểm sàn của ngành
@@ -1191,6 +3181,9 @@ nlu:
     - có điểm chuẩn chưa ạ
     - điểm chuẩn
     - điểm sàn của ngành thì sao?
+    - ngành này lấy bao nhiêu điểm ạ
+    - Ad cho xin điểm ngành này với ạ
+    - mình muốn hỏi điểm ngành này
 - intent: context_ask_major_career
   examples: |
     - học xong ra làm gì
@@ -1201,6 +3194,9 @@ nlu:
     - khi ra trường tôi sẽ có thể làm được những nghề gì
     - vậy còn cơ hội việc làm
     - cơ hội việc làm
+    - học xong ngành này thì có thể làm những nghề gì ạ
+    - học ngành này xong có thể làm những nghề gì
+    - tư vấn cho mình cơ hội việc làm ngành này với Ad
 - intent: context_ask_major_tuition
   examples: |
     - học phí là bao nhiêu
@@ -1215,6 +3211,8 @@ nlu:
     - bao tiền một tín chỉ
     - học phí là bao nhiêu nhỉ
     - học phí của ngành thì sao?
+    - có thể cho mình biết học phí ngành này được không
+    - tư vấn cho mình học phí ngành này với ạ
 - intent: context_ask_major_subject_group
   examples: |
     - em muốn học ngành này thì thi khối gì ạ
@@ -1226,6 +3224,9 @@ nlu:
     - ngành này cần theo khối gì
     - khối học mà em cần học khi theo ngành này
     - ngành này sẽ cần học những khối nào
+    - mình xin khối xét tuyển ngành này với ạ
+    - cần tư vấn khối thi ngành này
+    - xét tuyển ngành này thi khối gì ạ
 - intent: context_ask_major_criteria
   examples: |
     - chỉ tiêu
@@ -1237,8 +3238,21 @@ nlu:
     - chỉ tiêu ngành
     - ngành có chỉ tiêu bao nhiêu sinh viên
     - chỉ tiêu ngành này lấy bao nhiêu sinh viên
-    - chỉ tiêu của ngành
-
+    - chỉ tiêu của ngành này là bao nhiêu ạ
+    - ad cho hỏi ngành này chỉ tiêu là bao nhiêu
+- intent: context_ask_major_name_list
+  examples: |
+    - cho mình xin danh sách tên các ngành của trường
+    - trường đào tạo những ngành nào ạ
+    - danh sách ngành học
+    - tư vấn cho mình về các ngành của trường
+    - Ad cho mình hỏi trường đào tạo những ngành nào ạ
+- intent: context_ask_major_info
+  examples: |
+    - thông tin về ngành này
+    - cho em hỏi về ngành này được không ạ
+    - mình cần tư vấn về ngành này ạ
+    - cho mình xin info về ngành này ạ
 - intent: turn_major_name
   examples: |
     - Vậy còn [kỹ thuật điện](major_name) thì sao
@@ -1253,9 +3267,54 @@ nlu:
     - Vậy còn [kỹ thuật điện tử viễn thông](major_name) thì sao
     - Vậy còn [kỹ thuật điều khiển và tự động hóa](major_name) thì sao
 
+- intent: ask_major_names
+  examples: |
+    - Cho mình danh sách tên các ngành của trường 
+    - Trường có những ngành nào nhỉ
+    - Ad cho mình hỏi trường gồm những ngành nào
+    - Cần tư vấn những ngành của trường 
+    - Mình xin danh sách các ngành của trường
+    - Có thể cho mình biết danh sách các ngành của trường được không?
+    - Bạn ơi cho mình hỏi về danh sách các ngành của trường với ạ
+    - Tư vấn cho mình về các ngành của trường
+    - Mình muốn hỏi về danh sách các ngành của trường ạ
+    - Trường gồm có những ngành nào bạn nhỉ
+  
+- intent: context_ask_pass_point
+  examples: |
+    - Em [21](point) điểm thì có đỗ ngành này không?
+- intent: context_ask_pass_subject_group
+  examples: |
+    - Em học khối [d07](subject_group) thì có học được ngành này không?
+    
+- intent: ask_subject_group
+  examples: |
+    - Mình học khối [D07](subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [D07](subject_group) nộp ngành nào được nhỉ?
+    - Ad cho mình hỏi, mình thi khối [D07](subject_group) thì nọp được vào những ngành nào ạ?
+    - Tư vấn mình cái, có những ngành nào phù hợp với khối [D07](subject_group) nhỉ?
+    - Mình hỏi chút, những ngành nào phù hợp với khối [D07](subject_group) bạn nhỉ?
+    - Bạn ơi, bạn mình thi khối [D07](subject_group) thì nộp được vào những ngành nào?
+- intent: ask_point
+  examples: |
+    - Ad ơi, tôi [21.0 điểm](point) xét tuyển vào đâu được?
+    - Mình có con bạn [21.0 điểm](point), bạn xem nó xét tuyển vào đâu được
+    - Em ơi, cháu nhà chị thi được có [21.0 điểm](point) thì liệu nộp vào những ngành nào được hả em
+    - Giờ mình [21.0 điểm](point) thì đậu những ngành nào Ad nhỉ?
+    - Tư vấn mình gấp, mình [21.0 điểm](point) nộp vào đâu được ạ?
+    - Ad ơi, tôi [21.0 điểm](point) xét tuyển vào đâu được?
+
+- intent: can_not_look_up
+  examples: |
+    - ngành [ky thuat dieu khien va tu dong hoa](major_name) đào tạo những hệ gì
+    - cho mình hỏi [ky thuat dieu khien va tu dong hoa](major_name) đào tạo những hệ nào 
+    - Ad cho mình hỏi ngành [ky thuat dieu khien va tu dong hoa](major_name) đào tạo những hệ nào
+    - ngành [tu dong hoa](major_name) đào tạo những hệ gì
+
+
 - intent: out_of_story
   examples: |
     - học viện âm nhạc
     - ly
-    - cốc 
+    - cốc
     - bát đũa
