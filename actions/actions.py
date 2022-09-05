@@ -20,6 +20,7 @@ from rasa_sdk.events import AllSlotsReset
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from extentions.utils import RANDOM,response_list_product,convert_to_float,LOWERCASE,look_up_in_domain
 import pandas as pd
 
 DB_PATH = 'convert/entities.csv'
@@ -47,38 +48,7 @@ def get_list_major_name_KEY():
     df = connect_database()
     return list(df.major_name)
 
-def look_up(major_name):
-    look_up_dict = {"khoa học máy tính": ['khoa học máy tính','khmt', 'KHMT', 'khoa hoc may tinh', 'Khoa hoc may tinh'],
-                    "kỹ thuật điện": ["kỹ thuật điện",'ktđ', 'ktd', 'ky thuat dien', 'KTĐ', 'KTD'],
-                    "kỹ thuật hóa học": ["kỹ thuật hóa học",'kthh', 'KTHH', 'ky thuat hoa hoc', 'Ky thuat hoa hoc'],
-                    "kỹ thuật hàng không": ["kỹ thuật hàng không",'kthk', 'KTHK', 'ky thuat hang khong', 'Ky thuat hang khong'],
-                    "công nghệ may": ["công nghệ may",'cnm', 'CNM', 'Cong nghe may', 'cong nghe may'],
-                    "công nghệ sinh học": ["công nghệ sinh học",'cnsh', 'CNSH', 'Cong nghe sinh hoc', 'cong nghe sinh hoc'],
-                    "logistics và quản lý chuỗi cung ứng": ["logistics và quản lý chuỗi cung ứng",'logistics', 'logistic', 'Logistics', 'Logistic'],
-                    "kỹ thuật máy tính": ["kỹ thuật máy tính",'ktmt', 'KTMT', 'ky thuat may tinh', 'Ky thuat may tinh'],
-                    "công nghệ kỹ thuật ô tô": ["công nghệ kỹ thuật ô tô",'ô tô', 'kỹ thuật ô tô', 'o to', 'ky thuat o to', 'Ô TÔ', 'Kỹ thuật ô tô'],
-                    "kỹ thuật điện tử viễn thông": ["kỹ thuật điện tử viễn thông",'điện tử viễn thông', 'ĐTVT', 'đtvt', 'ky thuat dien tu vien thong', 'DTVT', 'dtvt'],
-                    "kỹ thuật cơ điện tử": ["kỹ thuật cơ điện tử",'ky thuat co dien tu', 'co dien tu', 'cơ điện tử', 'cđt', 'cdt', 'CĐT', 'CDT'],
-                    "kỹ thuật điều khiển và tự động hóa": ["kỹ thuật điều khiển và tự động hóa",'ky thuat dieu khien va tu dong hoa', 'điều khiển tự động hóa', 'đktđh', 'ĐKTĐH', 'dktdh',
-                                                           'DKTDH', 'tự động hóa', 'tu dong hoa']
-                    }
-    # count = 0
-    if (major_name):
-        for key in look_up_dict.keys():
-            if major_name in look_up_dict[key]:
-                return key
-    else:
-        return major_name
-
-def LOWERCASE(entity):
-    if not entity:
-        return entity
-    else:
-        return entity.lower()
-
 list_major_name = get_list_major_name_KEY()
-
-
 class ActionHelloWorld(Action):
     def name(self) -> Text:
         return "action_hello_world"
@@ -86,9 +56,7 @@ class ActionHelloWorld(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
         dispatcher.utter_message(text="Hello World!")
-
         return []
 
 class ActionDefaultFallback(Action):
@@ -111,16 +79,16 @@ class ActionResponseMajorInfo(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
-        elif(look_up(major_name) not in list_major_name):
+        elif(look_up_in_domain(major_name) not in list_major_name):
             AllSlotsReset()
             dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
             try:
-                mess = major_info[look_up(major_name)]
+                mess = major_info[look_up_in_domain(major_name)]
             except:
                 mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
             dispatcher.utter_message(
@@ -144,7 +112,7 @@ class ActionResponseMajorTypeEdu(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -177,7 +145,7 @@ class ActionResponseMajorPoint(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -210,7 +178,7 @@ class ActionResponseMajorCareer(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -244,7 +212,7 @@ class ActionResponseMajorTuition(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -277,7 +245,7 @@ class ActionResponseSubjectGroup(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -310,7 +278,7 @@ class ActionResponseMajorCriteria(Action):
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)
-        major_name = look_up(major_name)
+        major_name = look_up_in_domain(major_name)
         if not major_name:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
         elif(major_name not in list_major_name):
@@ -325,3 +293,159 @@ class ActionResponseMajorCriteria(Action):
             dispatcher.utter_message(
                 text=mess)
         return []
+
+# BEGIN RESPONSE LIST MAJOR BY POINT|SUBJECTGROUP
+def get_major_by_point(point):
+    df = pd.read_csv(DB_PATH)
+    rows = df[df['point'] <= point]
+    major_names = rows['major_name']
+    return list(major_names)
+class ActionResponseMajorNameByPoint(Action):
+
+    def name(self) -> Text:
+        return "action_response_major_name_by_point"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+        point = tracker.get_slot("point")
+        # point = point.replace(' điểm','')
+        point = convert_to_float(point)
+        if point is False:
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            return []
+
+        # điểm đủ để vào trường là lớn hơn 15
+        if(point <15.0):
+            mess = "Thông báo cho bạn rằng điểm của bạn không đủ để nhập trường"
+        elif(point<=0.0):
+            mess = "Xin lỗi điểm của bạn sánh ngang với Đ_vinaphone tôi không đo đếm được!"
+        elif(point>35):
+            mess = "Outstanding!!! vui lòng cho số điểm chính xác!"
+        else:
+            major_names = get_major_by_point(point)
+            mess = "Thông tin đến bạn các ngành bạn có khả năng đỗ:\n"+response_list_product(major_names)
+        dispatcher.utter_message(text=mess)
+        return []
+
+def get_major_by_subject_group(subject_group):
+    df = pd.read_csv(DB_PATH)
+    rows = df['subject_group','major_name']
+    result = []
+    for item in rows.values:
+        if subject_group in item[0]:
+            result.append(item[1])
+    return result
+class ActionResponseMajorNameBySubjectGroup(Action):
+    def name(self) -> Text:
+        return "action_response_major_name_by_point"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+        subject_group = tracker.get_slot("subject_group")
+        if not subject_group:
+            mess = "Mình không hiểu, hãy cho mình một trường hợp cụ thể"
+        else:
+            major_names = get_major_by_subject_group(subject_group)
+            if(len(major_names) == 0):
+                mess = "Hiện khối này chưa có ngành nào nhận :D"
+            else:
+                mess = "Hiện đang có các ngành: "+response_list_product(major_names)+"\n với subject group là "+subject_group
+        dispatcher.utter_message(text=mess)
+        return []
+
+# END RESPONSE LIST MAJOR BY POINT|SUBJECTGROUP
+
+
+#BEGIN PASS PASS PASS PASS PASS PASS PASS PASS YES/NO YES/NO YES/NO
+def check_pass_point(major_name,point):
+    df = pd.read_csv(DB_PATH)
+    rows = df[df['major_name'] == major_name]
+    point_major = rows['point']
+    return point>=point_major,point_major
+class ActionResponsePassPoint(Action):
+
+    def name(self) -> Text:
+        return "action_response_pass_point"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+        point = tracker.get_slot("point")
+        point = convert_to_float(point)
+
+        major_name = tracker.get_slot("major_name")
+        major_name = LOWERCASE(major_name)
+        major_name = look_up_in_domain(major_name)
+
+        if not major_name:
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
+            return [SlotSet("major_name", None)]
+        else:
+            if point is False:
+                dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+                return [SlotSet("point", None)]
+            else:
+                pass_point,major_point = check_pass_point(major_name,point)
+                if(pass_point):
+                    dispatcher.utter_message(text="Điểm năm trước là {}, vậy với số điểm {} của bạn hiện tại, bạn đã nắm trong tay cơ hội để đỗ ngành này!!".format(major_point,point))
+                else:
+                    dispatcher.utter_message(text="Điểm năm trước là {}, vậy với số điểm {} của bạn hiện tại, vẫn có khả năng bạn đỗ vào ngành này!!".format(major_point,point))
+        return []
+
+
+def check_pass_subject_group(major_name,subject_group):
+    df = pd.read_csv(DB_PATH)
+    rows = df[df['major_name'] == major_name]
+    subject_group_major = rows['subject_group']
+    if subject_group in subject_group_major:
+        return True,str(subject_group_major)
+    return False,str(subject_group_major)
+class ActionResponsePassSubjectGroup(Action):
+    def name(self) -> Text:
+        return "action_response_pass_subject_group"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            
+        subject_group = tracker.get_slot("subject_group")
+
+        major_name = tracker.get_slot("major_name")
+        major_name = LOWERCASE(major_name)
+        major_name = look_up_in_domain(major_name)
+
+        if not major_name:
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+        elif(major_name not in list_major_name):
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
+            return [SlotSet("major_name", None)]
+        else:
+            if not subject_group:
+                dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+                return [SlotSet("subject_group", None)]
+            else:
+                pass_subject_group,subject_group_major = check_pass_subject_group(major_name,subject_group)
+                if(pass_subject_group):
+                    dispatcher.utter_message(text="Ngành này năm trước đang đào tạo các khối ngành {}\n Chào mừng bạn đến với AIA University".format(subject_group_major.replace('@',', ').lstrip(', ')))
+                else:
+                    dispatcher.utter_message(text="Ngành này năm trước đang đào tạo các khối ngành {}\n Có khả năng năm nay vẫn sẽ lấy như vậy, thông tin đến bạn".format(subject_group_major.replace('@',', ').lstrip(', ')))
+        return []
+
+#END PASS PASS PASS PASS PASS PASS PASS PASS YES/NO YES/NO YES/NO YES/NO
+class ActionResponseMajorNames(Action):
+    def name(self) -> Text:
+        return "action_response_major_names"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(text="Các ngành đào tạo trường hiện đang đang đào tạo: "+response_list_product(list_major_name))
+        return []
+
