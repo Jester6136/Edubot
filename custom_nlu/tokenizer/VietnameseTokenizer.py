@@ -13,8 +13,9 @@ import rasa.utils.io
 from rasa.shared.constants import DOCS_URL_COMPONENTS
 
 @DefaultV1Recipe.register(
-    DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER, is_trainable=False
+    [DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER], is_trainable=False
 )
+
 class VietNamese_Tokenizer(Tokenizer):
     """Creates features for entity extraction."""
 

@@ -339,7 +339,7 @@ def get_major_by_subject_group(subject_group):
     return result
 class ActionResponseMajorNameBySubjectGroup(Action):
     def name(self) -> Text:
-        return "action_response_major_name_by_point"
+        return "action_response_major_name_by_subject_group"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
