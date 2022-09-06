@@ -4,7 +4,7 @@ def RANDOM(list):
     return random.choice(list)
 
 def response_list_product(list):
-    return '\n'.join('- {}'.format(item) for item in list)
+    return '\n'+'\n'.join('- {}'.format(item) for item in list)
 
 def convert_to_float(point):
     try:

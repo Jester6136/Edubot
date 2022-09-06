@@ -187,11 +187,6 @@ nlu:
     - tư vấn cho mình về ngành [CNSH](major_name) với ạ
     - Ad cho mình xin info ngành [CNSH](major_name)
     - cho em hỏi về ngành [CNSH](major_name)
-    - ngành [logistics và quản lý chuỗi cung ứng](major_name) là ngành như thế nào ạ
-    - thông tin về ngành [logistics và quản lý chuỗi cung ứng](major_name) 
-    - tư vấn cho mình về ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho mình xin info ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - cho em hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - ngành [logistics](major_name) là ngành như thế nào ạ
     - thông tin về ngành [logistics](major_name) 
     - tư vấn cho mình về ngành [logistics](major_name) với ạ
@@ -524,7 +519,7 @@ nlu:
     - cho hỏi về ngành [giáo dục chính trị](major_name)
     - cho hỏi về ngành [giáo dục thể chất](major_name)
     - cho hỏi về ngành [huấn luyện thể thao](major_name)
-    - cho hỏi về ngành [giáo dục quốc phòng – an ninh](major_name)
+    - cho hỏi về ngành [giáo dục quốc phòng - an ninh](major_name)
     - cho hỏi về ngành [sư phạm toán học](major_name)
     - cho hỏi về ngành [sư phạm tiếng anh](major_name)
     - cho hỏi về ngành [sư phạm tiếng nga](major_name)
@@ -532,7 +527,7 @@ nlu:
     - cho hỏi về ngành [sư phạm tiếng trung quốc](major_name)
     - cho hỏi về ngành [sư phạm khoa học tự nhiên](major_name)
     - cho hỏi về ngành [giáo dục pháp luật](major_name)
-    - cho hỏi về ngành [sư phạm lịch sử – địa lý](major_name)
+    - cho hỏi về ngành [sư phạm lịch sử - địa lý](major_name)
     - cho hỏi về ngành [công nghệ giáo dục](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình mỹ thuật](major_name)
     - cho hỏi về ngành [hội hoạ](major_name)
@@ -555,7 +550,7 @@ nlu:
     - cho hỏi về ngành [đạo diễn sân khấu](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình điện ảnh, truyền hình](major_name)
     - cho hỏi về ngành [biên kịch điện ảnh, truyền hình](major_name)
-    - cho hỏi về ngành [diễn viên kịch, điện ảnh – truyền hình](major_name)
+    - cho hỏi về ngành [diễn viên kịch, điện ảnh - truyền hình](major_name)
     - cho hỏi về ngành [đạo diễn điện ảnh, truyền hình](major_name)
     - cho hỏi về ngành [quay phim](major_name)
     - cho hỏi về ngành [lý luận, lịch sử và phê bình múa](major_name)
@@ -720,7 +715,6 @@ nlu:
     - cho hỏi ngành [kỹ thuật hàng không](major_name)
     - cho hỏi ngành [công nghệ may](major_name)
     - cho hỏi ngành [công nghệ sinh học](major_name)
-    - cho hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - cho hỏi ngành [khoa học máy tính](major_name)
     - cho hỏi ngành [kỹ thuật máy tính](major_name)
     - cho hỏi ngành [công nghệ kỹ thuật ô tô](major_name)
@@ -732,7 +726,6 @@ nlu:
     - cho hỏi [kỹ thuật hàng không](major_name)
     - cho hỏi [công nghệ may](major_name)
     - cho hỏi [công nghệ sinh học](major_name)
-    - cho hỏi [logistics và quản lý chuỗi cung ứng](major_name)
     - cho hỏi [khoa học máy tính](major_name)
     - cho hỏi [kỹ thuật máy tính](major_name)
     - cho hỏi [công nghệ kỹ thuật ô tô](major_name)
@@ -745,7 +738,6 @@ nlu:
     - [công nghệ may](major_name) là ngành như thế nào
     - [kỹ thuật cơ khí](major_name) là ngành như thế nào
     - [công nghệ sinh học](major_name) là ngành như thế nào
-    - [logistics và quản lý chuỗi cung ứng](major_name) là ngành như thế nào
     - [khoa học máy tính](major_name) là ngành như thế nào
     - [kỹ thuật máy tính](major_name) là ngành như thế nào
     - [công nghệ kỹ thuật ô tô](major_name) là ngành như thế nào
@@ -758,7 +750,6 @@ nlu:
     - [kỹ thuật hàng không](major_name)
     - [công nghệ may](major_name)
     - [công nghệ sinh học](major_name)
-    - [logistics và quản lý chuỗi cung ứng](major_name)
     - [khoa học máy tính](major_name)
     - [kỹ thuật máy tính](major_name)
     - [công nghệ kỹ thuật ô tô](major_name)
@@ -770,7 +761,6 @@ nlu:
     - Cho em hỏi ngành [kỹ thuật hàng không](major_name)
     - Cho em hỏi ngành [công nghệ may](major_name)
     - Cho em hỏi ngành [công nghệ sinh học](major_name)
-    - Cho em hỏi về ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - Cho em hỏi về ngành [khoa học máy tính](major_name)
     - Cho em hỏi về ngành [kỹ thuật máy tính](major_name)
     - Cho em hỏi về ngành [công nghệ kỹ thuật ô tô](major_name)
@@ -780,7 +770,6 @@ nlu:
     - Em muốn hỏi về [kỹ thuật hàng không](major_name) ạ
     - Em muốn hỏi về [công nghệ may](major_name) ạ
     - Em muốn hỏi về [công nghệ sinh học](major_name) ạ
-    - Em muốn hỏi về [logistics và quản lý chuỗi cung ứng](major_name) ạ
     - Em muốn hỏi về [khoa học máy tính](major_name) ạ
     - Em muốn hỏi về [kỹ thuật máy tính](major_name) ạ
     - Em muốn hỏi về [công nghệ kỹ thuật ô tô](major_name) ạ
@@ -792,7 +781,6 @@ nlu:
     - Thông tin về ngành [kỹ thuật hàng không](major_name)
     - Thông tin về ngành [công nghệ may](major_name)
     - Thông tin về ngành [công nghệ sinh học](major_name)
-    - Thông tin về ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - Thông tin về ngành [khoa học máy tính](major_name)
     - Thông tin về ngành [kỹ thuật máy tính](major_name)
     - Thông tin về ngành [công nghệ kỹ thuật ô tô](major_name)
@@ -891,11 +879,6 @@ nlu:
     - tư vấn cho mình hệ đào tạo của ngành [CNSH](major_name) với ạ
     - Ad cho mình hỏi ngành [CNSH](major_name) đào tạo những hệ nào
     - thông tin hệ đào tạo của ngành [CNSH](major_name)
-    - ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ gì
-    - cho mình hỏi [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
-    - tư vấn cho mình hệ đào tạo của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
-    - thông tin hệ đào tạo của ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - ngành [logistics](major_name) đào tạo những hệ gì
     - cho mình hỏi [logistics](major_name) đào tạo những hệ nào
     - tư vấn cho mình hệ đào tạo của ngành [logistics](major_name) với ạ
@@ -1093,11 +1076,6 @@ nlu:
     - tư vấn cho mình điểm của ngành [CNSH](major_name) với ạ
     - Ad cho em xin điểm của ngành [CNSH](major_name) ạ
     - điểm sàn của ngành [CNSH](major_name)
-    - ngành [logistics và quản lý chuỗi cung ứng](major_name) lấy bao nhiêu điểm ạ
-    - cho mình xin điểm ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - tư vấn cho mình điểm của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho em xin điểm của ngành [logistics và quản lý chuỗi cung ứng](major_name) ạ
-    - điểm sàn của ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - ngành [logistics](major_name) lấy bao nhiêu điểm ạ
     - cho mình xin điểm ngành [logistics](major_name) với ạ
     - tư vấn cho mình điểm của ngành [logistics](major_name) với ạ
@@ -1212,11 +1190,6 @@ nlu:
     - tư vấn cho mình việc làm của ngành [CNSH](major_name) với ạ
     - Ad cho mình hỏi học xong ngành [CNSH](major_name) có thể làm gì ạ
     - cơ hội việc làm của ngành [CNSH](major_name)
-    - học xong ngành [logistics và quản lý chuỗi cung ứng](major_name) có thể làm những việc gì
-    - cho mình hỏi cơ hội làm việc của ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - tư vấn cho mình việc làm của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho mình hỏi học xong ngành [logistics và quản lý chuỗi cung ứng](major_name) có thể làm gì ạ
-    - cơ hội việc làm của ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - học xong ngành [logistics](major_name) có thể làm những việc gì
     - cho mình hỏi cơ hội làm việc của ngành [logistics](major_name)
     - tư vấn cho mình việc làm của ngành [logistics](major_name) với ạ
@@ -1390,10 +1363,6 @@ nlu:
     - học phí ngành [CNSH](major_name)
     - tư vấn cho mình học phí của ngành [CNSH](major_name) với ạ
     - Ad cho mình xin học phí ngành [CNSH](major_name) với ạ
-    - học phí ngành [logistics và quản lý chuỗi cung ứng](major_name) có cao không ạ
-    - học phí ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - tư vấn cho mình học phí của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho mình xin học phí ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
     - học phí ngành [logistics](major_name) có cao không ạ
     - học phí ngành [logistics](major_name)
     - tư vấn cho mình học phí của ngành [logistics](major_name) với ạ
@@ -1525,11 +1494,6 @@ nlu:
     - khối thi của ngành [CNSH](major_name)
     - Ad cho mình xin khối xét tuyển của ngành [CNSH](major_name) với ạ
     - khối xét tuyển ngành [CNSH](major_name)
-    - tư vấn cho mình khối xét tuyển ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - em muốn học ngành [logistics và quản lý chuỗi cung ứng](major_name) thì thi khối nào ạ
-    - khối thi của ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - Ad cho mình xin khối xét tuyển của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - khối xét tuyển ngành [logistics và quản lý chuỗi cung ứng](major_name)
     - tư vấn cho mình khối xét tuyển ngành [logistics](major_name) với ạ
     - em muốn học ngành [logistics](major_name) thì thi khối nào ạ
     - khối thi của ngành [logistics](major_name)
@@ -1754,12 +1718,6 @@ nlu:
     - Ad cho mình hỏi ngành [CNSH](major_name) đào tạo những hệ nào
     - thông tin chỉ tiêu của ngành [CNSH](major_name) ra sao ạ
     - năm nay ngành [CNSH](major_name) tuyển sinh bao nhiêu sinh viên ạ
-    - chỉ tiêu ngành [logistics và quản lý chuỗi cung ứng](major_name)
-    - cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) lấy bao nhiêu sinh viên ạ
-    - tư vấn cho mình chỉ tiêu của ngành [logistics và quản lý chuỗi cung ứng](major_name) với ạ
-    - Ad cho mình hỏi ngành [logistics và quản lý chuỗi cung ứng](major_name) đào tạo những hệ nào
-    - thông tin chỉ tiêu của ngành [logistics và quản lý chuỗi cung ứng](major_name) ra sao ạ
-    - năm nay ngành [logistics và quản lý chuỗi cung ứng](major_name) tuyển sinh bao nhiêu sinh viên ạ
     - chỉ tiêu ngành [logistics](major_name)
     - cho mình hỏi ngành [logistics](major_name) lấy bao nhiêu sinh viên ạ
     - tư vấn cho mình chỉ tiêu của ngành [logistics](major_name) với ạ
@@ -1972,8 +1930,6 @@ nlu:
     - ngành [cnsh](major_name) thì sao
     - Vậy ngành [CNSH](major_name) thì sao
     - ngành [CNSH](major_name) thì sao
-    - Vậy ngành [logistics và quản lý chuỗi cung ứng](major_name) thì sao
-    - ngành [logistics và quản lý chuỗi cung ứng](major_name) thì sao
     - Vậy ngành [logistics](major_name) thì sao
     - ngành [logistics](major_name) thì sao
     - Vậy ngành [logistic](major_name) thì sao

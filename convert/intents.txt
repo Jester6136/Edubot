@@ -1,29 +1,26 @@
-- greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- ask_ability
-- mood_unhappy
-- bot_challenge
-- ask_major_info
-- ask_major_type_edu
-- ask_major_point
-- ask_major_career
-- ask_major_tuition
-- ask_major_subject_group
-- ask_major_criteria
-- context_ask_major_type_edu
-- context_ask_major_point
-- context_ask_major_career
-- context_ask_major_tuition
-- context_ask_major_subject_group
-- context_ask_major_criteria
-- turn_major_name
-- ask_major_name_list
-- context_ask_pass_point
-- context_ask_pass_subject_group
-- ask_major_name_list_by_subject_group
-- ask_major_name_list_by_point
-- can_not_look_up
-- out_of_story
+- greet         1
+- goodbye       1
+- affirm        0
+- deny          0
+- ask_ability   1
+- ask_major_info 1
+- ask_major_type_edu        1
+- ask_major_point   1
+- ask_major_career  1
+- ask_major_tuition   1
+- ask_major_subject_group   1
+- ask_major_criteria    1
+- context_ask_major_type_edu    1
+- context_ask_major_point   1
+- context_ask_major_career  1
+- context_ask_major_tuition 1
+- context_ask_major_subject_group 1
+- context_ask_major_criteria 1
+- turn_major_name   1
+- ask_major_name_list   1
+- context_ask_pass_point    1    
+- context_ask_pass_subject_group    1     uppercase sau
+- ask_major_name_list_by_subject_group  1
+- ask_major_name_list_by_point  1
+- can_not_look_up 1
+- out_of_story  1

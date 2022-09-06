@@ -349,6 +349,7 @@ class ActionResponseMajorNameBySubjectGroup(Action):
         if not subject_group:
             mess = "Mình không hiểu, hãy cho mình một trường hợp cụ thể"
         else:
+            subject_group = UPPERCASE(subject_group)
             major_names = get_major_by_subject_group(subject_group)
             if(len(major_names) == 0):
                 mess = "Hiện khối này chưa có ngành nào nhận :D"
@@ -432,6 +433,7 @@ class ActionResponsePassSubjectGroup(Action):
                 dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
                 return [SlotSet("subject_group", None)]
             else:
+                subject_group = UPPERCASE(subject_group)
                 pass_subject_group,subject_group_major = check_pass_subject_group(major_name,subject_group)
                 if(pass_subject_group):
                     dispatcher.utter_message(text="Ngành này năm trước đang đào tạo các khối ngành {}\n Chào mừng bạn đến với AIA University".format(subject_group_major.replace('@',', ').lstrip(', ')))
