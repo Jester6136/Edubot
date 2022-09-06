@@ -22,6 +22,10 @@ rules:
   steps:
   - intent: greet
   - action: utter_greet
+- rule: Say thanks
+  steps:
+  - intent: mood_great
+  - action: utter_happy
 
 - rule: Say ability
   steps:

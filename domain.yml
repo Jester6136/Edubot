@@ -64,7 +64,8 @@ responses:
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
-  - text: Great, carry on!
+  - text: Dạ không có gì ạ
+  - text: Rất vui vì giúp được bạn
   utter_goodbye:
   - text: Tạm biệt
   utter_iamabot:
@@ -72,7 +73,7 @@ responses:
   utter_out_of_story:
   - text: Thôi cô xin cháu đấy!! hỏi cho hẳn hoi.
   utter_ability:
-  - text: Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về\n-Học phí\n-Cơ hội việc làm\n- Điểm sàn\n- Chỉ tiêu tuyển sinh\n- Hệ đào tạo và khối ngành đào tạo nữa ạ\n Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!
+  - text: "Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về \n\t\t-Học phí\n\t\t-Cơ hội việc làm\n\t\t- Điểm sàn\n\t\t- Chỉ tiêu tuyển sinh\n\t\t- Hệ đào tạo và khối ngành đào tạo nữa ạ\n Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!"
 actions:
 - action_default_fallback
 - action_hello_world

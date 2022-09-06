@@ -81,7 +81,7 @@ class ActionResponseMajorInfo(Action):
         major_name = LOWERCASE(major_name)
         major_name = look_up_in_domain(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            dispatcher.utter_message(text="Mình chưa hiểu, hãy cho mình tên một ngành cụ thể")
         elif(look_up_in_domain(major_name) not in list_major_name):
             AllSlotsReset()
             dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
@@ -90,7 +90,7 @@ class ActionResponseMajorInfo(Action):
             try:
                 mess = major_info[look_up_in_domain(major_name)]
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -114,16 +114,16 @@ class ActionResponseMajorTypeEdu(Action):
         major_name = LOWERCASE(major_name)
         major_name = look_up_in_domain(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            dispatcher.utter_message(text="Hãy cho mình một chuyên ngành cụ thể ạ")
         elif(major_name not in list_major_name):
-            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, nên không có thông tin về hệ đào tạo của ngành này ạ!")
             return [SlotSet("major_name", None)]
         else:
             try:
                 result = get_type_edu(major_name)
-                mess = f"Ngành {major_name} đào tạo những hệ "+ result
+                mess = f"Dạ ngành {major_name} đào tạo những hệ "+ result+" ạ.\n Bạn cần mình giúp gì nữa không ạ :3"
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -147,16 +147,16 @@ class ActionResponseMajorPoint(Action):
         major_name = LOWERCASE(major_name)
         major_name = look_up_in_domain(major_name)
         if not major_name:
-            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một ngành cụ thể")
         elif(major_name not in list_major_name):
-            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
+            dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, nên không có thông tin về điểm ạ!")
             return [SlotSet("major_name", None)]
         else:
             try:
                 result = get_major_point(major_name)
-                mess = f"Hiện tại điểm sàn của ngành {major_name} là "+result + ", thông tin đến bạn ạ"
+                mess = f"Dạ hiện tại điểm sàn của ngành {major_name} là "+result + ", thông tin đến bạn ạ"
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -165,7 +165,7 @@ def get_career(major_name):
     df = connect_database()
     career_info = df[df['major_name'] == major_name]
     output = career_info['career'].iloc[0]
-    return str(output.replace('@',', '))
+    return str(output)
 
 class ActionResponseMajorCareer(Action):
 
@@ -187,9 +187,16 @@ class ActionResponseMajorCareer(Action):
         else:
             try:
                 result = get_career(major_name)
-                mess = f"Cơ hội việc làm của ngành {major_name} là "+result+"\n Bạn tham khảo nhé!"
+                list_careers = result.split("@")
+                
+                mess1 = f"Cơ hội việc làm của ngành {major_name} là: \n"
+                mess2 = ''
+                for item in list_careers:
+                    mess2+=('\t\t\t - '+item+'\n')
+                mess3 = 'Bạn tham khảo nhé !'
+                mess = mess1 + mess2 + mess3
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -221,9 +228,9 @@ class ActionResponseMajorTuition(Action):
         else:
             try:
                 result = get_major_tuition(major_name)
-                mess = f"Học phí của ngành {major_name} là "+result+" trên một tín chỉ ạ."
+                mess = f"Dạ học phí của ngành {major_name} là "+result+" trên một tín chỉ ạ. Bạn cần mình giúp gì nữa không ạ"
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -254,9 +261,9 @@ class ActionResponseSubjectGroup(Action):
         else:
             try:
                 result = get_subject_group(major_name)
-                mess = f"Ngành {major_name} tuyển sinh các khối "+result+" thông tin đến bạn."
+                mess = f"Dạ ngành {major_name} tuyển sinh các khối "+result+" thông tin đến bạn."
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -287,9 +294,9 @@ class ActionResponseMajorCriteria(Action):
         else:
             try:
                 result = get_major_criteria(major_name)
-                mess = f"Năm 2022 ngành {major_name} dự kiến tuyển sinh khoảng "+result+" sinh viên ạ"
+                mess = f"Năm 2022 ngành {major_name} dự kiến tuyển sinh "+result+" sinh viên ạ"
             except:
-                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn viết rõ hơn được không"
+                mess = "Câu hỏi của bạn nằm ngoài tri thức của mình, bạn có thể viết rõ hơn được không ạ"
             dispatcher.utter_message(
                 text=mess)
         return []
@@ -318,14 +325,14 @@ class ActionResponseMajorNameByPoint(Action):
 
         # điểm đủ để vào trường là lớn hơn 15
         if(point <15.0):
-            mess = "Thông báo cho bạn rằng điểm của bạn không đủ để nhập trường"
+            mess = "Hiện tại điểm sàn các ngành mà trường đào tạo dao dộng trong khoảng từ 21 đến 26.5 điểm ạ.\n Mình rất tiếc ạ :("
         elif(point<=0.0):
-            mess = "Xin lỗi điểm của bạn sánh ngang với Đ_vinaphone tôi không đo đếm được!"
+            mess = "Bạn từ sao Hỏa đến phải không @@!"
         elif(point>35):
-            mess = "Outstanding!!! vui lòng cho số điểm chính xác!"
+            mess = "Trên đời này còn có người giỏi như vậy sao ^^!"
         else:
             major_names = get_major_by_point(point)
-            mess = "Thông tin đến bạn các ngành bạn có khả năng đỗ:\n"+response_list_product(major_names)
+            mess = "Mình gửi bạn danh sách những ngành bạn có khả năng đỗ ạ :\n"+response_list_product(major_names)
         dispatcher.utter_message(text=mess)
         return []
 
@@ -347,14 +354,14 @@ class ActionResponseMajorNameBySubjectGroup(Action):
             
         subject_group = tracker.get_slot("user_subject_group")
         if not subject_group:
-            mess = "Mình không hiểu, hãy cho mình một trường hợp cụ thể"
+            mess = "Mình chưa hiểu ạ, hãy cho mình một khối thi cụ thể"
         else:
             subject_group = UPPERCASE(subject_group)
             major_names = get_major_by_subject_group(subject_group)
             if(len(major_names) == 0):
-                mess = "Hiện khối này chưa có ngành nào nhận :D"
+                mess = "Trường chủ yếu đào tạo những ngành liên quan đến khoa học - kỹ thuật. Khối thi của bạn không phù hợp ạ :(("
             else:
-                mess = "Hiện đang có các ngành: "+response_list_product(major_names)+"\n với subject group là "+subject_group
+                mess = "Danh sách các ngành tuyển sinh tân sinh viên khối : "+subject_group+" là :"+response_list_product(major_names) +"\n Thông tin đến bạn ạ"
         dispatcher.utter_message(text=mess)
         return []
 
@@ -385,20 +392,20 @@ class ActionResponsePassPoint(Action):
         major_name = look_up_in_domain(major_name)
 
         if not major_name:
-            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            dispatcher.utter_message(text="Mình chưa hiểu ý bạn, hãy cho mình một tên chuyên ngành cụ thể nhé ạ")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
             if point is False:
-                dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+                dispatcher.utter_message(text="Mình chưa hiểu, bạn nhập lại câu hỏi được không ạ :(")
                 return [SlotSet("user_point", None)]
             else:
                 pass_point,major_point = check_pass_point(major_name,point)
                 if(pass_point):
-                    dispatcher.utter_message(text="Điểm năm trước là {}, vậy với số điểm {} của bạn hiện tại, bạn đã nắm trong tay cơ hội để đỗ ngành này!!".format(major_point,point))
+                    dispatcher.utter_message(text="Hiện tại điểm sàn của ngành {} là: {}, điểm chuẩn có thể tăng 1 đến 1.5 điểm. Mình tin bạn sẽ đỗ".format(major_name,major_point))
                 else:
-                    dispatcher.utter_message(text="Điểm năm trước là {}, vậy với số điểm {} của bạn hiện tại, vẫn có khả năng bạn đỗ vào ngành này!!".format(major_point,point))
+                    dispatcher.utter_message(text="Hiện tại điểm sàn của ngành {} là: {}, điểm chuẩn có thể tăng 1 đến 1.5 điểm. Bạn cố gắng chờ kết quả cuối cùng nhé".format(major_name,major_point))
         return []
 
 
@@ -424,21 +431,21 @@ class ActionResponsePassSubjectGroup(Action):
         major_name = look_up_in_domain(major_name)
 
         if not major_name:
-            dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+            dispatcher.utter_message(text="Mình chưa hiểu, hãy cho mình một chuyên ngành cụ thể")
         elif(major_name not in list_major_name):
             dispatcher.utter_message(text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập lại giúp ad nha!")
             return [SlotSet("major_name", None)]
         else:
             if not subject_group:
-                dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
+                dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một khối thi cụ thể")
                 return [SlotSet("user_subject_group", None)]
             else:
                 subject_group = UPPERCASE(subject_group)
                 pass_subject_group,subject_group_major = check_pass_subject_group(major_name,subject_group)
                 if(pass_subject_group):
-                    dispatcher.utter_message(text="Ngành này năm trước đang đào tạo các khối ngành {}\n Chào mừng bạn đến với AIA University".format(subject_group_major.replace('@',', ').lstrip(', ')))
+                    dispatcher.utter_message(text="Dạ ngành {} tuyển sinh các khối thi {}\n Chào mừng bạn đến với AIA University".format(major_name,subject_group_major.replace('@',', ').lstrip(', ')))
                 else:
-                    dispatcher.utter_message(text="Ngành này năm trước đang đào tạo các khối ngành {}\n Có khả năng năm nay vẫn sẽ lấy như vậy, thông tin đến bạn".format(subject_group_major.replace('@',', ').lstrip(', ')))
+                    dispatcher.utter_message(text="Dạ ngành {} tuyển sinh các khối thi {}\n Bạn có thể tra cứu thông tin những ngành khác ạ".format(major_name,subject_group_major.replace('@',', ').lstrip(', ')))
         return []
 
 #END PASS PASS PASS PASS PASS PASS PASS PASS YES/NO YES/NO YES/NO YES/NO
@@ -449,6 +456,6 @@ class ActionResponseMajorNames(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(text="Các ngành đào tạo trường hiện đang đang đào tạo: "+response_list_product(list_major_name))
+        dispatcher.utter_message(text="Dạ các ngành đào tạo trường hiện đang đang đào tạo: "+response_list_product(list_major_name))
         return [SlotSet("major_name", None)]
 
