@@ -35,8 +35,8 @@ intents:
 
 entities:
 - major_name
-- point
-- subject_group
+- user_point
+- user_subject_group
 slots:
   major_name:
     type: text
@@ -44,18 +44,18 @@ slots:
     mappings:
     - type: from_entity
       entity: major_name
-  point:
+  user_point:
     type: text
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: point
-  subject_group:
+      entity: user_point
+  user_subject_group:
     type: text
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: subject_group
+      entity: user_subject_group
 responses:
   utter_greet:
   - text: Chào bạn yêu dấu, mình là Edu_bot, trợ lý ảo sẽ giúp bạn giải đáp tất cả những thắc mắc về tuyển sinh trường AIA University nha

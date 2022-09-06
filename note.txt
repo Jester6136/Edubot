@@ -1,0 +1,7 @@
+
+rasa interactive --skip-visualization --model=
+
+xin chào
+Ad ơi, tôi 21.0 điểm xét tuyển vào đâu được?
+
+Em thi được 20 điểm thì có cơ hội đỗ ngành này không ạ

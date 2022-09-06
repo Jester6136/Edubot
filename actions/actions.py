@@ -20,7 +20,7 @@ from rasa_sdk.events import AllSlotsReset
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from extentions.utils import RANDOM,response_list_product,convert_to_float,LOWERCASE,look_up_in_domain
+from extentions.utils import RANDOM,response_list_product,convert_to_float,LOWERCASE,UPPERCASE,look_up_in_domain
 import pandas as pd
 
 DB_PATH = 'convert/entities.csv'
@@ -309,8 +309,8 @@ class ActionResponseMajorNameByPoint(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             
-        point = tracker.get_slot("point")
-        # point = point.replace(' điểm','')
+        point = tracker.get_slot("user_point")
+        point = point.replace(' điểm','')
         point = convert_to_float(point)
         if point is False:
             dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
@@ -345,7 +345,7 @@ class ActionResponseMajorNameBySubjectGroup(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             
-        subject_group = tracker.get_slot("subject_group")
+        subject_group = tracker.get_slot("user_subject_group")
         if not subject_group:
             mess = "Mình không hiểu, hãy cho mình một trường hợp cụ thể"
         else:
@@ -363,9 +363,9 @@ class ActionResponseMajorNameBySubjectGroup(Action):
 #BEGIN PASS PASS PASS PASS PASS PASS PASS PASS YES/NO YES/NO YES/NO
 def check_pass_point(major_name,point):
     df = pd.read_csv(DB_PATH)
-    rows = df[df['major_name'] == major_name]
-    point_major = rows['point']
-    return point>=point_major,point_major
+    row = df[df['major_name'] == major_name]
+    point_major = row['point'].iloc[0]
+    return (point>=point_major),point_major
 class ActionResponsePassPoint(Action):
 
     def name(self) -> Text:
@@ -375,7 +375,8 @@ class ActionResponsePassPoint(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             
-        point = tracker.get_slot("point")
+        point = tracker.get_slot("user_point")
+        point = point.replace(' điểm','')
         point = convert_to_float(point)
 
         major_name = tracker.get_slot("major_name")
@@ -415,7 +416,7 @@ class ActionResponsePassSubjectGroup(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             
-        subject_group = tracker.get_slot("subject_group")
+        subject_group = tracker.get_slot("user_subject_group")
 
         major_name = tracker.get_slot("major_name")
         major_name = LOWERCASE(major_name)

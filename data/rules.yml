@@ -23,6 +23,11 @@ rules:
   - intent: greet
   - action: utter_greet
 
+- rule: Say ability
+  steps:
+  - intent: ask_ability
+  - action: utter_ability
+
 - rule: Say major_names
   steps:
   - intent: ask_major_name_list

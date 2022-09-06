@@ -21,6 +21,12 @@ def LOWERCASE(entity):
         return entity.lower()
 
 
+def UPPERCASE(entity):
+    if not entity:
+        return entity
+    else:
+        return entity.uppercase()
+
 def look_up_in_domain(major_name):
     look_up_dict = {"khoa học máy tính": ['khoa học máy tính','khmt', 'KHMT', 'khoa hoc may tinh', 'Khoa hoc may tinh'],
                     "kỹ thuật điện": ["kỹ thuật điện",'ktđ', 'ktd', 'ky thuat dien', 'KTĐ', 'KTD'],
