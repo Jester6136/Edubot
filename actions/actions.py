@@ -392,7 +392,7 @@ class ActionResponsePassPoint(Action):
         else:
             if point is False:
                 dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
-                return [SlotSet("point", None)]
+                return [SlotSet("user_point", None)]
             else:
                 pass_point,major_point = check_pass_point(major_name,point)
                 if(pass_point):
@@ -431,7 +431,7 @@ class ActionResponsePassSubjectGroup(Action):
         else:
             if not subject_group:
                 dispatcher.utter_message(text="Mình không hiểu, hãy cho mình một trường hợp cụ thể")
-                return [SlotSet("subject_group", None)]
+                return [SlotSet("user_subject_group", None)]
             else:
                 subject_group = UPPERCASE(subject_group)
                 pass_subject_group,subject_group_major = check_pass_subject_group(major_name,subject_group)
@@ -450,5 +450,5 @@ class ActionResponseMajorNames(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(text="Các ngành đào tạo trường hiện đang đang đào tạo: "+response_list_product(list_major_name))
-        return []
+        return [SlotSet("major_name", None)]
 

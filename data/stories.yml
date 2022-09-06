@@ -15276,3 +15276,41 @@ stories:
 
   - intent: context_ask_major_criteria
   - action: action_response_major_criteria
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_major_name_list
+    entities:
+    - major_name: mà
+  - slot_was_set:
+    - major_name: mà
+
+- story: interactive_story_2
+  steps:
+  - intent: ask_major_name_list
+    entities:
+    - major_name: mà
+  - slot_was_set:
+    - major_name: mà
+  - action: action_response_major_names
+  - intent: ask_major_info
+    entities:
+    - major_name: khoa học máy tính
+  - slot_was_set:
+    - major_name: khoa học máy tính
+  - action: action_response_major_info
+  - intent: context_ask_major_tuition
+  - action: action_response_major_tuition
+  - intent: context_ask_major_career
+  - action: action_response_major_career
+  - intent: context_ask_pass_point
+    entities:
+    - user_point: 20 điểm
+  - slot_was_set:
+    - user_point: 20 điểm
+  - action: action_response_pass_point
+  - intent: context_ask_major_type_edu
+  - action: action_response_major_type_edu
+  - intent: context_ask_major_criteria
+  - action: action_response_major_criteria

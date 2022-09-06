@@ -3,40 +3,39 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- goodbye
 - affirm
-- deny
-- mood_great
 - ask_ability
-- mood_unhappy
-- bot_challenge
-- ask_major_info
-- ask_major_type_edu
-- ask_major_point
 - ask_major_career
-- ask_major_tuition
-- ask_major_subject_group
 - ask_major_criteria
-- context_ask_major_type_edu
-- context_ask_major_point
-- context_ask_major_career
-- context_ask_major_tuition
-- context_ask_major_subject_group
-- context_ask_major_criteria
-- turn_major_name
+- ask_major_info
 - ask_major_name_list
+- ask_major_name_list_by_point
+- ask_major_name_list_by_subject_group
+- ask_major_point
+- ask_major_subject_group
+- ask_major_tuition
+- ask_major_type_edu
+- bot_challenge
+- can_not_look_up
+- context_ask_major_career
+- context_ask_major_criteria
+- context_ask_major_point
+- context_ask_major_subject_group
+- context_ask_major_tuition
+- context_ask_major_type_edu
 - context_ask_pass_point
 - context_ask_pass_subject_group
-- ask_major_name_list_by_subject_group
-- ask_major_name_list_by_point
-- can_not_look_up
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
 - out_of_story
-
+- turn_major_name
 entities:
 - major_name
-- user_point
 - user_subject_group
+- user_point
 slots:
   major_name:
     type: text
@@ -82,11 +81,11 @@ actions:
 - action_response_major_info
 - action_response_major_name_by_point
 - action_response_major_name_by_subject_group
+- action_response_major_names
 - action_response_major_point
 - action_response_major_subject_group
 - action_response_major_tuition
 - action_response_major_type_edu
-- action_response_major_names
 - action_response_pass_point
 - action_response_pass_subject_group
 - utter_ability

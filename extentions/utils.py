@@ -14,18 +14,18 @@ def convert_to_float(point):
     return result
 
 
-def LOWERCASE(entity):
+def LOWERCASE(entity:str):
     if not entity:
         return entity
     else:
         return entity.lower()
 
 
-def UPPERCASE(entity):
+def UPPERCASE(entity:str):
     if not entity:
         return entity
     else:
-        return entity.uppercase()
+        return entity.upper()
 
 def look_up_in_domain(major_name):
     look_up_dict = {"khoa học máy tính": ['khoa học máy tính','khmt', 'KHMT', 'khoa hoc may tinh', 'Khoa hoc may tinh'],
