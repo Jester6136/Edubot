@@ -331,7 +331,7 @@ class ActionResponseMajorNameByPoint(Action):
 
 def get_major_by_subject_group(subject_group):
     df = pd.read_csv(DB_PATH)
-    rows = df['subject_group','major_name']
+    rows = df[['subject_group','major_name']]
     result = []
     for item in rows.values:
         if subject_group in item[0]:
@@ -403,8 +403,8 @@ class ActionResponsePassPoint(Action):
 
 def check_pass_subject_group(major_name,subject_group):
     df = pd.read_csv(DB_PATH)
-    rows = df[df['major_name'] == major_name]
-    subject_group_major = rows['subject_group']
+    row = df[df['major_name'] == major_name]
+    subject_group_major = row['subject_group'].iloc[0]
     if subject_group in subject_group_major:
         return True,str(subject_group_major)
     return False,str(subject_group_major)

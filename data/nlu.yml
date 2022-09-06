@@ -2102,46 +2102,46 @@ nlu:
     
 - intent: ask_major_name_list_by_subject_group
   examples: |
-    - Mình học khối [a00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [a00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [a00](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [a00](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [a00](subject_group)
-    - Mình học khối [A00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [A00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [A00](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [A00](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [A00](subject_group)
-    - Mình học khối [a01](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [a01](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [a01](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [a01](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [a01](subject_group)
-    - Mình học khối [A01](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [A01](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [A01](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [A01](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [A01](subject_group)
-    - Mình học khối [b00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [b00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [b00](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [b00](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [b00](subject_group)
-    - Mình học khối [B00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [B00](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [B00](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [B00](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [B00](subject_group)
-    - Mình học khối [D07](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [D07](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [D07](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [D07](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [D07](subject_group)
-    - Mình học khối [d07](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [d07](subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [d07](subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [d07](subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [d07](subject_group)
+    - Mình học khối [a00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [a00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [a00](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [a00](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [a00](user_subject_group)
+    - Mình học khối [A00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [A00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [A00](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [A00](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [A00](user_subject_group)
+    - Mình học khối [a01](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [a01](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [a01](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [a01](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [a01](user_subject_group)
+    - Mình học khối [A01](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [A01](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [A01](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [A01](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [A01](user_subject_group)
+    - Mình học khối [b00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [b00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [b00](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [b00](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [b00](user_subject_group)
+    - Mình học khối [B00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [B00](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [B00](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [B00](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [B00](user_subject_group)
+    - Mình học khối [D07](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [D07](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [D07](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [D07](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [D07](user_subject_group)
+    - Mình học khối [d07](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi, minh thi khối [d07](user_subject_group) học những ngành nào được nhở
+    - Ê bạn ơi khối [d07](user_subject_group) nộp những ngành nào được nhỉ
+    - Ad cho mình hỏi, mình thi khối [d07](user_subject_group) thì nộp những ngành nào được nhở
+    - Cho mình hỏi những ngành nào phù hợp với khối [d07](user_subject_group)
 
 - intent: ask_major_name_list_by_point
   examples: |
