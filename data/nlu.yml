@@ -13,6 +13,7 @@ nlu:
     - xin chào
     - hello
     - chào bạn
+    - xin chào cu
 - intent: goodbye
   examples: |
     - cu
@@ -59,6 +60,7 @@ nlu:
     - Được luôn bạn ơi
     - ok
     - ok đấy
+    - cảm ơn ạ
 - intent: ask_ability
   examples: |
     - em có thể làm những gì nhỉ
@@ -74,6 +76,7 @@ nlu:
     - bạn biết làm gì nhỉ
     - mình cần tư vấn
     - tư vấn cho mình với
+    - mình muốn tư vấn ạ
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -788,6 +791,10 @@ nlu:
     - thế cho mình xin info ngành [khmt](major_name)
     - cho mình xin thông tin ngành [khmt](major_name)
     - cho em hỏi ngành [ktmt](major_name)
+    - cho hỏi ngành [logistic](major_name)
+    - cho em hỏi ngành [logistic](major_name)
+    - cho hỏi ngành [điện](major_name)
+    - cho hỏi ngành [khoa học máy tính](major_name)
 - intent: ask_major_type_edu
   examples: |
     - ngành [khoa học máy tính](major_name) đào tạo những hệ gì
@@ -1815,6 +1822,7 @@ nlu:
     - năm nay ngành [điện tử viễn thông](major_name) tuyển sinh bao nhiêu sinh viên ạ
     - chỉ tiêu ngành [ĐTVT](major_name)
     - cho mình hỏi ngành [ĐTVT](major_name) lấy bao nhiêu sinh viên ạ
+    - cho hỏi chỉ tiêu ngành [khoa học máy tính](major_name)
 - intent: context_ask_major_type_edu
   examples: |
     - ngành này đào tạo những hệ nào ạ
@@ -1909,13 +1917,14 @@ nlu:
     - Học phí ngành này có cao không ạ?
     - Học phí ngành này là bao nhiêu ?
     - Ad cho mình hỏi học phí ngành này là bao nhiêu thế ?
-    - tư vấn cho mình học phí ngành này với ạ 
+    - tư vấn cho mình học phí ngành này với ạ
     - mình cần tư vấn về học phí ngành này
     - cho mình xin học phí ngành này với ạ
     - học phí thường niên là bao nhiêu ạ
     - hàng tháng phải đóng học phí là bao nhiêu
     - có thể cho mình biết học phí của ngành này được không
     - mình xin giá học phí với ad
+    - ad ơi, cho em hỏi học phí ngành này
 - intent: context_ask_major_subject_group
   examples: |
     - em muốn học ngành này thì thi khối gì ạ
@@ -1945,6 +1954,7 @@ nlu:
     - chỉ tiêu tuyển sinh
 - intent: turn_major_name
   examples: |
+    - cho mình hỏi thêm về ngành [khoa học máy tính] đi ạ
     - Vậy ngành [khoa học máy tính](major_name) thì sao
     - ngành [khoa học máy tính](major_name) thì sao
     - Vậy ngành [khmt](major_name) thì sao
@@ -2046,6 +2056,7 @@ nlu:
     - Trường gồm có những ngành nào bạn nhỉ
     - các ngành mà trường có
     - cho mình xin danh sách các ngành trường đào tạo
+    - danh sách các ngành của trường
 - intent: context_ask_pass_point
   examples: |
     - Mình thi được [15 điểm](user_point) thì có đỗ được ngành này không
@@ -2282,6 +2293,8 @@ nlu:
     - Em thi được [10.8 điểm](user_point) thì có đỗ không ạ
     - Em thi được [10,9 điểm](user_point) thì có đỗ không ạ
     - Em thi được [10.9 điểm](user_point) thì có đỗ không ạ
+    - em thi khối [a0](user_subject_group) có đỗ không ạ
+    - em thi được [20 điểm](user_point) có đỗ không ạ
 - intent: context_ask_pass_subject_group
   examples: |
     - ngành này có tuyển sinh khối [A](user_subject_group) không ạ
@@ -2328,6 +2341,7 @@ nlu:
     - em thi khối [d7](user_subject_group) có vào được không ạ
     - ngành này có tuyển sinh khối [d07](user_subject_group) không ạ
     - em thi khối [d07](user_subject_group) có vào được không ạ
+    - em thi khối [d7](user_subject_group) có vào được không
 - intent: ask_major_name_list_by_subject_group
   examples: |
     - danh sách ngành tuyển sinh khối [A](user_subject_group)
@@ -2396,6 +2410,7 @@ nlu:
     - danh sách ngành tuyển sinh khối [d07](user_subject_group)
     - các ngành tuyển sinh khối [d07](user_subject_group)
     - những ngành nào tuyển sinh khối [d07](user_subject_group) ạ
+    - danh sách các ngành tuyển sinh khối [A0](user_subject_group)
 - intent: ask_major_name_list_by_point
   examples: |
     - có ngành nào lấy [1,1 điểm](user_point) không ạ
@@ -2525,9 +2540,6 @@ nlu:
     - danh sách những ngành lấy [7,9 điểm](user_point)
     - có ngành nào lấy [8,1 điểm](user_point) không ạ
     - những ngành nào lấy dưới [8,1 điểm](user_point)
-    - danh sách những ngành lấy [6.7 điểm](user_point)
-    - những ngành nào lấy dưới [6.7 điểm](user_point)
-    - danh sách những ngành lấy [6,7 điểm](user_point)
     - có ngành nào lấy [6,8 điểm](user_point) không ạ
     - những ngành nào lấy dưới [6,8 điểm](user_point)
     - danh sách những ngành lấy [6.8 điểm](user_point)
@@ -2538,23 +2550,11 @@ nlu:
     - danh sách những ngành lấy [6.9 điểm](user_point)
     - những ngành nào lấy dưới [6.9 điểm](user_point)
     - danh sách những ngành lấy [6,9 điểm](user_point)
-    - có ngành nào lấy [7,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,1 điểm](user_point)
-    - danh sách những ngành lấy [7.1 điểm](user_point)
-    - những ngành nào lấy dưới [7.1 điểm](user_point)
-    - danh sách những ngành lấy [7,1 điểm](user_point)
     - có ngành nào lấy [7,4 điểm](user_point) không ạ
     - những ngành nào lấy dưới [7,4 điểm](user_point)
     - danh sách những ngành lấy [7.4 điểm](user_point)
     - những ngành nào lấy dưới [7.4 điểm](user_point)
     - danh sách những ngành lấy [7,4 điểm](user_point)
-    - có ngành nào lấy [7,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,7 điểm](user_point)
-    - danh sách những ngành lấy [7.7 điểm](user_point)
-    - những ngành nào lấy dưới [7.7 điểm](user_point)
-    - danh sách những ngành lấy [7,7 điểm](user_point)
-    - có ngành nào lấy [8,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [8,1 điểm](user_point)
     - danh sách những ngành lấy [8.1 điểm](user_point)
     - những ngành nào lấy dưới [8.1 điểm](user_point)
     - danh sách những ngành lấy [8,1 điểm](user_point)
@@ -2628,6 +2628,7 @@ nlu:
     - danh sách những ngành lấy [10.9 điểm](user_point)
     - những ngành nào lấy dưới [10.9 điểm](user_point)
     - danh sách những ngành lấy [10,9 điểm](user_point)
+    - danh sách các ngành lấy dưới [25 điểm](user_point)
 - intent: can_not_look_up
   examples: |
     - ngành ky thuat dieu khien va tu dong hoa đào tạo những hệ gì

@@ -34,8 +34,8 @@ intents:
 - turn_major_name
 entities:
 - major_name
-- user_subject_group
 - user_point
+- user_subject_group
 slots:
   major_name:
     type: text
@@ -73,7 +73,14 @@ responses:
   utter_out_of_story:
   - text: Xin lỗi, mình chưa hiểu ý bạn ạ, có thể do bạn viết thiếu dấu hoặc do câu hỏi của bạn nằm ngoài tri thức của mình.
   utter_ability:
-  - text: "Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về \n\t\t-Học phí\n\t\t-Cơ hội việc làm\n\t\t- Điểm sàn\n\t\t- Chỉ tiêu tuyển sinh\n\t\t- Hệ đào tạo và khối ngành đào tạo nữa ạ\n Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!"
+  - text: |-
+      Dạ, mình có thể hỗ trợ bạn trả lời các câu hỏi tư vấn tuyển sinh về 
+      		- Học phí
+      		- Cơ hội việc làm
+      		- Điểm sàn
+      		- Chỉ tiêu tuyển sinh
+      		- Hệ đào tạo và khối ngành đào tạo nữa ạ
+       Cần trợ giúp bạn cứ đưa ra câu hỏi nha!!
 actions:
 - action_default_fallback
 - action_hello_world
@@ -92,3 +99,4 @@ actions:
 - utter_ability
 - utter_goodbye
 - utter_greet
+- utter_happy

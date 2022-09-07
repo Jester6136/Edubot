@@ -42,3 +42,8 @@ rules:
   steps:
   - intent: out_of_story
   - action: utter_out_of_story
+
+- rule: can_not_look_up
+  steps:
+  - intent: can_not_look_up
+  - action: utter_out_of_story

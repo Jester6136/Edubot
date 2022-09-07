@@ -382,8 +382,11 @@ class ActionResponseMajorNameByPoint(Action):
                 #formmm
             else:
                 major_names = get_major_by_point(point)
-                mess = "Mình gửi bạn danh sách những ngành bạn có khả năng đỗ ạ :\n" + \
-                    response_list_product(major_names)
+                if(len(major_names)==0):
+                    mess = "Trường hiện chưa có ngành nào lấy dưới "+str(point)+" điểm ạ."
+                else:
+                    mess = "Mình gửi bạn danh sách những ngành bạn có khả năng đỗ ạ :\n" + \
+                        response_list_product(major_names)
         else:
             mess = "Xin lỗi, mình chưa hiểu\nBạn nên nhập theo ví dụ sau: '26.5 điểm'"
         dispatcher.utter_message(text=mess)
@@ -471,7 +474,7 @@ class ActionResponsePassPoint(Action):
                             text="Hiện tại điểm sàn của ngành {} là: {}, điểm chuẩn có thể tăng 1 đến 1.5 điểm. Mình tin bạn sẽ đỗ".format(major_name, major_point))
                     else:
                         dispatcher.utter_message(
-                            text="Hiện tại điểm sàn của ngành {} là: {}, điểm chuẩn có thể tăng 1 đến 1.5 điểm. Bạn cố gắng chờ kết quả cuối cùng nhé".format(major_name, major_point))
+                            text="Hiện tại điểm sàn của ngành {} là: {}, điểm chuẩn có thể dao động 1 đến 1.5 điểm. Bạn cố gắng chờ kết quả cuối cùng nhé".format(major_name, major_point))
         else:
             mess = "Xin lỗi, mình chưa hiểu\nBạn nên nhập theo ví dụ sau: '<26.5> điểm'"
             dispatcher.utter_message(mess)

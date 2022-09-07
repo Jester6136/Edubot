@@ -15335,3 +15335,83 @@ stories:
   - action: action_response_major_info
   - intent: context_ask_major_career
   - action: action_response_major_career
+
+- story: interactive_story_2
+  steps:
+  - intent: ask_major_name_list_by_subject_group
+    entities:
+    - user_subject_group: A0
+  - slot_was_set:
+    - user_subject_group: A0
+  - action: action_response_major_name_by_subject_group
+  - intent: ask_major_info
+    entities:
+    - major_name: logistic
+  - slot_was_set:
+    - major_name: logistic
+  - action: action_response_major_info
+  - intent: context_ask_pass_subject_group
+    entities:
+    - user_subject_group: d7
+  - slot_was_set:
+    - user_subject_group: d7
+  - action: action_response_pass_subject_group
+  - intent: context_ask_major_tuition
+  - action: action_response_major_tuition
+
+- story: interactive_story_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_major_name_list_by_point
+    entities:
+    - user_point: 25 điểm
+  - slot_was_set:
+    - user_point: 25 điểm
+  - action: action_response_major_name_by_point
+  - intent: ask_major_info
+    entities:
+    - major_name: logistic
+  - slot_was_set:
+    - major_name: logistic
+  - action: action_response_major_info
+  - intent: context_ask_pass_subject_group
+    entities:
+    - user_subject_group: b0
+  - slot_was_set:
+    - user_subject_group: b0
+  - action: action_response_pass_subject_group
+  - intent: ask_major_criteria
+    entities:
+    - major_name: khoa học máy tính
+  - slot_was_set:
+    - major_name: khoa học máy tính
+  - action: action_response_major_criteria
+  - intent: context_ask_pass_point
+    entities:
+    - user_subject_group: a0
+  - slot_was_set:
+    - user_subject_group: a0
+  - action: action_response_pass_subject_group
+
+- story: interactive_story_4
+  steps:
+  - intent: ask_major_name_list
+  - action: action_response_major_names
+  - slot_was_set:
+    - major_name: null
+  - intent: ask_major_info
+    entities:
+    - major_name: khoa học máy tính
+  - slot_was_set:
+    - major_name: khoa học máy tính
+  - action: action_response_major_info
+  - intent: context_ask_pass_point
+    entities:
+    - user_point: 20 điểm
+  - slot_was_set:
+    - user_point: 20 điểm
+  - action: action_response_pass_point
+  - intent: mood_great
+  - action: utter_happy
+
