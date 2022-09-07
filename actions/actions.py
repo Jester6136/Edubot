@@ -382,7 +382,7 @@ class ActionResponseMajorNameByPoint(Action):
                 #formmm
             else:
                 major_names = get_major_by_point(point)
-                if(len(major_names)==0):
+                if not major_names:
                     mess = "Trường hiện chưa có ngành nào lấy dưới "+str(point)+" điểm ạ."
                 else:
                     mess = "Mình gửi bạn danh sách những ngành bạn có khả năng đỗ ạ :\n" + \
@@ -417,7 +417,7 @@ class ActionResponseMajorNameBySubjectGroup(Action):
         else:
             subject_group = UPPERCASE(subject_group)
             major_names = get_major_by_subject_group(subject_group)
-            if(len(major_names) == 0):
+            if not major_names:
                 mess = "Trường chủ yếu đào tạo những ngành liên quan đến khoa học - kỹ thuật. Khối thi của bạn không phù hợp ạ :(("
             else:
                 mess = "Danh sách các ngành tuyển sinh tân sinh viên khối "+subject_group + \
