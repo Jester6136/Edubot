@@ -460,11 +460,11 @@ class ActionResponsePassPoint(Action):
                     text="Dạ hiện tại trường chúng mình chưa đào tạo ngành này ạ, bạn vui lòng nhập ngành khác giúp ad nha!")
                 return [SlotSet("major_name", None)]
             else:
-                if point is False:
-                    dispatcher.utter_message(
-                        text="Mình chưa hiểu, bạn nhập lại điểm giúp mình được không ạ :(")
-                    return [SlotSet("user_point", None)]
-                else:
+                # if point is False:
+                #     dispatcher.utter_message(
+                #         text="Mình chưa hiểu, bạn nhập lại điểm giúp mình được không ạ :(")
+                #     return [SlotSet("user_point", None)]
+                # else:
                     pass_point, major_point = check_pass_point(major_name, point)
                     if(pass_point):
                         dispatcher.utter_message(

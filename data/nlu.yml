@@ -1099,6 +1099,15 @@ nlu:
     - ngành [kỹ thuật máy tính](major_name) lấy bao nhiêu điểm ạ
 - intent: ask_major_career
   examples: |
+    - học ngành [khoa học máy tính] (major name) này ra trường làm gì?
+    - tư vấn mình cơ hội việc làm ngành [khoa học máy tính] (major name) này với Ad ?
+    - bạn cho mình hỏi có thể làm những gì sau khi học xong ngành [khoa học máy tính] (major name) này ?
+    - ngành [khoa học máy tính] (major name) này ra trường có thể làm những gì ạ ?
+    - cho mình hỏi học xong ngành [khoa học máy tính] (major name) này có thể làm những gì ?
+    - mình xin JD công việc sau khi học xong ngành [khoa học máy tính] (major name) này ?
+    - học ngành [khoa học máy tính] (major name) này xong có thể làm những gì bạn nhỉ ?
+    - mình cần tư vấn cơ hội việc làm ngành [khoa học máy tính] (major name) này ?
+    - có thể làm những gì sau khi học xong ngành [khoa học máy tính] (major name) này ?
     - học xong ngành [khoa học máy tính](major_name) có thể làm những việc gì
     - cho mình hỏi cơ hội làm việc của ngành [khoa học máy tính](major_name)
     - tư vấn cho mình việc làm của ngành [khoa học máy tính](major_name) với ạ
@@ -1399,6 +1408,12 @@ nlu:
     - Ad cho mình xin học phí ngành [ô tô](major_name) với ạ
     - học phí ngành [kỹ thuật ô tô](major_name) có cao không ạ
     - học phí ngành [kỹ thuật ô tô](major_name)
+    - Học phí ngành [khoa học máy tính] (major name) này có cao không ạ?
+    - Học phí ngành [khoa học máy tính] (major name) này là bao nhiêu ?
+    - học phí thường niên ngành [khoa học máy tính] (major name) là bao nhiêu ạ
+    - hàng tháng phải đóng học phí ngành [khoa học máy tính] (major name) là bao nhiêu
+    - có thể cho mình biết học phí của ngành [khoa học máy tính] (major name) này được không
+    - mình xin giá học phí ngành [khoa học máy tính] (major name) với ad
 - intent: ask_major_subject_group
   examples: |
     - tư vấn cho mình khối xét tuyển ngành [khoa học máy tính](major_name) với ạ
@@ -1843,7 +1858,16 @@ nlu:
     - điểm sàn
     - có điểm chuẩn chưa ạ
     - điểm chuẩn
-    - điểm sàn của ngành thì sao?
+    - điểm sàn của ngành thì sao
+    - Mình xin điểm ngành này với bạn
+    - Điểm ngành này như nào nhỉ ad
+    - tư vấn mình điểm ngành này với
+    - Ad cho e xin điểm ngành này với
+    - cho mình xin điểm ngành này với ạ
+    - cần tư vấn điểm ngành này
+    - cho mình hỏi ngành này lấy bao nhiêu điểm nhỉ
+    - mình xin điểm ngành này với Ad
+    - Mình muốn hỏi về điểm ngành này
 - intent: context_ask_major_career
   examples: |
     - học xong ra làm gì
@@ -1857,6 +1881,16 @@ nlu:
     - cho hỏi cơ hội việc làm của ngành này
     - cơ hội làm việc sau này
     - cơ hội việc làm của ngành này
+    - học xong ngành này thì có những cơ hội việc làm nào ?
+    - học ngành này ra trường làm gì?
+    - tư vấn mình cơ hội việc làm ngành này với Ad ?
+    - bạn cho mình hỏi có thể làm những gì sau khi học xong ngành này ?
+    - ngành này ra trường có thể làm những gì ạ ?
+    - cho mình hỏi học xong ngành này có thể làm những gì ?
+    - mình xin JD công việc sau khi học xong ngành này ?
+    - học ngành này xong có thể làm những gì bạn nhỉ ?
+    - mình cần tư vấn cơ hội việc làm ngành này ?
+    - có thể làm những gì sau khi học xong ngành này ?
 - intent: context_ask_major_tuition
   examples: |
     - học phí là bao nhiêu
@@ -1872,6 +1906,16 @@ nlu:
     - học phí là bao nhiêu nhỉ
     - học phí của ngành thì sao?
     - thế học phí thì sao
+    - Học phí ngành này có cao không ạ?
+    - Học phí ngành này là bao nhiêu ?
+    - Ad cho mình hỏi học phí ngành này là bao nhiêu thế ?
+    - tư vấn cho mình học phí ngành này với ạ 
+    - mình cần tư vấn về học phí ngành này
+    - cho mình xin học phí ngành này với ạ
+    - học phí thường niên là bao nhiêu ạ
+    - hàng tháng phải đóng học phí là bao nhiêu
+    - có thể cho mình biết học phí của ngành này được không
+    - mình xin giá học phí với ad
 - intent: context_ask_major_subject_group
   examples: |
     - em muốn học ngành này thì thi khối gì ạ
@@ -2000,8 +2044,8 @@ nlu:
     - Tư vấn cho mình về các ngành của trường
     - Mình muốn hỏi về danh sách các ngành của trường ạ
     - Trường gồm có những ngành nào bạn nhỉ
-    - các ngành [mà](major_name) trường có
-    - cho mình xin danh sách các ngành [trường](major_name) đào tạo
+    - các ngành mà trường có
+    - cho mình xin danh sách các ngành trường đào tạo
 - intent: context_ask_pass_point
   examples: |
     - Mình thi được [15 điểm](user_point) thì có đỗ được ngành này không
@@ -2038,416 +2082,552 @@ nlu:
     - Em thi được [30 điểm](user_point) thì có cơ hội đỗ ngành này không ạ
     - em thi được [20 điểm](user_point) thì có đỗ không
     - mình thi được [18 điểm](user_point) có đỗ được ngành này không ạ
-    - Em thi được [1,0](user_point) thì có đỗ không ạ
-    - Em thi được [1.0](user_point) thì có đỗ không ạ
-    - Em thi được [1,1](user_point) thì có đỗ không ạ
-    - Em thi được [1.1](user_point) thì có đỗ không ạ
-    - Em thi được [1,2](user_point) thì có đỗ không ạ
-    - Em thi được [1.2](user_point) thì có đỗ không ạ
-    - Em thi được [1,3](user_point) thì có đỗ không ạ
-    - Em thi được [1.3](user_point) thì có đỗ không ạ
-    - Em thi được [1,4](user_point) thì có đỗ không ạ
-    - Em thi được [1.4](user_point) thì có đỗ không ạ
-    - Em thi được [1,5](user_point) thì có đỗ không ạ
-    - Em thi được [1.5](user_point) thì có đỗ không ạ
-    - Em thi được [1,6](user_point) thì có đỗ không ạ
-    - Em thi được [1.6](user_point) thì có đỗ không ạ
-    - Em thi được [1,7](user_point) thì có đỗ không ạ
-    - Em thi được [1.7](user_point) thì có đỗ không ạ
-    - Em thi được [1,8](user_point) thì có đỗ không ạ
-    - Em thi được [1.8](user_point) thì có đỗ không ạ
-    - Em thi được [1,9](user_point) thì có đỗ không ạ
-    - Em thi được [1.9](user_point) thì có đỗ không ạ
-    - Em thi được [2,0](user_point) thì có đỗ không ạ
-    - Em thi được [2.0](user_point) thì có đỗ không ạ
-    - Em thi được [2,1](user_point) thì có đỗ không ạ
-    - Em thi được [2.1](user_point) thì có đỗ không ạ
-    - Em thi được [2,2](user_point) thì có đỗ không ạ
-    - Em thi được [2.2](user_point) thì có đỗ không ạ
-    - Em thi được [2,3](user_point) thì có đỗ không ạ
-    - Em thi được [2.3](user_point) thì có đỗ không ạ
-    - Em thi được [2,4](user_point) thì có đỗ không ạ
-    - Em thi được [2.4](user_point) thì có đỗ không ạ
-    - Em thi được [2,5](user_point) thì có đỗ không ạ
-    - Em thi được [2.5](user_point) thì có đỗ không ạ
-    - Em thi được [2,6](user_point) thì có đỗ không ạ
-    - Em thi được [2.6](user_point) thì có đỗ không ạ
-    - Em thi được [2,7](user_point) thì có đỗ không ạ
-    - Em thi được [2.7](user_point) thì có đỗ không ạ
-    - Em thi được [2,8](user_point) thì có đỗ không ạ
-    - Em thi được [2.8](user_point) thì có đỗ không ạ
-    - Em thi được [2,9](user_point) thì có đỗ không ạ
-    - Em thi được [2.9](user_point) thì có đỗ không ạ
-    - Em thi được [3,0](user_point) thì có đỗ không ạ
-    - Em thi được [3.0](user_point) thì có đỗ không ạ
-    - Em thi được [3,1](user_point) thì có đỗ không ạ
-    - Em thi được [3.1](user_point) thì có đỗ không ạ
-    - Em thi được [3,2](user_point) thì có đỗ không ạ
-    - Em thi được [3.2](user_point) thì có đỗ không ạ
-    - Em thi được [3,3](user_point) thì có đỗ không ạ
-    - Em thi được [3.3](user_point) thì có đỗ không ạ
-    - Em thi được [3,4](user_point) thì có đỗ không ạ
-    - Em thi được [3.4](user_point) thì có đỗ không ạ
-    - Em thi được [3,5](user_point) thì có đỗ không ạ
-    - Em thi được [3.5](user_point) thì có đỗ không ạ
-    - Em thi được [3,6](user_point) thì có đỗ không ạ
-    - Em thi được [3.6](user_point) thì có đỗ không ạ
-    - Em thi được [3,7](user_point) thì có đỗ không ạ
-    - Em thi được [3.7](user_point) thì có đỗ không ạ
-    - Em thi được [3,8](user_point) thì có đỗ không ạ
-    - Em thi được [3.8](user_point) thì có đỗ không ạ
-    - Em thi được [3,9](user_point) thì có đỗ không ạ
-    - Em thi được [3.9](user_point) thì có đỗ không ạ
-    - Em thi được [4,0](user_point) thì có đỗ không ạ
-    - Em thi được [4.0](user_point) thì có đỗ không ạ
-    - Em thi được [4,1](user_point) thì có đỗ không ạ
-    - Em thi được [4.1](user_point) thì có đỗ không ạ
-    - Em thi được [4,2](user_point) thì có đỗ không ạ
-    - Em thi được [4.2](user_point) thì có đỗ không ạ
-    - Em thi được [4,3](user_point) thì có đỗ không ạ
-    - Em thi được [4.3](user_point) thì có đỗ không ạ
-    - Em thi được [4,4](user_point) thì có đỗ không ạ
-    - Em thi được [4.4](user_point) thì có đỗ không ạ
-    - Em thi được [4,5](user_point) thì có đỗ không ạ
-    - Em thi được [4.5](user_point) thì có đỗ không ạ
-    - Em thi được [4,6](user_point) thì có đỗ không ạ
-    - Em thi được [4.6](user_point) thì có đỗ không ạ
-    - Em thi được [4,7](user_point) thì có đỗ không ạ
-    - Em thi được [4.7](user_point) thì có đỗ không ạ
-    - Em thi được [4,8](user_point) thì có đỗ không ạ
-    - Em thi được [4.8](user_point) thì có đỗ không ạ
-    - Em thi được [4,9](user_point) thì có đỗ không ạ
-    - Em thi được [4.9](user_point) thì có đỗ không ạ
-    - Em thi được [5,0](user_point) thì có đỗ không ạ
-    - Em thi được [5.0](user_point) thì có đỗ không ạ
-    - Em thi được [5,1](user_point) thì có đỗ không ạ
-    - Em thi được [5.1](user_point) thì có đỗ không ạ
-    - Em thi được [5,2](user_point) thì có đỗ không ạ
-    - Em thi được [5.2](user_point) thì có đỗ không ạ
-    - Em thi được [5,3](user_point) thì có đỗ không ạ
-    - Em thi được [5.3](user_point) thì có đỗ không ạ
-    - Em thi được [5,4](user_point) thì có đỗ không ạ
-    - Em thi được [5.4](user_point) thì có đỗ không ạ
-    - Em thi được [5,5](user_point) thì có đỗ không ạ
-    - Em thi được [5.5](user_point) thì có đỗ không ạ
-    - Em thi được [5,6](user_point) thì có đỗ không ạ
-    - Em thi được [5.6](user_point) thì có đỗ không ạ
-    - Em thi được [5,7](user_point) thì có đỗ không ạ
-    - Em thi được [5.7](user_point) thì có đỗ không ạ
-    - Em thi được [5,8](user_point) thì có đỗ không ạ
-    - Em thi được [5.8](user_point) thì có đỗ không ạ
-    - Em thi được [5,9](user_point) thì có đỗ không ạ
-    - Em thi được [5.9](user_point) thì có đỗ không ạ
-    - Em thi được [6,0](user_point) thì có đỗ không ạ
-    - Em thi được [6.0](user_point) thì có đỗ không ạ
-    - Em thi được [6,1](user_point) thì có đỗ không ạ
-    - Em thi được [6.1](user_point) thì có đỗ không ạ
-    - Em thi được [6,2](user_point) thì có đỗ không ạ
-    - Em thi được [6.2](user_point) thì có đỗ không ạ
-    - Em thi được [6,3](user_point) thì có đỗ không ạ
-    - Em thi được [6.3](user_point) thì có đỗ không ạ
-    - Em thi được [6,4](user_point) thì có đỗ không ạ
-    - Em thi được [6.4](user_point) thì có đỗ không ạ
-    - Em thi được [6,5](user_point) thì có đỗ không ạ
-    - Em thi được [6.5](user_point) thì có đỗ không ạ
-    - Em thi được [6,6](user_point) thì có đỗ không ạ
-    - Em thi được [6.6](user_point) thì có đỗ không ạ
-    - Em thi được [6,7](user_point) thì có đỗ không ạ
-    - Em thi được [6.7](user_point) thì có đỗ không ạ
-    - Em thi được [6,8](user_point) thì có đỗ không ạ
-    - Em thi được [6.8](user_point) thì có đỗ không ạ
-    - Em thi được [6,9](user_point) thì có đỗ không ạ
-    - Em thi được [6.9](user_point) thì có đỗ không ạ
-    - Em thi được [7,0](user_point) thì có đỗ không ạ
-    - Em thi được [7.0](user_point) thì có đỗ không ạ
-    - Em thi được [7,1](user_point) thì có đỗ không ạ
-    - Em thi được [7.1](user_point) thì có đỗ không ạ
-    - Em thi được [7,2](user_point) thì có đỗ không ạ
-    - Em thi được [7.2](user_point) thì có đỗ không ạ
-    - Em thi được [7,3](user_point) thì có đỗ không ạ
-    - Em thi được [7.3](user_point) thì có đỗ không ạ
-    - Em thi được [7,4](user_point) thì có đỗ không ạ
-    - Em thi được [7.4](user_point) thì có đỗ không ạ
-    - Em thi được [7,5](user_point) thì có đỗ không ạ
-    - Em thi được [7.5](user_point) thì có đỗ không ạ
-    - Em thi được [7,6](user_point) thì có đỗ không ạ
-    - Em thi được [7.6](user_point) thì có đỗ không ạ
-    - Em thi được [7,7](user_point) thì có đỗ không ạ
-    - Em thi được [7.7](user_point) thì có đỗ không ạ
-    - Em thi được [7,8](user_point) thì có đỗ không ạ
-    - Em thi được [7.8](user_point) thì có đỗ không ạ
-    - Em thi được [7,9](user_point) thì có đỗ không ạ
-    - Em thi được [7.9](user_point) thì có đỗ không ạ
-    - Em thi được [8,0](user_point) thì có đỗ không ạ
-    - Em thi được [8.0](user_point) thì có đỗ không ạ
-    - Em thi được [8,1](user_point) thì có đỗ không ạ
-    - Em thi được [8.1](user_point) thì có đỗ không ạ
-    - Em thi được [8,2](user_point) thì có đỗ không ạ
-    - Em thi được [8.2](user_point) thì có đỗ không ạ
-    - Em thi được [8,3](user_point) thì có đỗ không ạ
-    - Em thi được [8.3](user_point) thì có đỗ không ạ
-    - Em thi được [8,4](user_point) thì có đỗ không ạ
-    - Em thi được [8.4](user_point) thì có đỗ không ạ
-    - Em thi được [8,5](user_point) thì có đỗ không ạ
-    - Em thi được [8.5](user_point) thì có đỗ không ạ
-    - Em thi được [8,6](user_point) thì có đỗ không ạ
-    - Em thi được [8.6](user_point) thì có đỗ không ạ
-    - Em thi được [8,7](user_point) thì có đỗ không ạ
-    - Em thi được [8.7](user_point) thì có đỗ không ạ
-    - Em thi được [8,8](user_point) thì có đỗ không ạ
-    - Em thi được [8.8](user_point) thì có đỗ không ạ
-    - Em thi được [8,9](user_point) thì có đỗ không ạ
-    - Em thi được [8.9](user_point) thì có đỗ không ạ
-    - Em thi được [9,0](user_point) thì có đỗ không ạ
-    - Em thi được [9.0](user_point) thì có đỗ không ạ
-    - Em thi được [9,1](user_point) thì có đỗ không ạ
-    - Em thi được [9.1](user_point) thì có đỗ không ạ
-    - Em thi được [9,2](user_point) thì có đỗ không ạ
-    - Em thi được [9.2](user_point) thì có đỗ không ạ
-    - Em thi được [9,3](user_point) thì có đỗ không ạ
-    - Em thi được [9.3](user_point) thì có đỗ không ạ
-    - Em thi được [9,4](user_point) thì có đỗ không ạ
-    - Em thi được [9.4](user_point) thì có đỗ không ạ
-    - Em thi được [9,5](user_point) thì có đỗ không ạ
-    - Em thi được [9.5](user_point) thì có đỗ không ạ
-    - Em thi được [9,6](user_point) thì có đỗ không ạ
-    - Em thi được [9.6](user_point) thì có đỗ không ạ
-    - Em thi được [9,7](user_point) thì có đỗ không ạ
-    - Em thi được [9.7](user_point) thì có đỗ không ạ
-    - Em thi được [9,8](user_point) thì có đỗ không ạ
-    - Em thi được [9.8](user_point) thì có đỗ không ạ
-    - Em thi được [9,9](user_point) thì có đỗ không ạ
-    - Em thi được [9.9](user_point) thì có đỗ không ạ
-    - Em thi được [10,0](user_point) thì có đỗ không ạ
-    - Em thi được [10.0](user_point) thì có đỗ không ạ
-    - Em thi được [10,1](user_point) thì có đỗ không ạ
-    - Em thi được [10.1](user_point) thì có đỗ không ạ
-    - Em thi được [10,2](user_point) thì có đỗ không ạ
-    - Em thi được [10.2](user_point) thì có đỗ không ạ
-    - Em thi được [10,3](user_point) thì có đỗ không ạ
-    - Em thi được [10.3](user_point) thì có đỗ không ạ
-    - Em thi được [10,4](user_point) thì có đỗ không ạ
-    - Em thi được [10.4](user_point) thì có đỗ không ạ
-    - Em thi được [10,5](user_point) thì có đỗ không ạ
-    - Em thi được [10.5](user_point) thì có đỗ không ạ
-    - Em thi được [10,6](user_point) thì có đỗ không ạ
-    - Em thi được [10.6](user_point) thì có đỗ không ạ
-    - Em thi được [10,7](user_point) thì có đỗ không ạ
-    - Em thi được [10.7](user_point) thì có đỗ không ạ
-    - Em thi được [10,8](user_point) thì có đỗ không ạ
-    - Em thi được [10.8](user_point) thì có đỗ không ạ
-    - Em thi được [10,9](user_point) thì có đỗ không ạ
-    - Em thi được [10.9](user_point) thì có đỗ không ạ
+    - Em thi được [1,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [1.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [2.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [3.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [4.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [5.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [6.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [7.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [8.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [9.9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.0 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.1 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.2 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.3 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.4 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.5 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.6 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.7 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.8 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10,9 điểm](user_point) thì có đỗ không ạ
+    - Em thi được [10.9 điểm](user_point) thì có đỗ không ạ
 - intent: context_ask_pass_subject_group
   examples: |
-    - Mình thi khối [a00](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [a00](user_subject_group) thì có học được ngành này không
-    - Em thi khối [a00](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [A00](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [A00](user_subject_group) thì có học được ngành này không
-    - Em thi khối [A00](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [a01](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [a01](user_subject_group) thì có học được ngành này không
-    - Em thi khối [a01](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [A01](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [A01](user_subject_group) thì có học được ngành này không
-    - Em thi khối [A01](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [b00](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [b00](user_subject_group) thì có học được ngành này không
-    - Em thi khối [b00](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [B00](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [B00](user_subject_group) thì có học được ngành này không
-    - Em thi khối [B00](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [D07](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [D07](user_subject_group) thì có học được ngành này không
-    - Em thi khối [D07](user_subject_group) có vào được ngành này không ạ
-    - Mình thi khối [d07](user_subject_group) thì có đỗ được ngành này không
-    - Mình thi khối [d07](user_subject_group) thì có học được ngành này không
-    - Em thi khối [d07](user_subject_group) có vào được ngành này không ạ
-    - mình thi khối [a00](user_subject_group) thì có đỗ ngành này không nhỉ
-    - Mình thi khối [A](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [A](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [A00](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [A00](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [A0](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [A0](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [a](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [a](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [a00](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [a00](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [a0](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [a0](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [A1](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [A1](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [A01](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [A01](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [a1](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [a1](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [a01](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [a01](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [B](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [B](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [B0](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [B0](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [B00](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [B00](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [b](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [b](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [b0](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [b0](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [b00](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [b00](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [D](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [D](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [D7](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [D7](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [D07](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [D07](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [d](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [d](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [d7](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [d7](user_subject_group) thì có học được ngành này không
-    - Mình thi khối [d07](user_subject_group) thì có đỗ được ngành này không
-    - em thi khối [d07](user_subject_group) thì có học được ngành này không
+    - ngành này có tuyển sinh khối [A](user_subject_group) không ạ
+    - em thi khối [A](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [A00](user_subject_group) không ạ
+    - em thi khối [A00](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [A0](user_subject_group) không ạ
+    - em thi khối [A0](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [a](user_subject_group) không ạ
+    - em thi khối [a](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [a00](user_subject_group) không ạ
+    - em thi khối [a00](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [a0](user_subject_group) không ạ
+    - em thi khối [a0](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [A1](user_subject_group) không ạ
+    - em thi khối [A1](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [A01](user_subject_group) không ạ
+    - em thi khối [A01](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [a1](user_subject_group) không ạ
+    - em thi khối [a1](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [a01](user_subject_group) không ạ
+    - em thi khối [a01](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [B](user_subject_group) không ạ
+    - em thi khối [B](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [B0](user_subject_group) không ạ
+    - em thi khối [B0](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [B00](user_subject_group) không ạ
+    - em thi khối [B00](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [b](user_subject_group) không ạ
+    - em thi khối [b](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [b0](user_subject_group) không ạ
+    - em thi khối [b0](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [b00](user_subject_group) không ạ
+    - em thi khối [b00](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [D](user_subject_group) không ạ
+    - em thi khối [D](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [D7](user_subject_group) không ạ
+    - em thi khối [D7](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [D07](user_subject_group) không ạ
+    - em thi khối [D07](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [d](user_subject_group) không ạ
+    - em thi khối [d](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [d7](user_subject_group) không ạ
+    - em thi khối [d7](user_subject_group) có vào được không ạ
+    - ngành này có tuyển sinh khối [d07](user_subject_group) không ạ
+    - em thi khối [d07](user_subject_group) có vào được không ạ
 - intent: ask_major_name_list_by_subject_group
   examples: |
-    - Mình thi khối [A](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [A](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [A00](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [A00](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [A0](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [A0](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [a](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [a](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [a00](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [a00](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [a0](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [a0](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [A1](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [A1](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [A01](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [A01](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [a1](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [a1](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [a01](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [a01](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [B](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [B](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [B0](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [B0](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [B00](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [B00](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [b](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [b](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [b0](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [b0](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [b00](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [b00](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [D](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [D](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [D7](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [D7](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [D07](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [D07](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [d](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [d](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [d7](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [d7](user_subject_group) thì học được những ngành nào
-    - Mình thi khối [d07](user_subject_group) thì đỗ được những ngành nào nhỉ
-    - em thi khối [d07](user_subject_group) thì học được những ngành nào
-    - Mình học khối [a00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [a00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [a00](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [a00](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [a00](user_subject_group)
-    - Mình học khối [A00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [A00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [A00](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [A00](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [A00](user_subject_group)
-    - Mình học khối [a01](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [a01](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [a01](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [a01](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [a01](user_subject_group)
-    - Mình học khối [A01](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [A01](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [A01](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [A01](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [A01](user_subject_group)
-    - Mình học khối [b00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [b00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [b00](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [b00](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [b00](user_subject_group)
-    - Mình học khối [B00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [B00](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [B00](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [B00](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [B00](user_subject_group)
-    - Mình học khối [D07](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [D07](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [D07](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [D07](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [D07](user_subject_group)
-    - Mình học khối [d07](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi, minh thi khối [d07](user_subject_group) học những ngành nào được nhở
-    - Ê bạn ơi khối [d07](user_subject_group) nộp những ngành nào được nhỉ
-    - Ad cho mình hỏi, mình thi khối [d07](user_subject_group) thì nộp những ngành nào được nhở
-    - Cho mình hỏi những ngành nào phù hợp với khối [d07](user_subject_group)
-    - mình thi khối [A00](user_subject_group) học những ngành nào được ạ
+    - danh sách ngành tuyển sinh khối [A](user_subject_group)
+    - các ngành tuyển sinh khối [A](user_subject_group)
+    - những ngành nào tuyển sinh khối [A](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [A00](user_subject_group)
+    - các ngành tuyển sinh khối [A00](user_subject_group)
+    - những ngành nào tuyển sinh khối [A00](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [A0](user_subject_group)
+    - các ngành tuyển sinh khối [A0](user_subject_group)
+    - những ngành nào tuyển sinh khối [A0](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [a](user_subject_group)
+    - các ngành tuyển sinh khối [a](user_subject_group)
+    - những ngành nào tuyển sinh khối [a](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [a00](user_subject_group)
+    - các ngành tuyển sinh khối [a00](user_subject_group)
+    - những ngành nào tuyển sinh khối [a00](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [a0](user_subject_group)
+    - các ngành tuyển sinh khối [a0](user_subject_group)
+    - những ngành nào tuyển sinh khối [a0](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [A1](user_subject_group)
+    - các ngành tuyển sinh khối [A1](user_subject_group)
+    - những ngành nào tuyển sinh khối [A1](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [A01](user_subject_group)
+    - các ngành tuyển sinh khối [A01](user_subject_group)
+    - những ngành nào tuyển sinh khối [A01](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [a1](user_subject_group)
+    - các ngành tuyển sinh khối [a1](user_subject_group)
+    - những ngành nào tuyển sinh khối [a1](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [a01](user_subject_group)
+    - các ngành tuyển sinh khối [a01](user_subject_group)
+    - những ngành nào tuyển sinh khối [a01](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [B](user_subject_group)
+    - các ngành tuyển sinh khối [B](user_subject_group)
+    - những ngành nào tuyển sinh khối [B](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [B0](user_subject_group)
+    - các ngành tuyển sinh khối [B0](user_subject_group)
+    - những ngành nào tuyển sinh khối [B0](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [B00](user_subject_group)
+    - các ngành tuyển sinh khối [B00](user_subject_group)
+    - những ngành nào tuyển sinh khối [B00](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [b](user_subject_group)
+    - các ngành tuyển sinh khối [b](user_subject_group)
+    - những ngành nào tuyển sinh khối [b](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [b0](user_subject_group)
+    - các ngành tuyển sinh khối [b0](user_subject_group)
+    - những ngành nào tuyển sinh khối [b0](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [b00](user_subject_group)
+    - các ngành tuyển sinh khối [b00](user_subject_group)
+    - những ngành nào tuyển sinh khối [b00](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [D](user_subject_group)
+    - các ngành tuyển sinh khối [D](user_subject_group)
+    - những ngành nào tuyển sinh khối [D](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [D7](user_subject_group)
+    - các ngành tuyển sinh khối [D7](user_subject_group)
+    - những ngành nào tuyển sinh khối [D7](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [D07](user_subject_group)
+    - các ngành tuyển sinh khối [D07](user_subject_group)
+    - những ngành nào tuyển sinh khối [D07](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [d](user_subject_group)
+    - các ngành tuyển sinh khối [d](user_subject_group)
+    - những ngành nào tuyển sinh khối [d](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [d7](user_subject_group)
+    - các ngành tuyển sinh khối [d7](user_subject_group)
+    - những ngành nào tuyển sinh khối [d7](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [d07](user_subject_group)
+    - các ngành tuyển sinh khối [d07](user_subject_group)
+    - những ngành nào tuyển sinh khối [d07](user_subject_group) ạ
 - intent: ask_major_name_list_by_point
   examples: |
-    - mình thi được [15 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [15 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [15 điểm](user_point) không ạ
-    - mình thi được [16 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [16 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [16 điểm](user_point) không ạ
-    - mình thi được [17 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [17 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [17 điểm](user_point) không ạ
-    - mình thi được [18 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [18 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [18 điểm](user_point) không ạ
-    - mình thi được [19 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [19 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [19 điểm](user_point) không ạ
-    - mình thi được [20 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [20 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [20 điểm](user_point) không ạ
-    - mình thi được [21 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [21 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [21 điểm](user_point) không ạ
-    - mình thi được [22 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [22 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [22 điểm](user_point) không ạ
-    - mình thi được [23 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [23 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [23 điểm](user_point) không ạ
-    - mình thi được [24 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [24 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [24 điểm](user_point) không ạ
-    - mình thi được [25 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [25 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [25 điểm](user_point) không ạ
-    - mình thi được [26 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [26 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [26 điểm](user_point) không ạ
-    - mình thi được [27 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [27 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [27 điểm](user_point) không ạ
-    - mình thi được [28 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [28 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [28 điểm](user_point) không ạ
-    - mình thi được [29 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [29 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [29 điểm](user_point) không ạ
-    - mình thi được [30 điểm](user_point) thì đỗ được những ngành nào ạ
-    - Em thi được [30 điểm](user_point) thì đậu được những ngành nào ạ
-    - Có ngành nào lấy ít hơn [30 điểm](user_point) không ạ
-    - mình thi được 21.5 diểm thì đỗ được những ngành nào ạ
-    - mình thi được [21.5 điểm](user_point) thì vào được những ngành nào ạ
+    - có ngành nào lấy [1,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [1,1 điểm](user_point)
+    - danh sách những ngành lấy [1.1 điểm](user_point)
+    - những ngành nào lấy dưới [1.1 điểm](user_point)
+    - danh sách những ngành lấy [1,1 điểm](user_point)
+    - có ngành nào lấy [1,6 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [1,6 điểm](user_point)
+    - danh sách những ngành lấy [1.6 điểm](user_point)
+    - những ngành nào lấy dưới [1.6 điểm](user_point)
+    - danh sách những ngành lấy [1,6 điểm](user_point)
+    - có ngành nào lấy [2,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [2,1 điểm](user_point)
+    - danh sách những ngành lấy [2.1 điểm](user_point)
+    - những ngành nào lấy dưới [2.1 điểm](user_point)
+    - danh sách những ngành lấy [2,1 điểm](user_point)
+    - có ngành nào lấy [2,3 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [2,3 điểm](user_point)
+    - danh sách những ngành lấy [2.3 điểm](user_point)
+    - những ngành nào lấy dưới [2.3 điểm](user_point)
+    - danh sách những ngành lấy [2,3 điểm](user_point)
+    - có ngành nào lấy [2,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [2,5 điểm](user_point)
+    - danh sách những ngành lấy [2.5 điểm](user_point)
+    - những ngành nào lấy dưới [2.5 điểm](user_point)
+    - danh sách những ngành lấy [2,5 điểm](user_point)
+    - có ngành nào lấy [2,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [2,7 điểm](user_point)
+    - danh sách những ngành lấy [2.7 điểm](user_point)
+    - những ngành nào lấy dưới [2.7 điểm](user_point)
+    - danh sách những ngành lấy [2,7 điểm](user_point)
+    - có ngành nào lấy [2,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [2,9 điểm](user_point)
+    - danh sách những ngành lấy [2.9 điểm](user_point)
+    - những ngành nào lấy dưới [2.9 điểm](user_point)
+    - danh sách những ngành lấy [2,9 điểm](user_point)
+    - có ngành nào lấy [3,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [3,1 điểm](user_point)
+    - danh sách những ngành lấy [3.1 điểm](user_point)
+    - những ngành nào lấy dưới [3.1 điểm](user_point)
+    - danh sách những ngành lấy [3,1 điểm](user_point)
+    - có ngành nào lấy [3,6 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [3,6 điểm](user_point)
+    - danh sách những ngành lấy [3.6 điểm](user_point)
+    - những ngành nào lấy dưới [3.6 điểm](user_point)
+    - danh sách những ngành lấy [3,6 điểm](user_point)
+    - có ngành nào lấy [4,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [4,1 điểm](user_point)
+    - danh sách những ngành lấy [4.1 điểm](user_point)
+    - những ngành nào lấy dưới [4.1 điểm](user_point)
+    - danh sách những ngành lấy [4,1 điểm](user_point)
+    - có ngành nào lấy [4,3 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [4,3 điểm](user_point)
+    - danh sách những ngành lấy [4.3 điểm](user_point)
+    - những ngành nào lấy dưới [4.3 điểm](user_point)
+    - danh sách những ngành lấy [4,3 điểm](user_point)
+    - có ngành nào lấy [4,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [4,5 điểm](user_point)
+    - danh sách những ngành lấy [4.5 điểm](user_point)
+    - những ngành nào lấy dưới [4.5 điểm](user_point)
+    - danh sách những ngành lấy [4,5 điểm](user_point)
+    - có ngành nào lấy [4,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [4,7 điểm](user_point)
+    - danh sách những ngành lấy [4.7 điểm](user_point)
+    - những ngành nào lấy dưới [4.7 điểm](user_point)
+    - danh sách những ngành lấy [4,7 điểm](user_point)
+    - có ngành nào lấy [4,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [4,9 điểm](user_point)
+    - danh sách những ngành lấy [4.9 điểm](user_point)
+    - những ngành nào lấy dưới [4.9 điểm](user_point)
+    - danh sách những ngành lấy [4,9 điểm](user_point)
+    - có ngành nào lấy [5,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [5,1 điểm](user_point)
+    - danh sách những ngành lấy [5.1 điểm](user_point)
+    - những ngành nào lấy dưới [5.1 điểm](user_point)
+    - danh sách những ngành lấy [5,1 điểm](user_point)
+    - có ngành nào lấy [5,4 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [5,4 điểm](user_point)
+    - danh sách những ngành lấy [5.4 điểm](user_point)
+    - những ngành nào lấy dưới [5.4 điểm](user_point)
+    - danh sách những ngành lấy [5,4 điểm](user_point)
+    - có ngành nào lấy [5,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [5,7 điểm](user_point)
+    - danh sách những ngành lấy [5.7 điểm](user_point)
+    - những ngành nào lấy dưới [5.7 điểm](user_point)
+    - danh sách những ngành lấy [5,7 điểm](user_point)
+    - có ngành nào lấy [6,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [6,1 điểm](user_point)
+    - danh sách những ngành lấy [6.1 điểm](user_point)
+    - những ngành nào lấy dưới [6.1 điểm](user_point)
+    - danh sách những ngành lấy [6,1 điểm](user_point)
+    - có ngành nào lấy [6,4 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [6,4 điểm](user_point)
+    - danh sách những ngành lấy [6.4 điểm](user_point)
+    - những ngành nào lấy dưới [6.4 điểm](user_point)
+    - danh sách những ngành lấy [6,4 điểm](user_point)
+    - có ngành nào lấy [6,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [6,7 điểm](user_point)
+    - danh sách những ngành lấy [6.7 điểm](user_point)
+    - những ngành nào lấy dưới [6.7 điểm](user_point)
+    - danh sách những ngành lấy [6,7 điểm](user_point)
+    - có ngành nào lấy [7,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,1 điểm](user_point)
+    - danh sách những ngành lấy [7.1 điểm](user_point)
+    - những ngành nào lấy dưới [7.1 điểm](user_point)
+    - danh sách những ngành lấy [7,1 điểm](user_point)
+    - có ngành nào lấy [7,3 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,3 điểm](user_point)
+    - danh sách những ngành lấy [7.3 điểm](user_point)
+    - những ngành nào lấy dưới [7.3 điểm](user_point)
+    - danh sách những ngành lấy [7,3 điểm](user_point)
+    - có ngành nào lấy [7,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,5 điểm](user_point)
+    - danh sách những ngành lấy [7.5 điểm](user_point)
+    - những ngành nào lấy dưới [7.5 điểm](user_point)
+    - danh sách những ngành lấy [7,5 điểm](user_point)
+    - có ngành nào lấy [7,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,7 điểm](user_point)
+    - danh sách những ngành lấy [7.7 điểm](user_point)
+    - những ngành nào lấy dưới [7.7 điểm](user_point)
+    - danh sách những ngành lấy [7,7 điểm](user_point)
+    - có ngành nào lấy [7,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,9 điểm](user_point)
+    - danh sách những ngành lấy [7.9 điểm](user_point)
+    - những ngành nào lấy dưới [7.9 điểm](user_point)
+    - danh sách những ngành lấy [7,9 điểm](user_point)
+    - có ngành nào lấy [8,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [8,1 điểm](user_point)
+    - danh sách những ngành lấy [6.7 điểm](user_point)
+    - những ngành nào lấy dưới [6.7 điểm](user_point)
+    - danh sách những ngành lấy [6,7 điểm](user_point)
+    - có ngành nào lấy [6,8 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [6,8 điểm](user_point)
+    - danh sách những ngành lấy [6.8 điểm](user_point)
+    - những ngành nào lấy dưới [6.8 điểm](user_point)
+    - danh sách những ngành lấy [6,8 điểm](user_point)
+    - có ngành nào lấy [6,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [6,9 điểm](user_point)
+    - danh sách những ngành lấy [6.9 điểm](user_point)
+    - những ngành nào lấy dưới [6.9 điểm](user_point)
+    - danh sách những ngành lấy [6,9 điểm](user_point)
+    - có ngành nào lấy [7,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,1 điểm](user_point)
+    - danh sách những ngành lấy [7.1 điểm](user_point)
+    - những ngành nào lấy dưới [7.1 điểm](user_point)
+    - danh sách những ngành lấy [7,1 điểm](user_point)
+    - có ngành nào lấy [7,4 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,4 điểm](user_point)
+    - danh sách những ngành lấy [7.4 điểm](user_point)
+    - những ngành nào lấy dưới [7.4 điểm](user_point)
+    - danh sách những ngành lấy [7,4 điểm](user_point)
+    - có ngành nào lấy [7,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [7,7 điểm](user_point)
+    - danh sách những ngành lấy [7.7 điểm](user_point)
+    - những ngành nào lấy dưới [7.7 điểm](user_point)
+    - danh sách những ngành lấy [7,7 điểm](user_point)
+    - có ngành nào lấy [8,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [8,1 điểm](user_point)
+    - danh sách những ngành lấy [8.1 điểm](user_point)
+    - những ngành nào lấy dưới [8.1 điểm](user_point)
+    - danh sách những ngành lấy [8,1 điểm](user_point)
+    - có ngành nào lấy [8,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [8,5 điểm](user_point)
+    - danh sách những ngành lấy [8.5 điểm](user_point)
+    - những ngành nào lấy dưới [8.5 điểm](user_point)
+    - danh sách những ngành lấy [8,5 điểm](user_point)
+    - có ngành nào lấy [8,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [8,9 điểm](user_point)
+    - danh sách những ngành lấy [8.9 điểm](user_point)
+    - những ngành nào lấy dưới [8.9 điểm](user_point)
+    - danh sách những ngành lấy [8,9 điểm](user_point)
+    - có ngành nào lấy [9,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,1 điểm](user_point)
+    - danh sách những ngành lấy [9.1 điểm](user_point)
+    - những ngành nào lấy dưới [9.1 điểm](user_point)
+    - danh sách những ngành lấy [9,1 điểm](user_point)
+    - có ngành nào lấy [9,2 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,2 điểm](user_point)
+    - danh sách những ngành lấy [9.2 điểm](user_point)
+    - những ngành nào lấy dưới [9.2 điểm](user_point)
+    - danh sách những ngành lấy [9,2 điểm](user_point)
+    - có ngành nào lấy [9,3 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,3 điểm](user_point)
+    - danh sách những ngành lấy [9.3 điểm](user_point)
+    - những ngành nào lấy dưới [9.3 điểm](user_point)
+    - danh sách những ngành lấy [9,3 điểm](user_point)
+    - có ngành nào lấy [9,4 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,4 điểm](user_point)
+    - danh sách những ngành lấy [9.4 điểm](user_point)
+    - những ngành nào lấy dưới [9.4 điểm](user_point)
+    - danh sách những ngành lấy [9,4 điểm](user_point)
+    - có ngành nào lấy [9,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,5 điểm](user_point)
+    - danh sách những ngành lấy [9.5 điểm](user_point)
+    - những ngành nào lấy dưới [9.5 điểm](user_point)
+    - danh sách những ngành lấy [9,5 điểm](user_point)
+    - có ngành nào lấy [9,6 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,6 điểm](user_point)
+    - danh sách những ngành lấy [9.6 điểm](user_point)
+    - những ngành nào lấy dưới [9.6 điểm](user_point)
+    - danh sách những ngành lấy [9,6 điểm](user_point)
+    - có ngành nào lấy [9,7 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,7 điểm](user_point)
+    - danh sách những ngành lấy [9.7 điểm](user_point)
+    - những ngành nào lấy dưới [9.7 điểm](user_point)
+    - danh sách những ngành lấy [9,7 điểm](user_point)
+    - có ngành nào lấy [9,8 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,8 điểm](user_point)
+    - danh sách những ngành lấy [9.8 điểm](user_point)
+    - những ngành nào lấy dưới [9.8 điểm](user_point)
+    - danh sách những ngành lấy [9,8 điểm](user_point)
+    - có ngành nào lấy [9,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [9,9 điểm](user_point)
+    - danh sách những ngành lấy [9.9 điểm](user_point)
+    - những ngành nào lấy dưới [9.9 điểm](user_point)
+    - danh sách những ngành lấy [9,9 điểm](user_point)
+    - có ngành nào lấy [10,1 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [10,1 điểm](user_point)
+    - danh sách những ngành lấy [10.1 điểm](user_point)
+    - những ngành nào lấy dưới [10.1 điểm](user_point)
+    - danh sách những ngành lấy [10,1 điểm](user_point)
+    - có ngành nào lấy [10,5 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [10,5 điểm](user_point)
+    - danh sách những ngành lấy [10.5 điểm](user_point)
+    - những ngành nào lấy dưới [10.5 điểm](user_point)
+    - danh sách những ngành lấy [10,5 điểm](user_point)
+    - có ngành nào lấy [10,9 điểm](user_point) không ạ
+    - những ngành nào lấy dưới [10,9 điểm](user_point)
+    - danh sách những ngành lấy [10.9 điểm](user_point)
+    - những ngành nào lấy dưới [10.9 điểm](user_point)
+    - danh sách những ngành lấy [10,9 điểm](user_point)
 - intent: can_not_look_up
   examples: |
     - ngành ky thuat dieu khien va tu dong hoa đào tạo những hệ gì
