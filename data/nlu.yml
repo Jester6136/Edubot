@@ -57,6 +57,8 @@ nlu:
     - Cháy đấy
     - Mình cảm ơn
     - Được luôn bạn ơi
+    - ok
+    - ok đấy
 - intent: ask_ability
   examples: |
     - em có thể làm những gì nhỉ
@@ -1819,6 +1821,10 @@ nlu:
     - hệ đào tạo về ngành là những gì?
     - hệ đào tạo là?
     - hệ đào tạo của ngành
+    - tư vấn giùm các hệ đào tạo
+    - cần trợ giúp tư vấn các hệ đào tạo
+    - Ad cho hỏi ngành này có những hệ đào tạo nào ?
+    - tư vấn mình các hệ đào tạo ngành này với
 - intent: context_ask_major_point
   examples: |
     - điểm sàn của ngành
@@ -2259,8 +2265,96 @@ nlu:
     - Mình thi khối [d07](user_subject_group) thì có học được ngành này không
     - Em thi khối [d07](user_subject_group) có vào được ngành này không ạ
     - mình thi khối [a00](user_subject_group) thì có đỗ ngành này không nhỉ
+    - Mình thi khối [A](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [A](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [A00](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [A00](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [A0](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [A0](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [a](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [a](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [a00](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [a00](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [a0](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [a0](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [A1](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [A1](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [A01](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [A01](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [a1](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [a1](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [a01](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [a01](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [B](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [B](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [B0](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [B0](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [B00](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [B00](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [b](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [b](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [b0](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [b0](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [b00](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [b00](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [D](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [D](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [D7](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [D7](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [D07](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [D07](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [d](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [d](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [d7](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [d7](user_subject_group) thì có học được ngành này không
+    - Mình thi khối [d07](user_subject_group) thì có đỗ được ngành này không
+    - em thi khối [d07](user_subject_group) thì có học được ngành này không
 - intent: ask_major_name_list_by_subject_group
   examples: |
+    - Mình thi khối [A](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [A](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [A00](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [A00](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [A0](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [A0](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [a](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [a](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [a00](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [a00](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [a0](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [a0](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [A1](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [A1](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [A01](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [A01](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [a1](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [a1](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [a01](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [a01](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [B](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [B](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [B0](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [B0](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [B00](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [B00](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [b](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [b](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [b0](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [b0](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [b00](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [b00](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [D](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [D](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [D7](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [D7](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [D07](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [D07](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [d](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [d](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [d7](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [d7](user_subject_group) thì học được những ngành nào
+    - Mình thi khối [d07](user_subject_group) thì đỗ được những ngành nào nhỉ
+    - em thi khối [d07](user_subject_group) thì học được những ngành nào
     - Mình học khối [a00](user_subject_group) học những ngành nào được nhở
     - Ê bạn ơi, minh thi khối [a00](user_subject_group) học những ngành nào được nhở
     - Ê bạn ơi khối [a00](user_subject_group) nộp những ngành nào được nhỉ

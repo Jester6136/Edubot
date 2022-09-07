@@ -4,7 +4,7 @@ def RANDOM(list):
     return random.choice(list)
 
 def response_list_product(list):
-    return '\n'+'\n'.join('- {}'.format(item) for item in list)
+    return '\n'+'\n'.join('\t\t\t • {}'.format(item.capitalize()) for item in list)
 
 def convert_to_float(point):
     try:
@@ -51,3 +51,18 @@ def look_up_in_domain(major_name):
     else:
         return major_name
 
+def look_up_subject_group(subject_group):
+    look_up_dict = {
+        "A00": ['A','A00','A0','a','a00','a0'],
+        "A01": ['A1','A01','a1','a01'],
+        "B00": ['B','B0','B00','b','b0','b00'],
+        "D07": ['D','D7','D07','d','d7','d07'],
+        }
+    # count = 0
+    if (subject_group):
+        for key in look_up_dict.keys():
+            if subject_group in look_up_dict[key]:
+                return key
+        return subject_group
+    else:
+        return subject_group
