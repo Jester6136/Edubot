@@ -1,230 +1,84 @@
-    - có ngành nào lấy [1,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [1,1 điểm](user_point)
-    - danh sách những ngành lấy [1.1 điểm](user_point)
-    - những ngành nào lấy dưới [1.1 điểm](user_point)
-    - danh sách những ngành lấy [1,1 điểm](user_point)
-    - có ngành nào lấy [1,6 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [1,6 điểm](user_point)
-    - danh sách những ngành lấy [1.6 điểm](user_point)
-    - những ngành nào lấy dưới [1.6 điểm](user_point)
-    - danh sách những ngành lấy [1,6 điểm](user_point)
-    - có ngành nào lấy [2,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [2,1 điểm](user_point)
-    - danh sách những ngành lấy [2.1 điểm](user_point)
-    - những ngành nào lấy dưới [2.1 điểm](user_point)
-    - danh sách những ngành lấy [2,1 điểm](user_point)
-    - có ngành nào lấy [2,3 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [2,3 điểm](user_point)
-    - danh sách những ngành lấy [2.3 điểm](user_point)
-    - những ngành nào lấy dưới [2.3 điểm](user_point)
-    - danh sách những ngành lấy [2,3 điểm](user_point)
-    - có ngành nào lấy [2,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [2,5 điểm](user_point)
-    - danh sách những ngành lấy [2.5 điểm](user_point)
-    - những ngành nào lấy dưới [2.5 điểm](user_point)
-    - danh sách những ngành lấy [2,5 điểm](user_point)
-    - có ngành nào lấy [2,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [2,7 điểm](user_point)
-    - danh sách những ngành lấy [2.7 điểm](user_point)
-    - những ngành nào lấy dưới [2.7 điểm](user_point)
-    - danh sách những ngành lấy [2,7 điểm](user_point)
-    - có ngành nào lấy [2,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [2,9 điểm](user_point)
-    - danh sách những ngành lấy [2.9 điểm](user_point)
-    - những ngành nào lấy dưới [2.9 điểm](user_point)
-    - danh sách những ngành lấy [2,9 điểm](user_point)
-    - có ngành nào lấy [3,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [3,1 điểm](user_point)
-    - danh sách những ngành lấy [3.1 điểm](user_point)
-    - những ngành nào lấy dưới [3.1 điểm](user_point)
-    - danh sách những ngành lấy [3,1 điểm](user_point)
-    - có ngành nào lấy [3,6 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [3,6 điểm](user_point)
-    - danh sách những ngành lấy [3.6 điểm](user_point)
-    - những ngành nào lấy dưới [3.6 điểm](user_point)
-    - danh sách những ngành lấy [3,6 điểm](user_point)
-    - có ngành nào lấy [4,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [4,1 điểm](user_point)
-    - danh sách những ngành lấy [4.1 điểm](user_point)
-    - những ngành nào lấy dưới [4.1 điểm](user_point)
-    - danh sách những ngành lấy [4,1 điểm](user_point)
-    - có ngành nào lấy [4,3 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [4,3 điểm](user_point)
-    - danh sách những ngành lấy [4.3 điểm](user_point)
-    - những ngành nào lấy dưới [4.3 điểm](user_point)
-    - danh sách những ngành lấy [4,3 điểm](user_point)
-    - có ngành nào lấy [4,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [4,5 điểm](user_point)
-    - danh sách những ngành lấy [4.5 điểm](user_point)
-    - những ngành nào lấy dưới [4.5 điểm](user_point)
-    - danh sách những ngành lấy [4,5 điểm](user_point)
-    - có ngành nào lấy [4,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [4,7 điểm](user_point)
-    - danh sách những ngành lấy [4.7 điểm](user_point)
-    - những ngành nào lấy dưới [4.7 điểm](user_point)
-    - danh sách những ngành lấy [4,7 điểm](user_point)
-    - có ngành nào lấy [4,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [4,9 điểm](user_point)
-    - danh sách những ngành lấy [4.9 điểm](user_point)
-    - những ngành nào lấy dưới [4.9 điểm](user_point)
-    - danh sách những ngành lấy [4,9 điểm](user_point)
-    - có ngành nào lấy [5,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [5,1 điểm](user_point)
-    - danh sách những ngành lấy [5.1 điểm](user_point)
-    - những ngành nào lấy dưới [5.1 điểm](user_point)
-    - danh sách những ngành lấy [5,1 điểm](user_point)
-    - có ngành nào lấy [5,4 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [5,4 điểm](user_point)
-    - danh sách những ngành lấy [5.4 điểm](user_point)
-    - những ngành nào lấy dưới [5.4 điểm](user_point)
-    - danh sách những ngành lấy [5,4 điểm](user_point)
-    - có ngành nào lấy [5,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [5,7 điểm](user_point)
-    - danh sách những ngành lấy [5.7 điểm](user_point)
-    - những ngành nào lấy dưới [5.7 điểm](user_point)
-    - danh sách những ngành lấy [5,7 điểm](user_point)
-    - có ngành nào lấy [6,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [6,1 điểm](user_point)
-    - danh sách những ngành lấy [6.1 điểm](user_point)
-    - những ngành nào lấy dưới [6.1 điểm](user_point)
-    - danh sách những ngành lấy [6,1 điểm](user_point)
-    - có ngành nào lấy [6,4 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [6,4 điểm](user_point)
-    - danh sách những ngành lấy [6.4 điểm](user_point)
-    - những ngành nào lấy dưới [6.4 điểm](user_point)
-    - danh sách những ngành lấy [6,4 điểm](user_point)
-    - có ngành nào lấy [6,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [6,7 điểm](user_point)
-    - danh sách những ngành lấy [6.7 điểm](user_point)
-    - những ngành nào lấy dưới [6.7 điểm](user_point)
-    - danh sách những ngành lấy [6,7 điểm](user_point)
-    - có ngành nào lấy [7,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,1 điểm](user_point)
-    - danh sách những ngành lấy [7.1 điểm](user_point)
-    - những ngành nào lấy dưới [7.1 điểm](user_point)
-    - danh sách những ngành lấy [7,1 điểm](user_point)
-    - có ngành nào lấy [7,3 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,3 điểm](user_point)
-    - danh sách những ngành lấy [7.3 điểm](user_point)
-    - những ngành nào lấy dưới [7.3 điểm](user_point)
-    - danh sách những ngành lấy [7,3 điểm](user_point)
-    - có ngành nào lấy [7,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,5 điểm](user_point)
-    - danh sách những ngành lấy [7.5 điểm](user_point)
-    - những ngành nào lấy dưới [7.5 điểm](user_point)
-    - danh sách những ngành lấy [7,5 điểm](user_point)
-    - có ngành nào lấy [7,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,7 điểm](user_point)
-    - danh sách những ngành lấy [7.7 điểm](user_point)
-    - những ngành nào lấy dưới [7.7 điểm](user_point)
-    - danh sách những ngành lấy [7,7 điểm](user_point)
-    - có ngành nào lấy [7,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,9 điểm](user_point)
-    - danh sách những ngành lấy [7.9 điểm](user_point)
-    - những ngành nào lấy dưới [7.9 điểm](user_point)
-    - danh sách những ngành lấy [7,9 điểm](user_point)
-    - có ngành nào lấy [8,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [8,1 điểm](user_point)
-    - danh sách những ngành lấy [6.7 điểm](user_point)
-    - những ngành nào lấy dưới [6.7 điểm](user_point)
-    - danh sách những ngành lấy [6,7 điểm](user_point)
-    - có ngành nào lấy [6,8 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [6,8 điểm](user_point)
-    - danh sách những ngành lấy [6.8 điểm](user_point)
-    - những ngành nào lấy dưới [6.8 điểm](user_point)
-    - danh sách những ngành lấy [6,8 điểm](user_point)
-    - có ngành nào lấy [6,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [6,9 điểm](user_point)
-    - danh sách những ngành lấy [6.9 điểm](user_point)
-    - những ngành nào lấy dưới [6.9 điểm](user_point)
-    - danh sách những ngành lấy [6,9 điểm](user_point)
-    - có ngành nào lấy [7,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,1 điểm](user_point)
-    - danh sách những ngành lấy [7.1 điểm](user_point)
-    - những ngành nào lấy dưới [7.1 điểm](user_point)
-    - danh sách những ngành lấy [7,1 điểm](user_point)
-    - có ngành nào lấy [7,4 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,4 điểm](user_point)
-    - danh sách những ngành lấy [7.4 điểm](user_point)
-    - những ngành nào lấy dưới [7.4 điểm](user_point)
-    - danh sách những ngành lấy [7,4 điểm](user_point)
-    - có ngành nào lấy [7,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [7,7 điểm](user_point)
-    - danh sách những ngành lấy [7.7 điểm](user_point)
-    - những ngành nào lấy dưới [7.7 điểm](user_point)
-    - danh sách những ngành lấy [7,7 điểm](user_point)
-    - có ngành nào lấy [8,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [8,1 điểm](user_point)
-    - danh sách những ngành lấy [8.1 điểm](user_point)
-    - những ngành nào lấy dưới [8.1 điểm](user_point)
-    - danh sách những ngành lấy [8,1 điểm](user_point)
-    - có ngành nào lấy [8,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [8,5 điểm](user_point)
-    - danh sách những ngành lấy [8.5 điểm](user_point)
-    - những ngành nào lấy dưới [8.5 điểm](user_point)
-    - danh sách những ngành lấy [8,5 điểm](user_point)
-    - có ngành nào lấy [8,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [8,9 điểm](user_point)
-    - danh sách những ngành lấy [8.9 điểm](user_point)
-    - những ngành nào lấy dưới [8.9 điểm](user_point)
-    - danh sách những ngành lấy [8,9 điểm](user_point)
-    - có ngành nào lấy [9,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,1 điểm](user_point)
-    - danh sách những ngành lấy [9.1 điểm](user_point)
-    - những ngành nào lấy dưới [9.1 điểm](user_point)
-    - danh sách những ngành lấy [9,1 điểm](user_point)
-    - có ngành nào lấy [9,2 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,2 điểm](user_point)
-    - danh sách những ngành lấy [9.2 điểm](user_point)
-    - những ngành nào lấy dưới [9.2 điểm](user_point)
-    - danh sách những ngành lấy [9,2 điểm](user_point)
-    - có ngành nào lấy [9,3 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,3 điểm](user_point)
-    - danh sách những ngành lấy [9.3 điểm](user_point)
-    - những ngành nào lấy dưới [9.3 điểm](user_point)
-    - danh sách những ngành lấy [9,3 điểm](user_point)
-    - có ngành nào lấy [9,4 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,4 điểm](user_point)
-    - danh sách những ngành lấy [9.4 điểm](user_point)
-    - những ngành nào lấy dưới [9.4 điểm](user_point)
-    - danh sách những ngành lấy [9,4 điểm](user_point)
-    - có ngành nào lấy [9,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,5 điểm](user_point)
-    - danh sách những ngành lấy [9.5 điểm](user_point)
-    - những ngành nào lấy dưới [9.5 điểm](user_point)
-    - danh sách những ngành lấy [9,5 điểm](user_point)
-    - có ngành nào lấy [9,6 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,6 điểm](user_point)
-    - danh sách những ngành lấy [9.6 điểm](user_point)
-    - những ngành nào lấy dưới [9.6 điểm](user_point)
-    - danh sách những ngành lấy [9,6 điểm](user_point)
-    - có ngành nào lấy [9,7 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,7 điểm](user_point)
-    - danh sách những ngành lấy [9.7 điểm](user_point)
-    - những ngành nào lấy dưới [9.7 điểm](user_point)
-    - danh sách những ngành lấy [9,7 điểm](user_point)
-    - có ngành nào lấy [9,8 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,8 điểm](user_point)
-    - danh sách những ngành lấy [9.8 điểm](user_point)
-    - những ngành nào lấy dưới [9.8 điểm](user_point)
-    - danh sách những ngành lấy [9,8 điểm](user_point)
-    - có ngành nào lấy [9,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [9,9 điểm](user_point)
-    - danh sách những ngành lấy [9.9 điểm](user_point)
-    - những ngành nào lấy dưới [9.9 điểm](user_point)
-    - danh sách những ngành lấy [9,9 điểm](user_point)
-    - có ngành nào lấy [10,1 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [10,1 điểm](user_point)
-    - danh sách những ngành lấy [10.1 điểm](user_point)
-    - những ngành nào lấy dưới [10.1 điểm](user_point)
-    - danh sách những ngành lấy [10,1 điểm](user_point)
-    - có ngành nào lấy [10,5 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [10,5 điểm](user_point)
-    - danh sách những ngành lấy [10.5 điểm](user_point)
-    - những ngành nào lấy dưới [10.5 điểm](user_point)
-    - danh sách những ngành lấy [10,5 điểm](user_point)
-    - có ngành nào lấy [10,9 điểm](user_point) không ạ
-    - những ngành nào lấy dưới [10,9 điểm](user_point)
-    - danh sách những ngành lấy [10.9 điểm](user_point)
-    - những ngành nào lấy dưới [10.9 điểm](user_point)
-    - danh sách những ngành lấy [10,9 điểm](user_point)
+    - [1,1 điểm](user_point) đỗ được những ngành nào
+    - [1.1 điểm](user_point) đỗ được những ngành nào
+    - [1,5 điểm](user_point) đỗ được những ngành nào
+    - [1.5 điểm](user_point) đỗ được những ngành nào
+    - [1,9 điểm](user_point) đỗ được những ngành nào
+    - [1.9 điểm](user_point) đỗ được những ngành nào
+    - [2,1 điểm](user_point) đỗ được những ngành nào
+    - [2.1 điểm](user_point) đỗ được những ngành nào
+    - [2,2 điểm](user_point) đỗ được những ngành nào
+    - [2.2 điểm](user_point) đỗ được những ngành nào
+    - [2,3 điểm](user_point) đỗ được những ngành nào
+    - [2.3 điểm](user_point) đỗ được những ngành nào
+    - [2,4 điểm](user_point) đỗ được những ngành nào
+    - [2.4 điểm](user_point) đỗ được những ngành nào
+    - [2,5 điểm](user_point) đỗ được những ngành nào
+    - [2.5 điểm](user_point) đỗ được những ngành nào
+    - [2,6 điểm](user_point) đỗ được những ngành nào
+    - [2.6 điểm](user_point) đỗ được những ngành nào
+    - [2,7 điểm](user_point) đỗ được những ngành nào
+    - [2.7 điểm](user_point) đỗ được những ngành nào
+    - [2,8 điểm](user_point) đỗ được những ngành nào
+    - [2.8 điểm](user_point) đỗ được những ngành nào
+    - [2,9 điểm](user_point) đỗ được những ngành nào
+    - [2.9 điểm](user_point) đỗ được những ngành nào
+    - [3,1 điểm](user_point) đỗ được những ngành nào
+    - [3.1 điểm](user_point) đỗ được những ngành nào
+    - [3,5 điểm](user_point) đỗ được những ngành nào
+    - [3.5 điểm](user_point) đỗ được những ngành nào
+    - [3,9 điểm](user_point) đỗ được những ngành nào
+    - [3.9 điểm](user_point) đỗ được những ngành nào
+    - [4,1 điểm](user_point) đỗ được những ngành nào
+    - [4.1 điểm](user_point) đỗ được những ngành nào
+    - [4,5 điểm](user_point) đỗ được những ngành nào
+    - [4.5 điểm](user_point) đỗ được những ngành nào
+    - [4,9 điểm](user_point) đỗ được những ngành nào
+    - [4.9 điểm](user_point) đỗ được những ngành nào
+    - [5,1 điểm](user_point) đỗ được những ngành nào
+    - [5.1 điểm](user_point) đỗ được những ngành nào
+    - [5,3 điểm](user_point) đỗ được những ngành nào
+    - [5.3 điểm](user_point) đỗ được những ngành nào
+    - [5,5 điểm](user_point) đỗ được những ngành nào
+    - [5.5 điểm](user_point) đỗ được những ngành nào
+    - [5,7 điểm](user_point) đỗ được những ngành nào
+    - [5.7 điểm](user_point) đỗ được những ngành nào
+    - [5,9 điểm](user_point) đỗ được những ngành nào
+    - [5.9 điểm](user_point) đỗ được những ngành nào
+    - [6,1 điểm](user_point) đỗ được những ngành nào
+    - [6.1 điểm](user_point) đỗ được những ngành nào
+    - [6,3 điểm](user_point) đỗ được những ngành nào
+    - [6.3 điểm](user_point) đỗ được những ngành nào
+    - [6,5 điểm](user_point) đỗ được những ngành nào
+    - [6.5 điểm](user_point) đỗ được những ngành nào
+    - [6,7 điểm](user_point) đỗ được những ngành nào
+    - [6.7 điểm](user_point) đỗ được những ngành nào
+    - [6,9 điểm](user_point) đỗ được những ngành nào
+    - [6.9 điểm](user_point) đỗ được những ngành nào
+    - [7,1 điểm](user_point) đỗ được những ngành nào
+    - [7.1 điểm](user_point) đỗ được những ngành nào
+    - [7,3 điểm](user_point) đỗ được những ngành nào
+    - [7.3 điểm](user_point) đỗ được những ngành nào
+    - [7,5 điểm](user_point) đỗ được những ngành nào
+    - [7.5 điểm](user_point) đỗ được những ngành nào
+    - [7,7 điểm](user_point) đỗ được những ngành nào
+    - [7.7 điểm](user_point) đỗ được những ngành nào
+    - [7,9 điểm](user_point) đỗ được những ngành nào
+    - [7.9 điểm](user_point) đỗ được những ngành nào
+    - [8,1 điểm](user_point) đỗ được những ngành nào
+    - [8.1 điểm](user_point) đỗ được những ngành nào
+    - [8,3 điểm](user_point) đỗ được những ngành nào
+    - [8.3 điểm](user_point) đỗ được những ngành nào
+    - [8,5 điểm](user_point) đỗ được những ngành nào
+    - [8.5 điểm](user_point) đỗ được những ngành nào
+    - [8,7 điểm](user_point) đỗ được những ngành nào
+    - [8.7 điểm](user_point) đỗ được những ngành nào
+    - [8,9 điểm](user_point) đỗ được những ngành nào
+    - [8.9 điểm](user_point) đỗ được những ngành nào
+    - [9,1 điểm](user_point) đỗ được những ngành nào
+    - [9.1 điểm](user_point) đỗ được những ngành nào
+    - [9,6 điểm](user_point) đỗ được những ngành nào
+    - [9.6 điểm](user_point) đỗ được những ngành nào
+    - [10,1 điểm](user_point) đỗ được những ngành nào
+    - [10.1 điểm](user_point) đỗ được những ngành nào
+    - [10,6 điểm](user_point) đỗ được những ngành nào
+    - [10.6 điểm](user_point) đỗ được những ngành nào

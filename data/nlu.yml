@@ -794,7 +794,8 @@ nlu:
     - cho hỏi ngành [logistic](major_name)
     - cho em hỏi ngành [logistic](major_name)
     - cho hỏi ngành [điện](major_name)
-    - cho hỏi ngành [khoa học máy tính](major_name)
+    - cho em hỏi về ngành [kĩ thuật điện](major_name)
+    - cho em hỏi ngành [khmt](major_name)
 - intent: ask_major_type_edu
   examples: |
     - ngành [khoa học máy tính](major_name) đào tạo những hệ gì
@@ -2057,6 +2058,9 @@ nlu:
     - các ngành mà trường có
     - cho mình xin danh sách các ngành trường đào tạo
     - danh sách các ngành của trường
+    - danh sách các ngành đào tạo
+    - danh sách những ngành đào tạo
+    - danh sách ngành đào tạo
 - intent: context_ask_pass_point
   examples: |
     - Mình thi được [15 điểm](user_point) thì có đỗ được ngành này không
@@ -2410,7 +2414,19 @@ nlu:
     - danh sách ngành tuyển sinh khối [d07](user_subject_group)
     - các ngành tuyển sinh khối [d07](user_subject_group)
     - những ngành nào tuyển sinh khối [d07](user_subject_group) ạ
-    - danh sách các ngành tuyển sinh khối [A0](user_subject_group)
+    - danh sách ngành tuyển sinh khối [C](user_subject_group)
+    - các ngành tuyển sinh khối [C](user_subject_group)
+    - những ngành nào tuyển sinh khối [C](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [C01](user_subject_group)
+    - các ngành tuyển sinh khối [C01](user_subject_group)
+    - những ngành nào tuyển sinh khối [C01](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [c](user_subject_group)
+    - các ngành tuyển sinh khối [c](user_subject_group)
+    - những ngành nào tuyển sinh khối [c](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [c01](user_subject_group)
+    - các ngành tuyển sinh khối [c01](user_subject_group)
+    - những ngành nào tuyển sinh khối [c01](user_subject_group) ạ
+    - danh sách các ngành tuyển sinh khối [C](user_subject_group)
 - intent: ask_major_name_list_by_point
   examples: |
     - có ngành nào lấy [1,1 điểm](user_point) không ạ
@@ -2629,6 +2645,91 @@ nlu:
     - những ngành nào lấy dưới [10.9 điểm](user_point)
     - danh sách những ngành lấy [10,9 điểm](user_point)
     - danh sách các ngành lấy dưới [25 điểm](user_point)
+    - [1,1 điểm](user_point) đỗ được những ngành nào
+    - [1.1 điểm](user_point) đỗ được những ngành nào
+    - [1,5 điểm](user_point) đỗ được những ngành nào
+    - [1.5 điểm](user_point) đỗ được những ngành nào
+    - [1,9 điểm](user_point) đỗ được những ngành nào
+    - [1.9 điểm](user_point) đỗ được những ngành nào
+    - [2,1 điểm](user_point) đỗ được những ngành nào
+    - [2.1 điểm](user_point) đỗ được những ngành nào
+    - [2,2 điểm](user_point) đỗ được những ngành nào
+    - [2.2 điểm](user_point) đỗ được những ngành nào
+    - [2,3 điểm](user_point) đỗ được những ngành nào
+    - [2.3 điểm](user_point) đỗ được những ngành nào
+    - [2,4 điểm](user_point) đỗ được những ngành nào
+    - [2.4 điểm](user_point) đỗ được những ngành nào
+    - [2,5 điểm](user_point) đỗ được những ngành nào
+    - [2.5 điểm](user_point) đỗ được những ngành nào
+    - [2,6 điểm](user_point) đỗ được những ngành nào
+    - [2.6 điểm](user_point) đỗ được những ngành nào
+    - [2,7 điểm](user_point) đỗ được những ngành nào
+    - [2.7 điểm](user_point) đỗ được những ngành nào
+    - [2,8 điểm](user_point) đỗ được những ngành nào
+    - [2.8 điểm](user_point) đỗ được những ngành nào
+    - [2,9 điểm](user_point) đỗ được những ngành nào
+    - [2.9 điểm](user_point) đỗ được những ngành nào
+    - [3,1 điểm](user_point) đỗ được những ngành nào
+    - [3.1 điểm](user_point) đỗ được những ngành nào
+    - [3,5 điểm](user_point) đỗ được những ngành nào
+    - [3.5 điểm](user_point) đỗ được những ngành nào
+    - [3,9 điểm](user_point) đỗ được những ngành nào
+    - [3.9 điểm](user_point) đỗ được những ngành nào
+    - [4,1 điểm](user_point) đỗ được những ngành nào
+    - [4.1 điểm](user_point) đỗ được những ngành nào
+    - [4,5 điểm](user_point) đỗ được những ngành nào
+    - [4.5 điểm](user_point) đỗ được những ngành nào
+    - [4,9 điểm](user_point) đỗ được những ngành nào
+    - [4.9 điểm](user_point) đỗ được những ngành nào
+    - [5,1 điểm](user_point) đỗ được những ngành nào
+    - [5.1 điểm](user_point) đỗ được những ngành nào
+    - [5,3 điểm](user_point) đỗ được những ngành nào
+    - [5.3 điểm](user_point) đỗ được những ngành nào
+    - [5,5 điểm](user_point) đỗ được những ngành nào
+    - [5.5 điểm](user_point) đỗ được những ngành nào
+    - [5,7 điểm](user_point) đỗ được những ngành nào
+    - [5.7 điểm](user_point) đỗ được những ngành nào
+    - [5,9 điểm](user_point) đỗ được những ngành nào
+    - [5.9 điểm](user_point) đỗ được những ngành nào
+    - [6,1 điểm](user_point) đỗ được những ngành nào
+    - [6.1 điểm](user_point) đỗ được những ngành nào
+    - [6,3 điểm](user_point) đỗ được những ngành nào
+    - [6.3 điểm](user_point) đỗ được những ngành nào
+    - [6,5 điểm](user_point) đỗ được những ngành nào
+    - [6.5 điểm](user_point) đỗ được những ngành nào
+    - [6,7 điểm](user_point) đỗ được những ngành nào
+    - [6.7 điểm](user_point) đỗ được những ngành nào
+    - [6,9 điểm](user_point) đỗ được những ngành nào
+    - [6.9 điểm](user_point) đỗ được những ngành nào
+    - [7,1 điểm](user_point) đỗ được những ngành nào
+    - [7.1 điểm](user_point) đỗ được những ngành nào
+    - [7,3 điểm](user_point) đỗ được những ngành nào
+    - [7.3 điểm](user_point) đỗ được những ngành nào
+    - [7,5 điểm](user_point) đỗ được những ngành nào
+    - [7.5 điểm](user_point) đỗ được những ngành nào
+    - [7,7 điểm](user_point) đỗ được những ngành nào
+    - [7.7 điểm](user_point) đỗ được những ngành nào
+    - [7,9 điểm](user_point) đỗ được những ngành nào
+    - [7.9 điểm](user_point) đỗ được những ngành nào
+    - [8,1 điểm](user_point) đỗ được những ngành nào
+    - [8.1 điểm](user_point) đỗ được những ngành nào
+    - [8,3 điểm](user_point) đỗ được những ngành nào
+    - [8.3 điểm](user_point) đỗ được những ngành nào
+    - [8,5 điểm](user_point) đỗ được những ngành nào
+    - [8.5 điểm](user_point) đỗ được những ngành nào
+    - [8,7 điểm](user_point) đỗ được những ngành nào
+    - [8.7 điểm](user_point) đỗ được những ngành nào
+    - [8,9 điểm](user_point) đỗ được những ngành nào
+    - [8.9 điểm](user_point) đỗ được những ngành nào
+    - [9,1 điểm](user_point) đỗ được những ngành nào
+    - [9.1 điểm](user_point) đỗ được những ngành nào
+    - [9,6 điểm](user_point) đỗ được những ngành nào
+    - [9.6 điểm](user_point) đỗ được những ngành nào
+    - [10,1 điểm](user_point) đỗ được những ngành nào
+    - [10.1 điểm](user_point) đỗ được những ngành nào
+    - [10,6 điểm](user_point) đỗ được những ngành nào
+    - [10.6 điểm](user_point) đỗ được những ngành nào
+    - danh sách những ngành lấy dưới [21 điểm](user_point)
 - intent: can_not_look_up
   examples: |
     - ngành ky thuat dieu khien va tu dong hoa đào tạo những hệ gì

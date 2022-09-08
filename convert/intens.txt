@@ -64,3 +64,15 @@
     - danh sách ngành tuyển sinh khối [d07](user_subject_group)
     - các ngành tuyển sinh khối [d07](user_subject_group)
     - những ngành nào tuyển sinh khối [d07](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [C](user_subject_group)
+    - các ngành tuyển sinh khối [C](user_subject_group)
+    - những ngành nào tuyển sinh khối [C](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [C01](user_subject_group)
+    - các ngành tuyển sinh khối [C01](user_subject_group)
+    - những ngành nào tuyển sinh khối [C01](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [c](user_subject_group)
+    - các ngành tuyển sinh khối [c](user_subject_group)
+    - những ngành nào tuyển sinh khối [c](user_subject_group) ạ
+    - danh sách ngành tuyển sinh khối [c01](user_subject_group)
+    - các ngành tuyển sinh khối [c01](user_subject_group)
+    - những ngành nào tuyển sinh khối [c01](user_subject_group) ạ

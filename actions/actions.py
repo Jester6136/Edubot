@@ -32,12 +32,12 @@ major_info = {
     'công nghệ may': 'Ngành Công nghệ may dành cho các sinh viên có sở thích và năng khiếu về kỹ thuật may công nghiệp và thời trang. Chương trình học bao gồm các kiến thức chuyên sâu về kỹ thuật may cơ bản và nâng cao, thiết bị may, mỹ thuật trang phục, quản lý sản xuất trong dây chuyền may công nghiệp hiện đại, ứng dụng tin học trong thiết kế và vận hành công nghiệp may.',
     'công nghệ sinh học': 'Chương trình Công nghệ Sinh học dành cho các sinh viên yêu thích khoa học sự sống và quan tâm đến việc ứng dụng cũng như cải tạo các quy luật sinh học trong tự nhiên để tạo ra những sản phẩm có ích trong cuộc sống. Chương trình bao gồm các môn học cơ bản nhằm cung cấp cho sinh viên những kiến thức về khoa học tự nhiên, ngoại ngữ, những kiến thức cần thiết về chính trị, kinh tế, văn hóa, xã hội, ngoại ngữ, cũng như các môn học cơ sở ngành và chuyên ngành.',
     'logistics và quản lý chuỗi cung ứng': 'Ngành Logistics và Quản lý chuỗi cung ứng trang bị cho người học đầy đủ kiến thức, kỹ năng chuyên môn và thái độ chuyên nghiệp làm nền tảng vững chắc cho sự thành công của kỹ sư Logistics và Quản lý Chuỗi cung ứng tại các doanh nghiệp.',
-    'khoa học máy tính': 'Ngành Khoa học Máy tính thuộc nhóm ngành Máy tính và Công nghệ thông tin. Mục tiêu của chương trình ngành Khoa học Máy tính là đào tạo ra những kỹ sư có chất lượng cao, có khả năng thiết kế, xây dựng và triển khai những hệ thống phần mềm đáp ứng nhu cầu trong nước và quốc tế. Kỹ sư tốt nghiệp ngành Khoa học Máy tính cũng được trang bị những kiến thức cần thiết để có thể học tiếp cao học và tiến sỹ trong lĩnh vực Máy tính và Công nghệ thông tin.',
-    'kỹ thuật máy tính': 'Ngành Kỹ thuật Máy tính thuộc nhóm ngành Máy tính và Công nghệ thông tin. Mục tiêu của chương trình ngành Kỹ thuật Máy tính là đào tạo ra những kỹ sư có chất lượng cao, có khả năng thiết kế, xây dựng và triển khai những hệ thống phần mềm và phần cứng cho máy tính và các thiết bị điều khiển nhằm đáp ứng nhu cầu trong nước và quốc tế.',
+    'khoa học máy tính': 'Ngành Khoa học Máy tính thuộc nhóm ngành Máy tính và Công nghệ thông tin.\n Mục tiêu của chương trình ngành Khoa học Máy tính là đào tạo ra những kỹ sư có chất lượng cao, có khả năng thiết kế, xây dựng và triển khai những hệ thống phần mềm đáp ứng nhu cầu trong nước và quốc tế. Kỹ sư tốt nghiệp ngành Khoa học Máy tính cũng được trang bị những kiến thức cần thiết để có thể học tiếp cao học và tiến sỹ trong lĩnh vực Máy tính và Công nghệ thông tin.',
+    'kỹ thuật máy tính': 'Ngành Kỹ thuật Máy tính thuộc nhóm ngành Máy tính và Công nghệ thông tin.\n Mục tiêu của chương trình ngành Kỹ thuật Máy tính là đào tạo ra những kỹ sư có chất lượng cao, có khả năng thiết kế, xây dựng và triển khai những hệ thống phần mềm và phần cứng cho máy tính và các thiết bị điều khiển nhằm đáp ứng nhu cầu trong nước và quốc tế.',
     'công nghệ kỹ thuật ô tô': 'Ngành Công nghệ Kỹ thuật Ô tô đào tạo kỹ sư có kiến thức cơ bản về Toán học, Khoa học tự nhiên và Kỹ thuật cơ sở đáp ứng việc tiếp thu các kiến thức chuyên ngành, cũng như có khả năng tự học nâng cao trình độ chuyên môn.',
     'kỹ thuật điện tử viễn thông': 'Ngành kỹ thuật điện tử-viễn thông dành cho sinh viên có sở thích và đam mê làm việc trong lĩnh vực công nghệ viễn thông và thông tin, vi mạch, bán dẫn, hệ thống nhúng và hệ thống điện tử ứng dụng, xử lý tín hiệu âm thanh, hình ảnh và đa phương tiện.',
-    'kỹ thuật cơ điện tử': 'Cơ điện tử là sự kết hợp của kỹ thuật cơ khí, kỹ thuật điện tử và kỹ thuật máy tính. Đây là ngành rất quan trọng và không thể thiếu trong sự phát triển của khoa học kỹ thuật hiện đại. Mục đích của ngành khoa học tổng hợp liên ngành này là nhằm phát triển tối đa tư duy hệ thống trong thiết kế và phát triển sản phẩm để tạo ra những sản phẩm mới có những tính năng vượt trội. Robot chính là một sản phẩm tiêu biểu của ngành Kỹ thuật cơ điện tử.',
-    'kỹ thuật điều khiển và tự động hóa': 'Ngành Kỹ thuật điều khiển & Tự động hóa dành cho các sinh viên có sở thích về điều khiển các đối tượng kỹ thuật, quá trình và công nghệ tự động hóa các quá trình sản xuất. Chương trình bao gồm hai hướng đó là Kỹ thuật điều khiển và Công nghệ tự động hóa.'
+    'kỹ thuật cơ điện tử': 'Cơ điện tử là sự kết hợp của kỹ thuật cơ khí, kỹ thuật điện tử và kỹ thuật máy tính.\n Đây là ngành rất quan trọng và không thể thiếu trong sự phát triển của khoa học kỹ thuật hiện đại.\n Mục đích của ngành khoa học tổng hợp liên ngành này là nhằm phát triển tối đa tư duy hệ thống trong thiết kế và phát triển sản phẩm để tạo ra những sản phẩm mới có những tính năng vượt trội.\n Robot chính là một sản phẩm tiêu biểu của ngành Kỹ thuật cơ điện tử.',
+    'kỹ thuật điều khiển và tự động hóa': 'Ngành Kỹ thuật điều khiển & Tự động hóa dành cho các sinh viên có sở thích về điều khiển các đối tượng kỹ thuật, quá trình và công nghệ tự động hóa các quá trình sản xuất.\n Chương trình bao gồm hai hướng đó là Kỹ thuật điều khiển và Công nghệ tự động hóa.'
 }
 
 
@@ -452,7 +452,12 @@ class ActionResponsePassPoint(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         point = tracker.get_slot("user_point")
+        if not point:
+            dispatcher.utter_message(
+                    text="Xin lỗi, mình chưa hiểu ý bạn :(")
+            return []
         if ' điểm' in point:
+            
             point = point.replace(' điểm', '')
             point = convert_to_float(point)
             major_name = tracker.get_slot("major_name")
