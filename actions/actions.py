@@ -20,7 +20,7 @@ from rasa_sdk.events import AllSlotsReset
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from extentions.utils import RANDOM, response_list_product, convert_to_float, LOWERCASE, UPPERCASE, look_up_in_domain,look_up_subject_group
+from extentions.utils import RANDOM, response_list_product,save_to_file, convert_to_float, LOWERCASE, UPPERCASE, look_up_in_domain,look_up_subject_group
 import pandas as pd
 
 DB_PATH = 'convert/entities.csv'
@@ -72,6 +72,10 @@ class ActionDefaultFallback(Action):
     def run(self, dispatcher, tracker: Tracker, domain):
         # output a message saying that the conversation will now be
         # continued by a human.
+        FILE_USER_MESSAGE_FALLBACK = "convert/fallback.txt"
+        user_message = tracker.latest_message.get('text')
+        save_to_file(FILE_USER_MESSAGE_FALLBACK,user_message)
+        
         message1 = "Úi, rất tiếc câu hỏi của bạn nằm ngoài tri thức của mình, bạn vui lòng hỏi câu khác nha!"
         message2 = "Opps, câu hỏi nằm ngoài tri thức của mình, bạn hãy hỏi lại câu khác giúp ad nha!!"
         dispatcher.utter_message(text=RANDOM((message1,message2)))

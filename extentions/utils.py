@@ -66,3 +66,9 @@ def look_up_subject_group(subject_group):
         return subject_group
     else:
         return subject_group
+    
+def save_to_file(file_name:str, content:str):
+    with open(file_name, 'a',encoding='utf8') as f:
+        f.write(content)
+        f.write("\n")
+        
