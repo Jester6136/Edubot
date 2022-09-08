@@ -39,7 +39,7 @@ def look_up_in_domain(major_name):
                     "công nghệ kỹ thuật ô tô": ["công nghệ kỹ thuật ô tô",'ô tô', 'kỹ thuật ô tô', 'o to', 'ky thuat o to', 'Ô TÔ', 'Kỹ thuật ô tô'],
                     "kỹ thuật điện tử viễn thông": ["kỹ thuật điện tử viễn thông",'điện tử viễn thông', 'ĐTVT', 'đtvt', 'ky thuat dien tu vien thong', 'DTVT', 'dtvt'],
                     "kỹ thuật cơ điện tử": ["kỹ thuật cơ điện tử",'ky thuat co dien tu', 'co dien tu', 'cơ điện tử', 'cđt', 'cdt', 'CĐT', 'CDT'],
-                    "kỹ thuật điều khiển và tự động hóa": ["kỹ thuật điều khiển và tự động hóa",'ky thuat dieu khien va tu dong hoa', 'điều khiển tự động hóa', 'đktđh', 'ĐKTĐH', 'dktdh',
+                    "kỹ thuật điều khiển và tự động hóa": ["tdh","tđh","TĐH","TDH","kỹ thuật điều khiển và tự động hóa",'ky thuat dieu khien va tu dong hoa', 'điều khiển tự động hóa', 'đktđh', 'ĐKTĐH', 'dktdh',
                                                            'DKTDH', 'tự động hóa', 'tu dong hoa']
                     }
     # count = 0

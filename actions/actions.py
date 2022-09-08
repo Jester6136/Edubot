@@ -540,5 +540,5 @@ class ActionResponseMajorNames(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         dispatcher.utter_message(
-            text="Dạ các ngành đào tạo trường hiện đang đang đào tạo: "+response_list_product(list_major_name)+"\nBạn muốn hỏi về ngành nào nhỉ.")
+            text="Dạ hiện tại trường đang đào tạo các ngành: "+response_list_product(list_major_name)+"\nBạn muốn hỏi về ngành nào nhỉ.")
         return [SlotSet("major_name", None)]
