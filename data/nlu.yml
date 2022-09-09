@@ -1937,6 +1937,9 @@ nlu:
     - ngành này cần theo khối gì
     - khối học mà em cần học khi theo ngành này
     - ngành này sẽ cần học những khối nào
+    - ngành này tuyển sinh khối nào
+    - ngành này tuyển sinh những khối nào
+    - tuyển sinh những khối nào 
 - intent: context_ask_major_criteria
   examples: |
     - chỉ tiêu
@@ -2742,3 +2745,4 @@ nlu:
     - ly
     - cốc
     - bát đũa
+    - bạn có biết tuổi thọ của cá voi là bao nhiêu không

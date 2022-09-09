@@ -6,3 +6,5 @@ danh sách những ngành điểm sàn dưới 25
 danh sách những ngành điểm sàn dưới 25 điể
 25 điểm vào được những ngành nào
 .
+ngành này tuyển sin khối nào thế
+ngành này tuyển sinh khối nào thế
