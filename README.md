@@ -12,10 +12,10 @@ This will install the bot and all of its requirements.
 Note that this bot should be used with python 3.6 or 3.7
 ## Improve Edubot in Vietnamese
 ### I, Vietnamese tokenize
-    - I've used underthesea to tokenize words
+I've used underthesea to tokenize words
 ### II, Embedding
-    - I've used pretrained word vector of fasttext
-    - So you need to download pretrained word vector from fasttext
+I've used pretrained word vector of fasttext
+So you need to download pretrained word vector from fasttext
 ```bash
 mkdir vi_feature
 ```   
