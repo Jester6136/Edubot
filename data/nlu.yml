@@ -1956,6 +1956,7 @@ nlu:
     - chỉ tiêu tuyển sinh năm nay
     - chỉ tiêu ngành này
     - chỉ tiêu tuyển sinh
+    - ngành này cần tuyển bao nhiêu
 - intent: turn_major_name
   examples: |
     - cho mình hỏi thêm về ngành [khoa học máy tính] đi ạ
@@ -2746,3 +2747,9 @@ nlu:
     - cốc
     - bát đũa
     - bạn có biết tuổi thọ của cá voi là bao nhiêu không
+    - em thi được 21 điểm thì đỗ những ngành nào ạ
+    - tôi thi được 21 điểm thì đỗ những ngành nào 
+    - 21 điểm thì đỗ ngành nào
+    - Ngành công nghệ sinh học tuyển những ngành nào
+    - điểm sàn năm trước
+    - điểm chuân năm trước

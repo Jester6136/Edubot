@@ -9,8 +9,19 @@ To install Edubot, please clone the repo and run:
 pip install -r requirements.txt
 ```
 This will install the bot and all of its requirements.
-Note that this bot should be used with python 3.6 or 3.7.
-
+Note that this bot should be used with python 3.6 or 3.7
+## Improve Edubot in Vietnamese
+### I, Vietnamese tokenize
+    - I've used underthesea to tokenize words
+### II, Embedding
+    - I've used pretrained word vector of fasttext
+    - So you need to download pretrained word vector from fasttext
+```bash
+mkdir vi_feature
+```   
+```bash
+wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.vi.300.bin.gz -P vi_feature
+```   
 ## 🤖 To run Sara:
 
 Use `rasa train` to train a model (this will take a significant amount of memory to train,
@@ -26,6 +37,7 @@ Second:
 rasa shell
 ```
 ## 👩‍💻 Overview of the files
+`custom_nlu` - contains custom part in pipeline
 
 `data/stories/` - contains stories 
 
